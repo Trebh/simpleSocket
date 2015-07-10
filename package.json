@@ -1,0 +1,12 @@
+{
+  "name": "simpleSocket",
+  "version": "0.0.1",
+  "description": "simple app to answer a socket call from rfid card reader",
+  "main": "main.js",
+  "author": "Riccardo Agnoletto",
+  "license": "ISC",
+  "dependencies": {
+    "seriate": "^0.4.2",
+    "when": "^3.7.3"
+  }
+}
