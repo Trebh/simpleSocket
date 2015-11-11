@@ -1,1 +1,5 @@
 config
+.jshintrc
+senecatest
+node_modules
+log

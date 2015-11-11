@@ -6,6 +6,11 @@
   "author": "Riccardo Agnoletto",
   "license": "ISC",
   "dependencies": {
+    "bunyan": "^1.5.1",
+    "data.maybe": "^1.2.1",
+    "postal": "^1.0.7",
+    "ramda": "^0.18.0",
+    "seneca": "^0.6.5",
     "seriate": "^0.4.2",
     "when": "^3.7.3"
   }
