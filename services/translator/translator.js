@@ -6,12 +6,12 @@ var R = require('ramda');
 module.exports = function translator() {
   var senecaThis = this;
 
-  const STX = '2';
-  const ETX = '3';
-  const select = '0';
-  const setOutputs = '6';
-  const separator = '|';
-  const confirm = '5';
+  var STX = '2';
+  var ETX = '3';
+  var select = '0';
+  var setOutputs = '6';
+  var separator = '|';
+  var confirm = '5';
 
   senecaThis.add('role:main,cmd:translateRead', function(data, respond) {
 
