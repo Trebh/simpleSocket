@@ -11,8 +11,8 @@ module.exports = {
 function translator() {
   var senecaThis = this;
 
-  var STX = '\u0002';
-  var ETX = '\u0003';
+  var STX = '\\u0002';
+  var ETX = '\\u0003';
   var select = '0';
   var setOutputs = '6';
   var separator = '|';
