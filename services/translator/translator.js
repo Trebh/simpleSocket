@@ -52,7 +52,7 @@ function translateWrite(data, respond) {
     utility.separator, 
     utility.confirm, utility.separator, '0002', utility.ETX]);
 
-  console.log(stringToSend);
+  console.log(stringToSend.toString());
 
   respond(null, {
     answer: stringToSend

@@ -1,8 +1,8 @@
 'use strict';
 
 module.exports = {
-	STX: '02',
-	ETX: '03',
+	STX: '\u0002',
+	ETX: '\u0003',
 	select: '0',
 	setOutputs: '6',
 	separator: '|',
