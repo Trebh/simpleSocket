@@ -12,8 +12,8 @@ module.exports = {
 function translator() {
   var senecaThis = this;
 
-  var STX = '0x02';
-  var ETX = '0x03';
+  var STX = '\x02';
+  var ETX = '\x02';
   var select = '0';
   var setOutputs = '6';
   var separator = '|';
@@ -60,6 +60,8 @@ function translateWrite(data, respond) {
   respond(null, {
     answer: stringToSend
   });
+
+  return stringToSend;
 });
 
 function iterateMaybe(hexValue) {
