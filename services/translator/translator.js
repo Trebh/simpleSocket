@@ -4,8 +4,9 @@ var Maybe = require('data.maybe');
 var R = require('ramda');
 
 module.exports = {
-  translator: translator, 
-  translateRead: translateRead
+  translator: translator,
+  translateRead: translateRead,
+  translateWrite: translateWrite
 }
 
 function translator() {
@@ -20,27 +21,7 @@ function translator() {
 
   senecaThis.add('role:main,cmd:translateRead', translateRead);
 
-  senecaThis.add('role:main,cmd:translateWrite', function(data, respond) {
-
-    var RGB;
-
-    if (data.msg == 'green') {
-      RGB = '000255000';
-    }
-
-    var fn = R.compose(R.reduce(R.add(), ''),
-      R.map(strToHex),
-      R.reduce(R.add(), ''),
-      R.prepend(STX));
-
-    var stringToSend = fn([select, setOutputs, separator, RGB, separator, '010' , separator, confirm, separator, '0002', ETX]);
-
-    console.log(stringToSend);
-
-    respond(null, {
-      answer: stringToSend
-    });
-  });
+  senecaThis.add('role:main,cmd:translateWrite', translateWrite);
 };
 
 function translateRead(data, respond) {
@@ -58,6 +39,28 @@ function translateRead(data, respond) {
 
   return translated.getOrElse('?');
 }
+
+function translateWrite(data, respond) {
+
+  var RGB;
+
+  if (data.msg == 'green') {
+    RGB = '000255000';
+  }
+
+  var fn = R.compose(R.reduce(R.add(), ''),
+    R.map(strToHex),
+    R.reduce(R.add(), ''),
+    R.prepend(STX));
+
+  var stringToSend = fn([select, setOutputs, separator, RGB, separator, '010', separator, confirm, separator, '0002', ETX]);
+
+  console.log(stringToSend);
+
+  respond(null, {
+    answer: stringToSend
+  });
+});
 
 function iterateMaybe(hexValue) {
   var fn = R.compose(toObject, R.map(hexDecode), R.match(/.{2}/g));
