@@ -6,4 +6,4 @@ seneca
 .use('translator')
 .listen({
 	type:'tcp',
-	port:10204});
+	port:10003});

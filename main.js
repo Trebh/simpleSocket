@@ -9,7 +9,7 @@ var seneca = require('seneca')();
 
 var mode   = process.env.NODE_ENV;
 
-var HOST = (mode == 'production') ? '192.168.1.9' : '127.0.0.1';
+var HOST = (mode == 'production') ? '192.168.1.10' : '127.0.0.1';
 var PORT = 10001;
 
 
@@ -25,7 +25,7 @@ net.createServer(function(sock) {
 			seneca
 				.client({
 					type: 'tcp',
-					port: 10204
+					port: 10003
 				})
 				.act({
 					role: 'main',
@@ -45,7 +45,7 @@ net.createServer(function(sock) {
 			seneca
 				.client({
 					type: 'tcp',
-					port: 10203
+					port: 10002
 				})
 				.act({
 					role: 'main',
@@ -75,7 +75,7 @@ net.createServer(function(sock) {
 			seneca
 				.client({
 					type: 'tcp',
-					port: 10203
+					port: 10002
 				})
 				.act({
 					role: 'main',
@@ -106,7 +106,7 @@ net.createServer(function(sock) {
 			seneca
 				.client({
 					type: 'tcp',
-					port: 10203
+					port: 10002
 				})
 				.act({
 					role: 'main',
@@ -117,7 +117,7 @@ net.createServer(function(sock) {
 			seneca
 				.client({
 					type: 'tcp',
-					port: 10204
+					port: 10003
 				})
 				.act({
 					role: 'main',

@@ -1,0 +1,1165 @@
+2015-11-11T18:13:13.047Z 8lfh4qrrsa11/1447265593017/25949/- INFO	hello	Seneca/0.6.5/8lfh4qrrsa11/1447265593017/25949/-	
+2015-11-11T18:13:13.450Z 8lfh4qrrsa11/1447265593017/25949/- FATAL	sys	seneca	0.6.5	8lfh4qrrsa11/1447265593017/25949/-	plugin_syntax_error	seneca: use-plugin: Could not load plugin translator defined in ./translator due to syntax error: /root/simpleSocket/services/translator/translator.js:9
+  const STX = '2';
+  ^^^^^
+Use of const in strict mode.. See STDERR for details.	{}	-	
+2015-11-11T18:13:14.247Z s8eqw4yp54fq/1447265594216/26023/- INFO	hello	Seneca/0.6.5/s8eqw4yp54fq/1447265594216/26023/-	
+2015-11-11T18:13:14.869Z awws08303bg0/1447265594837/26062/- INFO	hello	Seneca/0.6.5/awws08303bg0/1447265594837/26062/-	
+2015-11-11T18:13:17.690Z b0lfjmf4i47v/1447265597659/26319/- INFO	hello	Seneca/0.6.5/b0lfjmf4i47v/1447265597659/26319/-	
+2015-11-11T18:13:18.276Z 7lxalmhsl9di/1447265598246/26363/- INFO	hello	Seneca/0.6.5/7lxalmhsl9di/1447265598246/26363/-	
+2015-11-11T18:13:18.886Z dj43k98bqjdp/1447265598855/26406/- INFO	hello	Seneca/0.6.5/dj43k98bqjdp/1447265598855/26406/-	
+2015-11-11T18:13:19.278Z dj43k98bqjdp/1447265598855/26406/- FATAL	sys	seneca	0.6.5	dj43k98bqjdp/1447265598855/26406/-	plugin_syntax_error	seneca: use-plugin: Could not load plugin translator defined in ./translator due to syntax error: /root/simpleSocket/services/translator/translator.js:9
+  const STX = '2';
+  ^^^^^
+Use of const in strict mode.. See STDERR for details.	{}	-	
+2015-11-11T18:13:20.086Z oir17zjl5ndi/1447265600055/26476/- INFO	hello	Seneca/0.6.5/oir17zjl5ndi/1447265600055/26476/-	
+2015-11-11T18:13:20.675Z de4zo8mmqsqy/1447265600644/26515/- INFO	hello	Seneca/0.6.5/de4zo8mmqsqy/1447265600644/26515/-	
+2015-11-11T18:13:21.285Z f6axt4taposc/1447265601254/26554/- INFO	hello	Seneca/0.6.5/f6axt4taposc/1447265601254/26554/-	
+2015-11-11T18:13:23.450Z z7p8m2nsm8r9/1447265603420/26702/- INFO	hello	Seneca/0.6.5/z7p8m2nsm8r9/1447265603420/26702/-	
+2015-11-11T18:13:24.650Z cwjqjv0orwgp/1447265604620/26780/- INFO	hello	Seneca/0.6.5/cwjqjv0orwgp/1447265604620/26780/-	
+2015-11-11T18:13:25.047Z cwjqjv0orwgp/1447265604620/26780/- FATAL	sys	seneca	0.6.5	cwjqjv0orwgp/1447265604620/26780/-	plugin_syntax_error	seneca: use-plugin: Could not load plugin translator defined in ./translator due to syntax error: /root/simpleSocket/services/translator/translator.js:9
+  const STX = '2';
+  ^^^^^
+Use of const in strict mode.. See STDERR for details.	{}	-	
+2015-11-11T18:13:26.805Z p3dfjprnaggs/1447265606774/26919/- INFO	hello	Seneca/0.6.5/p3dfjprnaggs/1447265606774/26919/-	
+2015-11-11T18:13:28.010Z km8ex59dpzeu/1447265607971/26997/- INFO	hello	Seneca/0.6.5/km8ex59dpzeu/1447265607971/26997/-	
+2015-11-11T18:13:29.784Z qadyeuefmit3/1447265609753/27114/- INFO	hello	Seneca/0.6.5/qadyeuefmit3/1447265609753/27114/-	
+2015-11-11T18:13:30.384Z xekv3eqgv1aw/1447265610353/27153/- INFO	hello	Seneca/0.6.5/xekv3eqgv1aw/1447265610353/27153/-	
+2015-11-11T18:13:30.785Z xekv3eqgv1aw/1447265610353/27153/- FATAL	sys	seneca	0.6.5	xekv3eqgv1aw/1447265610353/27153/-	plugin_syntax_error	seneca: use-plugin: Could not load plugin translator defined in ./translator due to syntax error: /root/simpleSocket/services/translator/translator.js:9
+  const STX = '2';
+  ^^^^^
+Use of const in strict mode.. See STDERR for details.	{}	-	
+2015-11-11T18:13:31.551Z 47wizkf63riw/1447265611520/27228/- INFO	hello	Seneca/0.6.5/47wizkf63riw/1447265611520/27228/-	
+2015-11-11T18:13:31.951Z 47wizkf63riw/1447265611520/27228/- FATAL	sys	seneca	0.6.5	47wizkf63riw/1447265611520/27228/-	plugin_syntax_error	seneca: use-plugin: Could not load plugin translator defined in ./translator due to syntax error: /root/simpleSocket/services/translator/translator.js:9
+  const STX = '2';
+  ^^^^^
+Use of const in strict mode.. See STDERR for details.	{}	-	
+2015-11-11T18:13:32.753Z hfzytzlghqnu/1447265612722/27302/- INFO	hello	Seneca/0.6.5/hfzytzlghqnu/1447265612722/27302/-	
+2015-11-11T18:13:33.147Z hfzytzlghqnu/1447265612722/27302/- FATAL	sys	seneca	0.6.5	hfzytzlghqnu/1447265612722/27302/-	plugin_syntax_error	seneca: use-plugin: Could not load plugin translator defined in ./translator due to syntax error: /root/simpleSocket/services/translator/translator.js:9
+  const STX = '2';
+  ^^^^^
+Use of const in strict mode.. See STDERR for details.	{}	-	
+2015-11-11T18:13:33.948Z 3in29ivbdc95/1447265613917/27376/- INFO	hello	Seneca/0.6.5/3in29ivbdc95/1447265613917/27376/-	
+2015-11-11T18:13:34.345Z 3in29ivbdc95/1447265613917/27376/- FATAL	sys	seneca	0.6.5	3in29ivbdc95/1447265613917/27376/-	plugin_syntax_error	seneca: use-plugin: Could not load plugin translator defined in ./translator due to syntax error: /root/simpleSocket/services/translator/translator.js:9
+  const STX = '2';
+  ^^^^^
+Use of const in strict mode.. See STDERR for details.	{}	-	
+2015-11-11T18:13:35.171Z ngxdia151iyi/1447265615139/27450/- INFO	hello	Seneca/0.6.5/ngxdia151iyi/1447265615139/27450/-	
+2015-11-11T18:13:35.567Z ngxdia151iyi/1447265615139/27450/- FATAL	sys	seneca	0.6.5	ngxdia151iyi/1447265615139/27450/-	plugin_syntax_error	seneca: use-plugin: Could not load plugin translator defined in ./translator due to syntax error: /root/simpleSocket/services/translator/translator.js:9
+  const STX = '2';
+  ^^^^^
+Use of const in strict mode.. See STDERR for details.	{}	-	
+2015-11-11T18:13:36.364Z 762jo0tgk87j/1447265616333/27524/- INFO	hello	Seneca/0.6.5/762jo0tgk87j/1447265616333/27524/-	
+2015-11-11T18:13:36.790Z 762jo0tgk87j/1447265616333/27524/- FATAL	sys	seneca	0.6.5	762jo0tgk87j/1447265616333/27524/-	plugin_syntax_error	seneca: use-plugin: Could not load plugin translator defined in ./translator due to syntax error: /root/simpleSocket/services/translator/translator.js:9
+  const STX = '2';
+  ^^^^^
+Use of const in strict mode.. See STDERR for details.	{}	-	
+2015-11-11T18:13:37.512Z qk7hztvhaxwv/1447265617482/27598/- INFO	hello	Seneca/0.6.5/qk7hztvhaxwv/1447265617482/27598/-	
+2015-11-11T18:13:37.906Z qk7hztvhaxwv/1447265617482/27598/- FATAL	sys	seneca	0.6.5	qk7hztvhaxwv/1447265617482/27598/-	plugin_syntax_error	seneca: use-plugin: Could not load plugin translator defined in ./translator due to syntax error: /root/simpleSocket/services/translator/translator.js:9
+  const STX = '2';
+  ^^^^^
+Use of const in strict mode.. See STDERR for details.	{}	-	
+2015-11-11T18:13:39.871Z 2wyzi1mlzivf/1447265619841/27750/- INFO	hello	Seneca/0.6.5/2wyzi1mlzivf/1447265619841/27750/-	
+2015-11-11T18:13:42.009Z f1gtvnuenp6l/1447265621979/27893/- INFO	hello	Seneca/0.6.5/f1gtvnuenp6l/1447265621979/27893/-	
+2015-11-11T18:13:42.403Z f1gtvnuenp6l/1447265621979/27893/- FATAL	sys	seneca	0.6.5	f1gtvnuenp6l/1447265621979/27893/-	plugin_syntax_error	seneca: use-plugin: Could not load plugin translator defined in ./translator due to syntax error: /root/simpleSocket/services/translator/translator.js:9
+  const STX = '2';
+  ^^^^^
+Use of const in strict mode.. See STDERR for details.	{}	-	
+2015-11-11T18:13:43.178Z q1rq8uu4ex1b/1447265623148/27967/- INFO	hello	Seneca/0.6.5/q1rq8uu4ex1b/1447265623148/27967/-	
+2015-11-11T18:13:43.583Z q1rq8uu4ex1b/1447265623148/27967/- FATAL	sys	seneca	0.6.5	q1rq8uu4ex1b/1447265623148/27967/-	plugin_syntax_error	seneca: use-plugin: Could not load plugin translator defined in ./translator due to syntax error: /root/simpleSocket/services/translator/translator.js:9
+  const STX = '2';
+  ^^^^^
+Use of const in strict mode.. See STDERR for details.	{}	-	
+2015-11-11T18:13:45.544Z 44p5yaaecsww/1447265625514/28128/- INFO	hello	Seneca/0.6.5/44p5yaaecsww/1447265625514/28128/-	
+2015-11-11T18:13:45.949Z 44p5yaaecsww/1447265625514/28128/- FATAL	sys	seneca	0.6.5	44p5yaaecsww/1447265625514/28128/-	plugin_syntax_error	seneca: use-plugin: Could not load plugin translator defined in ./translator due to syntax error: /root/simpleSocket/services/translator/translator.js:9
+  const STX = '2';
+  ^^^^^
+Use of const in strict mode.. See STDERR for details.	{}	-	
+2015-11-11T18:13:48.492Z 2pfj8l0dhhg1/1447265628461/28399/- INFO	hello	Seneca/0.6.5/2pfj8l0dhhg1/1447265628461/28399/-	
+2015-11-11T18:13:49.067Z xmp1yvgu5epw/1447265629036/28443/- INFO	hello	Seneca/0.6.5/xmp1yvgu5epw/1447265629036/28443/-	
+2015-11-11T18:13:49.671Z e3hnqew8qqdi/1447265629641/28486/- INFO	hello	Seneca/0.6.5/e3hnqew8qqdi/1447265629641/28486/-	
+2015-11-11T18:13:50.831Z 7j0f8elp3crt/1447265630801/28564/- INFO	hello	Seneca/0.6.5/7j0f8elp3crt/1447265630801/28564/-	
+2015-11-11T18:13:53.544Z 3hn9elbrrh08/1447265633514/28746/- INFO	hello	Seneca/0.6.5/3hn9elbrrh08/1447265633514/28746/-	
+2015-11-11T18:13:56.447Z 1fmyga6q03wg/1447265636417/28941/- INFO	hello	Seneca/0.6.5/1fmyga6q03wg/1447265636417/28941/-	
+2015-11-11T18:13:57.033Z 4qpygmfkwkrh/1447265637002/28980/- INFO	hello	Seneca/0.6.5/4qpygmfkwkrh/1447265637002/28980/-	
+2015-11-11T18:13:57.429Z 4qpygmfkwkrh/1447265637002/28980/- FATAL	sys	seneca	0.6.5	4qpygmfkwkrh/1447265637002/28980/-	plugin_syntax_error	seneca: use-plugin: Could not load plugin translator defined in ./translator due to syntax error: /root/simpleSocket/services/translator/translator.js:9
+  const STX = '2';
+  ^^^^^
+Use of const in strict mode.. See STDERR for details.	{}	-	
+2015-11-11T18:13:58.660Z e9gw5k4apxbz/1447265638629/29075/- INFO	hello	Seneca/0.6.5/e9gw5k4apxbz/1447265638629/29075/-	
+2015-11-11T18:14:00.410Z c88sjvd6e4na/1447265640380/29197/- INFO	hello	Seneca/0.6.5/c88sjvd6e4na/1447265640380/29197/-	
+2015-11-11T18:14:01.575Z ae9d4a4z7ygb/1447265641545/29275/- INFO	hello	Seneca/0.6.5/ae9d4a4z7ygb/1447265641545/29275/-	
+2015-11-11T18:14:01.967Z ae9d4a4z7ygb/1447265641545/29275/- FATAL	sys	seneca	0.6.5	ae9d4a4z7ygb/1447265641545/29275/-	plugin_syntax_error	seneca: use-plugin: Could not load plugin translator defined in ./translator due to syntax error: /root/simpleSocket/services/translator/translator.js:9
+  const STX = '2';
+  ^^^^^
+Use of const in strict mode.. See STDERR for details.	{}	-	
+2015-11-11T18:14:02.750Z flf5kir3qpb4/1447265642720/29349/- INFO	hello	Seneca/0.6.5/flf5kir3qpb4/1447265642720/29349/-	
+2015-11-11T18:14:03.153Z flf5kir3qpb4/1447265642720/29349/- FATAL	sys	seneca	0.6.5	flf5kir3qpb4/1447265642720/29349/-	plugin_syntax_error	seneca: use-plugin: Could not load plugin translator defined in ./translator due to syntax error: /root/simpleSocket/services/translator/translator.js:9
+  const STX = '2';
+  ^^^^^
+Use of const in strict mode.. See STDERR for details.	{}	-	
+2015-11-11T18:14:03.930Z 35sur2tzjqfx/1447265643900/29423/- INFO	hello	Seneca/0.6.5/35sur2tzjqfx/1447265643900/29423/-	
+2015-11-11T18:14:04.319Z 35sur2tzjqfx/1447265643900/29423/- FATAL	sys	seneca	0.6.5	35sur2tzjqfx/1447265643900/29423/-	plugin_syntax_error	seneca: use-plugin: Could not load plugin translator defined in ./translator due to syntax error: /root/simpleSocket/services/translator/translator.js:9
+  const STX = '2';
+  ^^^^^
+Use of const in strict mode.. See STDERR for details.	{}	-	
+2015-11-11T18:14:05.647Z 87dz4e1e53ce/1447265645616/29536/- INFO	hello	Seneca/0.6.5/87dz4e1e53ce/1447265645616/29536/-	
+2015-11-11T18:14:06.037Z 87dz4e1e53ce/1447265645616/29536/- FATAL	sys	seneca	0.6.5	87dz4e1e53ce/1447265645616/29536/-	plugin_syntax_error	seneca: use-plugin: Could not load plugin translator defined in ./translator due to syntax error: /root/simpleSocket/services/translator/translator.js:9
+  const STX = '2';
+  ^^^^^
+Use of const in strict mode.. See STDERR for details.	{}	-	
+2015-11-11T18:14:06.793Z mv3nbjv6flkq/1447265646763/29610/- INFO	hello	Seneca/0.6.5/mv3nbjv6flkq/1447265646763/29610/-	
+2015-11-11T18:14:07.185Z mv3nbjv6flkq/1447265646763/29610/- FATAL	sys	seneca	0.6.5	mv3nbjv6flkq/1447265646763/29610/-	plugin_syntax_error	seneca: use-plugin: Could not load plugin translator defined in ./translator due to syntax error: /root/simpleSocket/services/translator/translator.js:9
+  const STX = '2';
+  ^^^^^
+Use of const in strict mode.. See STDERR for details.	{}	-	
+2015-11-11T18:14:07.994Z w876h1nxs8h4/1447265647964/29684/- INFO	hello	Seneca/0.6.5/w876h1nxs8h4/1447265647964/29684/-	
+2015-11-11T18:14:09.160Z y44r5kr6poq1/1447265649130/29762/- INFO	hello	Seneca/0.6.5/y44r5kr6poq1/1447265649130/29762/-	
+2015-11-11T18:14:09.552Z y44r5kr6poq1/1447265649130/29762/- FATAL	sys	seneca	0.6.5	y44r5kr6poq1/1447265649130/29762/-	plugin_syntax_error	seneca: use-plugin: Could not load plugin translator defined in ./translator due to syntax error: /root/simpleSocket/services/translator/translator.js:9
+  const STX = '2';
+  ^^^^^
+Use of const in strict mode.. See STDERR for details.	{}	-	
+2015-11-11T18:14:10.896Z smqhsld745br/1447265650864/29871/- INFO	hello	Seneca/0.6.5/smqhsld745br/1447265650864/29871/-	
+2015-11-11T18:14:12.030Z 6wep5l6quw0c/1447265652000/29954/- INFO	hello	Seneca/0.6.5/6wep5l6quw0c/1447265652000/29954/-	
+2015-11-11T18:14:12.633Z n07c0nn1woft/1447265652603/29993/- INFO	hello	Seneca/0.6.5/n07c0nn1woft/1447265652603/29993/-	
+2015-11-11T18:14:13.207Z sbjf60ofd115/1447265653176/30032/- INFO	hello	Seneca/0.6.5/sbjf60ofd115/1447265653176/30032/-	
+2015-11-11T18:14:13.601Z sbjf60ofd115/1447265653176/30032/- FATAL	sys	seneca	0.6.5	sbjf60ofd115/1447265653176/30032/-	plugin_syntax_error	seneca: use-plugin: Could not load plugin translator defined in ./translator due to syntax error: /root/simpleSocket/services/translator/translator.js:9
+  const STX = '2';
+  ^^^^^
+Use of const in strict mode.. See STDERR for details.	{}	-	
+2015-11-11T18:14:14.382Z 0lu28x3tu03i/1447265654351/30106/- INFO	hello	Seneca/0.6.5/0lu28x3tu03i/1447265654351/30106/-	
+2015-11-11T18:14:14.995Z d644xrrayehe/1447265654963/30146/- INFO	hello	Seneca/0.6.5/d644xrrayehe/1447265654963/30146/-	
+2015-11-11T18:14:15.585Z ccrvodga3rj9/1447265655555/30185/- INFO	hello	Seneca/0.6.5/ccrvodga3rj9/1447265655555/30185/-	
+2015-11-11T18:14:17.766Z 044kj923wmhc/1447265657731/30403/- INFO	hello	Seneca/0.6.5/044kj923wmhc/1447265657731/30403/-	
+2015-11-11T18:14:18.180Z 044kj923wmhc/1447265657731/30403/- FATAL	sys	seneca	0.6.5	044kj923wmhc/1447265657731/30403/-	plugin_syntax_error	seneca: use-plugin: Could not load plugin translator defined in ./translator due to syntax error: /root/simpleSocket/services/translator/translator.js:9
+  const STX = '2';
+  ^^^^^
+Use of const in strict mode.. See STDERR for details.	{}	-	
+2015-11-11T18:14:21.278Z ab7cyxxt2sfv/1447265661248/30638/- INFO	hello	Seneca/0.6.5/ab7cyxxt2sfv/1447265661248/30638/-	
+2015-11-11T18:14:21.862Z if3f6axor17b/1447265661831/30672/- INFO	hello	Seneca/0.6.5/if3f6axor17b/1447265661831/30672/-	
+2015-11-11T18:14:23.041Z vucpc7zg4xw8/1447265663010/30755/- INFO	hello	Seneca/0.6.5/vucpc7zg4xw8/1447265663010/30755/-	
+2015-11-11T18:14:24.181Z kzx191fnl2m4/1447265664151/30833/- INFO	hello	Seneca/0.6.5/kzx191fnl2m4/1447265664151/30833/-	
+2015-11-11T18:14:24.578Z kzx191fnl2m4/1447265664151/30833/- FATAL	sys	seneca	0.6.5	kzx191fnl2m4/1447265664151/30833/-	plugin_syntax_error	seneca: use-plugin: Could not load plugin translator defined in ./translator due to syntax error: /root/simpleSocket/services/translator/translator.js:9
+  const STX = '2';
+  ^^^^^
+Use of const in strict mode.. See STDERR for details.	{}	-	
+2015-11-11T18:16:43.680Z uil517zca07g/1447265803649/31375/- INFO	hello	Seneca/0.6.5/uil517zca07g/1447265803649/31375/-	
+2015-11-11T18:16:45.433Z kw8aguvuosef/1447265805402/31492/- INFO	hello	Seneca/0.6.5/kw8aguvuosef/1447265805402/31492/-	
+2015-11-11T18:16:45.847Z kw8aguvuosef/1447265805402/31492/- INFO	listen	{type:tcp,port:10204}	
+2015-11-11T18:16:45.867Z kw8aguvuosef/1447265805402/31492/- ERROR	act	web       	OUT		init:web	80	{init:web,tag:null}	ENTRY	(qsnfd)	GATE	seneca: instance-closed	instance-closed	{args:{init:web,tag:null},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:16:45.869Z kw8aguvuosef/1447265805402/31492/- FATAL	sys	seneca	0.6.5	kw8aguvuosef/1447265805402/31492/-	instance-closed	seneca: instance-closed	{args:{init:web,tag:null},plugin:{}}	-	
+2015-11-11T18:16:45.882Z kw8aguvuosef/1447265805402/31492/- ERROR	act	mem-store/LKR	OUT		init:mem-store	80	{init:mem-store,tag:LKR}	ENTRY	(wj980)	GATE	seneca: instance-closed	instance-closed	{args:{init:mem-store,tag:LKR},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:16:45.883Z kw8aguvuosef/1447265805402/31492/- FATAL	sys	seneca	0.6.5	kw8aguvuosef/1447265805402/31492/-	instance-closed	seneca: instance-closed	{args:{init:mem-store,tag:LKR},plugin:{}}	-	
+2015-11-11T18:16:45.889Z kw8aguvuosef/1447265805402/31492/- ERROR	act	transport	OUT		cmd:listen,role:transport	38	{config:{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	ENTRY	(bs2zn)	GATE	seneca: instance-closed	instance-closed	{args:{config:{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:16:45.891Z kw8aguvuosef/1447265805402/31492/- FATAL	sys	seneca	0.6.5	kw8aguvuosef/1447265805402/31492/-	transport_listen	seneca: seneca: instance-closed	{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	-	
+2015-11-11T18:16:46.998Z xb4h1v3f5prx/1447265806966/31587/- INFO	hello	Seneca/0.6.5/xb4h1v3f5prx/1447265806966/31587/-	
+2015-11-11T18:16:47.428Z xb4h1v3f5prx/1447265806966/31587/- INFO	listen	{type:tcp,port:10204}	
+2015-11-11T18:16:47.447Z xb4h1v3f5prx/1447265806966/31587/- ERROR	act	web       	OUT		init:web	81	{init:web,tag:null}	ENTRY	(epxq1)	GATE	seneca: instance-closed	instance-closed	{args:{init:web,tag:null},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:16:47.450Z xb4h1v3f5prx/1447265806966/31587/- FATAL	sys	seneca	0.6.5	xb4h1v3f5prx/1447265806966/31587/-	instance-closed	seneca: instance-closed	{args:{init:web,tag:null},plugin:{}}	-	
+2015-11-11T18:16:47.461Z xb4h1v3f5prx/1447265806966/31587/- ERROR	act	mem-store/OLE	OUT		init:mem-store	79	{init:mem-store,tag:OLE}	ENTRY	(ie8l4)	GATE	seneca: instance-closed	instance-closed	{args:{init:mem-store,tag:OLE},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:16:47.462Z xb4h1v3f5prx/1447265806966/31587/- FATAL	sys	seneca	0.6.5	xb4h1v3f5prx/1447265806966/31587/-	instance-closed	seneca: instance-closed	{args:{init:mem-store,tag:OLE},plugin:{}}	-	
+2015-11-11T18:16:47.469Z xb4h1v3f5prx/1447265806966/31587/- ERROR	act	transport	OUT		cmd:listen,role:transport	36	{config:{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	ENTRY	(0y8o1)	GATE	seneca: instance-closed	instance-closed	{args:{config:{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:16:47.471Z xb4h1v3f5prx/1447265806966/31587/- FATAL	sys	seneca	0.6.5	xb4h1v3f5prx/1447265806966/31587/-	transport_listen	seneca: seneca: instance-closed	{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	-	
+2015-11-11T18:16:48.873Z pabzg38yi3g0/1447265808843/31782/- INFO	hello	Seneca/0.6.5/pabzg38yi3g0/1447265808843/31782/-	
+2015-11-11T18:16:50.658Z 8xzd0tmbwh6f/1447265810627/31899/- INFO	hello	Seneca/0.6.5/8xzd0tmbwh6f/1447265810627/31899/-	
+2015-11-11T18:16:51.081Z 8xzd0tmbwh6f/1447265810627/31899/- INFO	listen	{type:tcp,port:10204}	
+2015-11-11T18:16:51.099Z 8xzd0tmbwh6f/1447265810627/31899/- ERROR	act	web       	OUT		init:web	77	{init:web,tag:null}	ENTRY	(7lc7w)	GATE	seneca: instance-closed	instance-closed	{args:{init:web,tag:null},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:16:51.101Z 8xzd0tmbwh6f/1447265810627/31899/- FATAL	sys	seneca	0.6.5	8xzd0tmbwh6f/1447265810627/31899/-	instance-closed	seneca: instance-closed	{args:{init:web,tag:null},plugin:{}}	-	
+2015-11-11T18:16:51.115Z 8xzd0tmbwh6f/1447265810627/31899/- ERROR	act	mem-store/ZJP	OUT		init:mem-store	77	{init:mem-store,tag:ZJP}	ENTRY	(tqpdv)	GATE	seneca: instance-closed	instance-closed	{args:{init:mem-store,tag:ZJP},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:16:51.117Z 8xzd0tmbwh6f/1447265810627/31899/- FATAL	sys	seneca	0.6.5	8xzd0tmbwh6f/1447265810627/31899/-	instance-closed	seneca: instance-closed	{args:{init:mem-store,tag:ZJP},plugin:{}}	-	
+2015-11-11T18:16:51.124Z 8xzd0tmbwh6f/1447265810627/31899/- ERROR	act	transport	OUT		cmd:listen,role:transport	39	{config:{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	ENTRY	(cxa1r)	GATE	seneca: instance-closed	instance-closed	{args:{config:{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:16:51.130Z 8xzd0tmbwh6f/1447265810627/31899/- FATAL	sys	seneca	0.6.5	8xzd0tmbwh6f/1447265810627/31899/-	transport_listen	seneca: seneca: instance-closed	{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	-	
+2015-11-11T18:16:51.663Z bhcokmnvm291/1447265811632/31958/- INFO	hello	Seneca/0.6.5/bhcokmnvm291/1447265811632/31958/-	
+2015-11-11T18:16:52.093Z bhcokmnvm291/1447265811632/31958/- INFO	listen	{type:tcp,port:10204}	
+2015-11-11T18:16:52.113Z bhcokmnvm291/1447265811632/31958/- ERROR	act	web       	OUT		init:web	84	{init:web,tag:null}	ENTRY	(xs9hw)	GATE	seneca: instance-closed	instance-closed	{args:{init:web,tag:null},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:16:52.117Z bhcokmnvm291/1447265811632/31958/- FATAL	sys	seneca	0.6.5	bhcokmnvm291/1447265811632/31958/-	instance-closed	seneca: instance-closed	{args:{init:web,tag:null},plugin:{}}	-	
+2015-11-11T18:16:52.131Z bhcokmnvm291/1447265811632/31958/- ERROR	act	mem-store/BQK	OUT		init:mem-store	85	{init:mem-store,tag:BQK}	ENTRY	(c18eb)	GATE	seneca: instance-closed	instance-closed	{args:{init:mem-store,tag:BQK},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:16:52.133Z bhcokmnvm291/1447265811632/31958/- FATAL	sys	seneca	0.6.5	bhcokmnvm291/1447265811632/31958/-	instance-closed	seneca: instance-closed	{args:{init:mem-store,tag:BQK},plugin:{}}	-	
+2015-11-11T18:16:52.143Z bhcokmnvm291/1447265811632/31958/- ERROR	act	transport	OUT		cmd:listen,role:transport	44	{config:{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	ENTRY	(166ar)	GATE	seneca: instance-closed	instance-closed	{args:{config:{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:16:52.147Z bhcokmnvm291/1447265811632/31958/- FATAL	sys	seneca	0.6.5	bhcokmnvm291/1447265811632/31958/-	transport_listen	seneca: seneca: instance-closed	{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	-	
+2015-11-11T18:16:52.960Z 6t0b50c9qira/1447265812930/32039/- INFO	hello	Seneca/0.6.5/6t0b50c9qira/1447265812930/32039/-	
+2015-11-11T18:16:53.367Z 6t0b50c9qira/1447265812930/32039/- INFO	listen	{type:tcp,port:10204}	
+2015-11-11T18:16:53.384Z 6t0b50c9qira/1447265812930/32039/- ERROR	act	web       	OUT		init:web	73	{init:web,tag:null}	ENTRY	(17fc9)	GATE	seneca: instance-closed	instance-closed	{args:{init:web,tag:null},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:16:53.386Z 6t0b50c9qira/1447265812930/32039/- FATAL	sys	seneca	0.6.5	6t0b50c9qira/1447265812930/32039/-	instance-closed	seneca: instance-closed	{args:{init:web,tag:null},plugin:{}}	-	
+2015-11-11T18:16:53.399Z 6t0b50c9qira/1447265812930/32039/- ERROR	act	mem-store/RNE	OUT		init:mem-store	72	{init:mem-store,tag:RNE}	ENTRY	(gv8x8)	GATE	seneca: instance-closed	instance-closed	{args:{init:mem-store,tag:RNE},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:16:53.400Z 6t0b50c9qira/1447265812930/32039/- FATAL	sys	seneca	0.6.5	6t0b50c9qira/1447265812930/32039/-	instance-closed	seneca: instance-closed	{args:{init:mem-store,tag:RNE},plugin:{}}	-	
+2015-11-11T18:16:53.407Z 6t0b50c9qira/1447265812930/32039/- ERROR	act	transport	OUT		cmd:listen,role:transport	35	{config:{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	ENTRY	(ho0d2)	GATE	seneca: instance-closed	instance-closed	{args:{config:{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:16:53.413Z 6t0b50c9qira/1447265812930/32039/- FATAL	sys	seneca	0.6.5	6t0b50c9qira/1447265812930/32039/-	transport_listen	seneca: seneca: instance-closed	{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	-	
+2015-11-11T18:16:55.857Z 98kydgqqxnpe/1447265815827/32230/- INFO	hello	Seneca/0.6.5/98kydgqqxnpe/1447265815827/32230/-	
+2015-11-11T18:16:56.462Z 4x94r9artorg/1447265816431/32269/- INFO	hello	Seneca/0.6.5/4x94r9artorg/1447265816431/32269/-	
+2015-11-11T18:16:56.870Z 4x94r9artorg/1447265816431/32269/- INFO	listen	{type:tcp,port:10204}	
+2015-11-11T18:16:56.890Z 4x94r9artorg/1447265816431/32269/- ERROR	act	web       	OUT		init:web	82	{init:web,tag:null}	ENTRY	(u1y9b)	GATE	seneca: instance-closed	instance-closed	{args:{init:web,tag:null},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:16:56.894Z 4x94r9artorg/1447265816431/32269/- FATAL	sys	seneca	0.6.5	4x94r9artorg/1447265816431/32269/-	instance-closed	seneca: instance-closed	{args:{init:web,tag:null},plugin:{}}	-	
+2015-11-11T18:16:56.908Z 4x94r9artorg/1447265816431/32269/- ERROR	act	mem-store/NYC	OUT		init:mem-store	85	{init:mem-store,tag:NYC}	ENTRY	(9x1qc)	GATE	seneca: instance-closed	instance-closed	{args:{init:mem-store,tag:NYC},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:16:56.910Z 4x94r9artorg/1447265816431/32269/- FATAL	sys	seneca	0.6.5	4x94r9artorg/1447265816431/32269/-	instance-closed	seneca: instance-closed	{args:{init:mem-store,tag:NYC},plugin:{}}	-	
+2015-11-11T18:16:56.919Z 4x94r9artorg/1447265816431/32269/- ERROR	act	transport	OUT		cmd:listen,role:transport	44	{config:{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	ENTRY	(x4eti)	GATE	seneca: instance-closed	instance-closed	{args:{config:{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:16:56.922Z 4x94r9artorg/1447265816431/32269/- FATAL	sys	seneca	0.6.5	4x94r9artorg/1447265816431/32269/-	transport_listen	seneca: seneca: instance-closed	{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	-	
+2015-11-11T18:16:58.070Z gmh9apifyqwq/1447265818040/32364/- INFO	hello	Seneca/0.6.5/gmh9apifyqwq/1447265818040/32364/-	
+2015-11-11T18:16:58.486Z gmh9apifyqwq/1447265818040/32364/- INFO	listen	{type:tcp,port:10204}	
+2015-11-11T18:16:58.505Z gmh9apifyqwq/1447265818040/32364/- ERROR	act	web       	OUT		init:web	81	{init:web,tag:null}	ENTRY	(4hxme)	GATE	seneca: instance-closed	instance-closed	{args:{init:web,tag:null},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:16:58.508Z gmh9apifyqwq/1447265818040/32364/- FATAL	sys	seneca	0.6.5	gmh9apifyqwq/1447265818040/32364/-	instance-closed	seneca: instance-closed	{args:{init:web,tag:null},plugin:{}}	-	
+2015-11-11T18:16:58.520Z gmh9apifyqwq/1447265818040/32364/- ERROR	act	mem-store/ISY	OUT		init:mem-store	79	{init:mem-store,tag:ISY}	ENTRY	(fftwm)	GATE	seneca: instance-closed	instance-closed	{args:{init:mem-store,tag:ISY},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:16:58.522Z gmh9apifyqwq/1447265818040/32364/- FATAL	sys	seneca	0.6.5	gmh9apifyqwq/1447265818040/32364/-	instance-closed	seneca: instance-closed	{args:{init:mem-store,tag:ISY},plugin:{}}	-	
+2015-11-11T18:16:58.529Z gmh9apifyqwq/1447265818040/32364/- ERROR	act	transport	OUT		cmd:listen,role:transport	39	{config:{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	ENTRY	(fy047)	GATE	seneca: instance-closed	instance-closed	{args:{config:{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:16:58.531Z gmh9apifyqwq/1447265818040/32364/- FATAL	sys	seneca	0.6.5	gmh9apifyqwq/1447265818040/32364/-	transport_listen	seneca: seneca: instance-closed	{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	-	
+2015-11-11T18:16:59.655Z ef9kut046eni/1447265819625/32460/- INFO	hello	Seneca/0.6.5/ef9kut046eni/1447265819625/32460/-	
+2015-11-11T18:17:00.236Z x7x4ynnxr6wz/1447265820205/32504/- INFO	hello	Seneca/0.6.5/x7x4ynnxr6wz/1447265820205/32504/-	
+2015-11-11T18:17:00.825Z 0kpfwyh23lsr/1447265820795/32543/- INFO	hello	Seneca/0.6.5/0kpfwyh23lsr/1447265820795/32543/-	
+2015-11-11T18:17:01.974Z ccgpoudrwvq0/1447265821943/32622/- INFO	hello	Seneca/0.6.5/ccgpoudrwvq0/1447265821943/32622/-	
+2015-11-11T18:17:02.383Z ccgpoudrwvq0/1447265821943/32622/- INFO	listen	{type:tcp,port:10204}	
+2015-11-11T18:17:02.403Z ccgpoudrwvq0/1447265821943/32622/- ERROR	act	web       	OUT		init:web	80	{init:web,tag:null}	ENTRY	(cbdfc)	GATE	seneca: instance-closed	instance-closed	{args:{init:web,tag:null},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:17:02.405Z ccgpoudrwvq0/1447265821943/32622/- FATAL	sys	seneca	0.6.5	ccgpoudrwvq0/1447265821943/32622/-	instance-closed	seneca: instance-closed	{args:{init:web,tag:null},plugin:{}}	-	
+2015-11-11T18:17:02.417Z ccgpoudrwvq0/1447265821943/32622/- ERROR	act	mem-store/UFP	OUT		init:mem-store	77	{init:mem-store,tag:UFP}	ENTRY	(en3js)	GATE	seneca: instance-closed	instance-closed	{args:{init:mem-store,tag:UFP},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:17:02.418Z ccgpoudrwvq0/1447265821943/32622/- FATAL	sys	seneca	0.6.5	ccgpoudrwvq0/1447265821943/32622/-	instance-closed	seneca: instance-closed	{args:{init:mem-store,tag:UFP},plugin:{}}	-	
+2015-11-11T18:17:02.425Z ccgpoudrwvq0/1447265821943/32622/- ERROR	act	transport	OUT		cmd:listen,role:transport	37	{config:{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	ENTRY	(whmk5)	GATE	seneca: instance-closed	instance-closed	{args:{config:{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:17:02.427Z ccgpoudrwvq0/1447265821943/32622/- FATAL	sys	seneca	0.6.5	ccgpoudrwvq0/1447265821943/32622/-	transport_listen	seneca: seneca: instance-closed	{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	-	
+2015-11-11T18:17:05.340Z nl7h0v861v35/1447265825307/371/- INFO	hello	Seneca/0.6.5/nl7h0v861v35/1447265825307/371/-	
+2015-11-11T18:17:05.748Z nl7h0v861v35/1447265825307/371/- INFO	listen	{type:tcp,port:10204}	
+2015-11-11T18:17:05.768Z nl7h0v861v35/1447265825307/371/- ERROR	act	web       	OUT		init:web	77	{init:web,tag:null}	ENTRY	(e7xht)	GATE	seneca: instance-closed	instance-closed	{args:{init:web,tag:null},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:17:05.770Z nl7h0v861v35/1447265825307/371/- FATAL	sys	seneca	0.6.5	nl7h0v861v35/1447265825307/371/-	instance-closed	seneca: instance-closed	{args:{init:web,tag:null},plugin:{}}	-	
+2015-11-11T18:17:05.781Z nl7h0v861v35/1447265825307/371/- ERROR	act	mem-store/NXJ	OUT		init:mem-store	76	{init:mem-store,tag:NXJ}	ENTRY	(rvvyp)	GATE	seneca: instance-closed	instance-closed	{args:{init:mem-store,tag:NXJ},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:17:05.783Z nl7h0v861v35/1447265825307/371/- FATAL	sys	seneca	0.6.5	nl7h0v861v35/1447265825307/371/-	instance-closed	seneca: instance-closed	{args:{init:mem-store,tag:NXJ},plugin:{}}	-	
+2015-11-11T18:17:05.789Z nl7h0v861v35/1447265825307/371/- ERROR	act	transport	OUT		cmd:listen,role:transport	37	{config:{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	ENTRY	(t6m8k)	GATE	seneca: instance-closed	instance-closed	{args:{config:{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:17:05.791Z nl7h0v861v35/1447265825307/371/- FATAL	sys	seneca	0.6.5	nl7h0v861v35/1447265825307/371/-	transport_listen	seneca: seneca: instance-closed	{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	-	
+2015-11-11T18:17:07.524Z rrzx2xj64zs8/1447265827493/507/- INFO	hello	Seneca/0.6.5/rrzx2xj64zs8/1447265827493/507/-	
+2015-11-11T18:17:07.942Z rrzx2xj64zs8/1447265827493/507/- INFO	listen	{type:tcp,port:10204}	
+2015-11-11T18:17:07.964Z rrzx2xj64zs8/1447265827493/507/- ERROR	act	web       	OUT		init:web	85	{init:web,tag:null}	ENTRY	(0bgjz)	GATE	seneca: instance-closed	instance-closed	{args:{init:web,tag:null},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:17:07.967Z rrzx2xj64zs8/1447265827493/507/- FATAL	sys	seneca	0.6.5	rrzx2xj64zs8/1447265827493/507/-	instance-closed	seneca: instance-closed	{args:{init:web,tag:null},plugin:{}}	-	
+2015-11-11T18:17:07.981Z rrzx2xj64zs8/1447265827493/507/- ERROR	act	mem-store/NRZ	OUT		init:mem-store	86	{init:mem-store,tag:NRZ}	ENTRY	(wvhlt)	GATE	seneca: instance-closed	instance-closed	{args:{init:mem-store,tag:NRZ},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:17:07.983Z rrzx2xj64zs8/1447265827493/507/- FATAL	sys	seneca	0.6.5	rrzx2xj64zs8/1447265827493/507/-	instance-closed	seneca: instance-closed	{args:{init:mem-store,tag:NRZ},plugin:{}}	-	
+2015-11-11T18:17:07.993Z rrzx2xj64zs8/1447265827493/507/- ERROR	act	transport	OUT		cmd:listen,role:transport	45	{config:{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	ENTRY	(j62yu)	GATE	seneca: instance-closed	instance-closed	{args:{config:{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:17:07.995Z rrzx2xj64zs8/1447265827493/507/- FATAL	sys	seneca	0.6.5	rrzx2xj64zs8/1447265827493/507/-	transport_listen	seneca: seneca: instance-closed	{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	-	
+2015-11-11T18:17:09.275Z weo6y49msa83/1447265829245/626/- INFO	hello	Seneca/0.6.5/weo6y49msa83/1447265829245/626/-	
+2015-11-11T18:17:09.683Z weo6y49msa83/1447265829245/626/- INFO	listen	{type:tcp,port:10204}	
+2015-11-11T18:17:09.704Z weo6y49msa83/1447265829245/626/- ERROR	act	web       	OUT		init:web	77	{init:web,tag:null}	ENTRY	(jctn2)	GATE	seneca: instance-closed	instance-closed	{args:{init:web,tag:null},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:17:09.708Z weo6y49msa83/1447265829245/626/- FATAL	sys	seneca	0.6.5	weo6y49msa83/1447265829245/626/-	instance-closed	seneca: instance-closed	{args:{init:web,tag:null},plugin:{}}	-	
+2015-11-11T18:17:09.723Z weo6y49msa83/1447265829245/626/- ERROR	act	mem-store/OBZ	OUT		init:mem-store	80	{init:mem-store,tag:OBZ}	ENTRY	(wyg5o)	GATE	seneca: instance-closed	instance-closed	{args:{init:mem-store,tag:OBZ},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:17:09.725Z weo6y49msa83/1447265829245/626/- FATAL	sys	seneca	0.6.5	weo6y49msa83/1447265829245/626/-	instance-closed	seneca: instance-closed	{args:{init:mem-store,tag:OBZ},plugin:{}}	-	
+2015-11-11T18:17:09.733Z weo6y49msa83/1447265829245/626/- ERROR	act	transport	OUT		cmd:listen,role:transport	46	{config:{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	ENTRY	(am4q6)	GATE	seneca: instance-closed	instance-closed	{args:{config:{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:17:09.736Z weo6y49msa83/1447265829245/626/- FATAL	sys	seneca	0.6.5	weo6y49msa83/1447265829245/626/-	transport_listen	seneca: seneca: instance-closed	{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	-	
+2015-11-11T18:17:10.861Z emvdqz8hkgwj/1447265830831/717/- INFO	hello	Seneca/0.6.5/emvdqz8hkgwj/1447265830831/717/-	
+2015-11-11T18:17:11.277Z emvdqz8hkgwj/1447265830831/717/- INFO	listen	{type:tcp,port:10204}	
+2015-11-11T18:17:11.296Z emvdqz8hkgwj/1447265830831/717/- ERROR	act	web       	OUT		init:web	77	{init:web,tag:null}	ENTRY	(1cpus)	GATE	seneca: instance-closed	instance-closed	{args:{init:web,tag:null},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:17:11.299Z emvdqz8hkgwj/1447265830831/717/- FATAL	sys	seneca	0.6.5	emvdqz8hkgwj/1447265830831/717/-	instance-closed	seneca: instance-closed	{args:{init:web,tag:null},plugin:{}}	-	
+2015-11-11T18:17:11.310Z emvdqz8hkgwj/1447265830831/717/- ERROR	act	mem-store/JRH	OUT		init:mem-store	76	{init:mem-store,tag:JRH}	ENTRY	(hkmem)	GATE	seneca: instance-closed	instance-closed	{args:{init:mem-store,tag:JRH},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:17:11.312Z emvdqz8hkgwj/1447265830831/717/- FATAL	sys	seneca	0.6.5	emvdqz8hkgwj/1447265830831/717/-	instance-closed	seneca: instance-closed	{args:{init:mem-store,tag:JRH},plugin:{}}	-	
+2015-11-11T18:17:11.319Z emvdqz8hkgwj/1447265830831/717/- ERROR	act	transport	OUT		cmd:listen,role:transport	38	{config:{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	ENTRY	(ww82s)	GATE	seneca: instance-closed	instance-closed	{args:{config:{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:17:11.321Z emvdqz8hkgwj/1447265830831/717/- FATAL	sys	seneca	0.6.5	emvdqz8hkgwj/1447265830831/717/-	transport_listen	seneca: seneca: instance-closed	{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	-	
+2015-11-11T18:17:13.069Z rtaqu5ot5o6e/1447265833038/861/- INFO	hello	Seneca/0.6.5/rtaqu5ot5o6e/1447265833038/861/-	
+2015-11-11T18:17:13.473Z rtaqu5ot5o6e/1447265833038/861/- INFO	listen	{type:tcp,port:10204}	
+2015-11-11T18:17:13.494Z rtaqu5ot5o6e/1447265833038/861/- ERROR	act	web       	OUT		init:web	77	{init:web,tag:null}	ENTRY	(t7wu1)	GATE	seneca: instance-closed	instance-closed	{args:{init:web,tag:null},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:17:13.496Z rtaqu5ot5o6e/1447265833038/861/- FATAL	sys	seneca	0.6.5	rtaqu5ot5o6e/1447265833038/861/-	instance-closed	seneca: instance-closed	{args:{init:web,tag:null},plugin:{}}	-	
+2015-11-11T18:17:13.507Z rtaqu5ot5o6e/1447265833038/861/- ERROR	act	mem-store/OFE	OUT		init:mem-store	76	{init:mem-store,tag:OFE}	ENTRY	(s4gl7)	GATE	seneca: instance-closed	instance-closed	{args:{init:mem-store,tag:OFE},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:17:13.509Z rtaqu5ot5o6e/1447265833038/861/- FATAL	sys	seneca	0.6.5	rtaqu5ot5o6e/1447265833038/861/-	instance-closed	seneca: instance-closed	{args:{init:mem-store,tag:OFE},plugin:{}}	-	
+2015-11-11T18:17:13.515Z rtaqu5ot5o6e/1447265833038/861/- ERROR	act	transport	OUT		cmd:listen,role:transport	38	{config:{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	ENTRY	(ibf4p)	GATE	seneca: instance-closed	instance-closed	{args:{config:{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:17:13.518Z rtaqu5ot5o6e/1447265833038/861/- FATAL	sys	seneca	0.6.5	rtaqu5ot5o6e/1447265833038/861/-	transport_listen	seneca: seneca: instance-closed	{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	-	
+2015-11-11T18:17:14.643Z 7b3y5uh4edco/1447265834612/953/- INFO	hello	Seneca/0.6.5/7b3y5uh4edco/1447265834612/953/-	
+2015-11-11T18:17:15.057Z 7b3y5uh4edco/1447265834612/953/- INFO	listen	{type:tcp,port:10204}	
+2015-11-11T18:17:15.073Z 7b3y5uh4edco/1447265834612/953/- ERROR	act	web       	OUT		init:web	75	{init:web,tag:null}	ENTRY	(uewzn)	GATE	seneca: instance-closed	instance-closed	{args:{init:web,tag:null},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:17:15.075Z 7b3y5uh4edco/1447265834612/953/- FATAL	sys	seneca	0.6.5	7b3y5uh4edco/1447265834612/953/-	instance-closed	seneca: instance-closed	{args:{init:web,tag:null},plugin:{}}	-	
+2015-11-11T18:17:15.087Z 7b3y5uh4edco/1447265834612/953/- ERROR	act	mem-store/KJK	OUT		init:mem-store	75	{init:mem-store,tag:KJK}	ENTRY	(t056c)	GATE	seneca: instance-closed	instance-closed	{args:{init:mem-store,tag:KJK},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:17:15.088Z 7b3y5uh4edco/1447265834612/953/- FATAL	sys	seneca	0.6.5	7b3y5uh4edco/1447265834612/953/-	instance-closed	seneca: instance-closed	{args:{init:mem-store,tag:KJK},plugin:{}}	-	
+2015-11-11T18:17:15.094Z 7b3y5uh4edco/1447265834612/953/- ERROR	act	transport	OUT		cmd:listen,role:transport	34	{config:{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	ENTRY	(s3s4o)	GATE	seneca: instance-closed	instance-closed	{args:{config:{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:17:15.103Z 7b3y5uh4edco/1447265834612/953/- FATAL	sys	seneca	0.6.5	7b3y5uh4edco/1447265834612/953/-	transport_listen	seneca: seneca: instance-closed	{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	-	
+2015-11-11T18:17:16.235Z 0p0dw2fkw1th/1447265836203/1052/- INFO	hello	Seneca/0.6.5/0p0dw2fkw1th/1447265836203/1052/-	
+2015-11-11T18:17:17.440Z wq8fymoj4qpc/1447265837408/1201/- INFO	hello	Seneca/0.6.5/wq8fymoj4qpc/1447265837408/1201/-	
+2015-11-11T18:17:18.583Z ytq2rdnh81hm/1447265838552/1298/- INFO	hello	Seneca/0.6.5/ytq2rdnh81hm/1447265838552/1298/-	
+2015-11-11T18:17:18.996Z ytq2rdnh81hm/1447265838552/1298/- INFO	listen	{type:tcp,port:10204}	
+2015-11-11T18:17:19.016Z ytq2rdnh81hm/1447265838552/1298/- ERROR	act	web       	OUT		init:web	78	{init:web,tag:null}	ENTRY	(krwm6)	GATE	seneca: instance-closed	instance-closed	{args:{init:web,tag:null},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:17:19.018Z ytq2rdnh81hm/1447265838552/1298/- FATAL	sys	seneca	0.6.5	ytq2rdnh81hm/1447265838552/1298/-	instance-closed	seneca: instance-closed	{args:{init:web,tag:null},plugin:{}}	-	
+2015-11-11T18:17:19.030Z ytq2rdnh81hm/1447265838552/1298/- ERROR	act	mem-store/QSB	OUT		init:mem-store	76	{init:mem-store,tag:QSB}	ENTRY	(ovd0q)	GATE	seneca: instance-closed	instance-closed	{args:{init:mem-store,tag:QSB},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:17:19.031Z ytq2rdnh81hm/1447265838552/1298/- FATAL	sys	seneca	0.6.5	ytq2rdnh81hm/1447265838552/1298/-	instance-closed	seneca: instance-closed	{args:{init:mem-store,tag:QSB},plugin:{}}	-	
+2015-11-11T18:17:19.038Z ytq2rdnh81hm/1447265838552/1298/- ERROR	act	transport	OUT		cmd:listen,role:transport	37	{config:{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	ENTRY	(o4fyo)	GATE	seneca: instance-closed	instance-closed	{args:{config:{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:17:19.040Z ytq2rdnh81hm/1447265838552/1298/- FATAL	sys	seneca	0.6.5	ytq2rdnh81hm/1447265838552/1298/-	transport_listen	seneca: seneca: instance-closed	{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	-	
+2015-11-11T18:17:20.900Z 4q8e23k7154z/1447265840870/1460/- INFO	hello	Seneca/0.6.5/4q8e23k7154z/1447265840870/1460/-	
+2015-11-11T18:17:21.308Z 4q8e23k7154z/1447265840870/1460/- INFO	listen	{type:tcp,port:10204}	
+2015-11-11T18:17:21.328Z 4q8e23k7154z/1447265840870/1460/- ERROR	act	web       	OUT		init:web	76	{init:web,tag:null}	ENTRY	(9gwiy)	GATE	seneca: instance-closed	instance-closed	{args:{init:web,tag:null},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:17:21.330Z 4q8e23k7154z/1447265840870/1460/- FATAL	sys	seneca	0.6.5	4q8e23k7154z/1447265840870/1460/-	instance-closed	seneca: instance-closed	{args:{init:web,tag:null},plugin:{}}	-	
+2015-11-11T18:17:21.342Z 4q8e23k7154z/1447265840870/1460/- ERROR	act	mem-store/VVT	OUT		init:mem-store	76	{init:mem-store,tag:VVT}	ENTRY	(17sgn)	GATE	seneca: instance-closed	instance-closed	{args:{init:mem-store,tag:VVT},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:17:21.344Z 4q8e23k7154z/1447265840870/1460/- FATAL	sys	seneca	0.6.5	4q8e23k7154z/1447265840870/1460/-	instance-closed	seneca: instance-closed	{args:{init:mem-store,tag:VVT},plugin:{}}	-	
+2015-11-11T18:17:21.351Z 4q8e23k7154z/1447265840870/1460/- ERROR	act	transport	OUT		cmd:listen,role:transport	39	{config:{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	ENTRY	(7gw7k)	GATE	seneca: instance-closed	instance-closed	{args:{config:{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:17:21.354Z 4q8e23k7154z/1447265840870/1460/- FATAL	sys	seneca	0.6.5	4q8e23k7154z/1447265840870/1460/-	transport_listen	seneca: seneca: instance-closed	{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	-	
+2015-11-11T18:17:22.684Z 15sufe6fymag/1447265842654/1612/- INFO	hello	Seneca/0.6.5/15sufe6fymag/1447265842654/1612/-	
+2015-11-11T18:17:23.092Z 15sufe6fymag/1447265842654/1612/- INFO	listen	{type:tcp,port:10204}	
+2015-11-11T18:17:23.112Z 15sufe6fymag/1447265842654/1612/- ERROR	act	web       	OUT		init:web	77	{init:web,tag:null}	ENTRY	(vgeme)	GATE	seneca: instance-closed	instance-closed	{args:{init:web,tag:null},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:17:23.114Z 15sufe6fymag/1447265842654/1612/- FATAL	sys	seneca	0.6.5	15sufe6fymag/1447265842654/1612/-	instance-closed	seneca: instance-closed	{args:{init:web,tag:null},plugin:{}}	-	
+2015-11-11T18:17:23.127Z 15sufe6fymag/1447265842654/1612/- ERROR	act	mem-store/TQX	OUT		init:mem-store	76	{init:mem-store,tag:TQX}	ENTRY	(of0au)	GATE	seneca: instance-closed	instance-closed	{args:{init:mem-store,tag:TQX},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:17:23.128Z 15sufe6fymag/1447265842654/1612/- FATAL	sys	seneca	0.6.5	15sufe6fymag/1447265842654/1612/-	instance-closed	seneca: instance-closed	{args:{init:mem-store,tag:TQX},plugin:{}}	-	
+2015-11-11T18:17:23.134Z 15sufe6fymag/1447265842654/1612/- ERROR	act	transport	OUT		cmd:listen,role:transport	38	{config:{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	ENTRY	(12qry)	GATE	seneca: instance-closed	instance-closed	{args:{config:{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:17:23.137Z 15sufe6fymag/1447265842654/1612/- FATAL	sys	seneca	0.6.5	15sufe6fymag/1447265842654/1612/-	transport_listen	seneca: seneca: instance-closed	{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	-	
+2015-11-11T18:17:24.262Z ynpgvlsb622f/1447265844231/1703/- INFO	hello	Seneca/0.6.5/ynpgvlsb622f/1447265844231/1703/-	
+2015-11-11T18:17:24.691Z ynpgvlsb622f/1447265844231/1703/- INFO	listen	{type:tcp,port:10204}	
+2015-11-11T18:17:24.712Z ynpgvlsb622f/1447265844231/1703/- ERROR	act	web       	OUT		init:web	87	{init:web,tag:null}	ENTRY	(wzbv8)	GATE	seneca: instance-closed	instance-closed	{args:{init:web,tag:null},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:17:24.715Z ynpgvlsb622f/1447265844231/1703/- FATAL	sys	seneca	0.6.5	ynpgvlsb622f/1447265844231/1703/-	instance-closed	seneca: instance-closed	{args:{init:web,tag:null},plugin:{}}	-	
+2015-11-11T18:17:24.729Z ynpgvlsb622f/1447265844231/1703/- ERROR	act	mem-store/TTU	OUT		init:mem-store	87	{init:mem-store,tag:TTU}	ENTRY	(9irx7)	GATE	seneca: instance-closed	instance-closed	{args:{init:mem-store,tag:TTU},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:17:24.731Z ynpgvlsb622f/1447265844231/1703/- FATAL	sys	seneca	0.6.5	ynpgvlsb622f/1447265844231/1703/-	instance-closed	seneca: instance-closed	{args:{init:mem-store,tag:TTU},plugin:{}}	-	
+2015-11-11T18:17:24.739Z ynpgvlsb622f/1447265844231/1703/- ERROR	act	transport	OUT		cmd:listen,role:transport	43	{config:{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	ENTRY	(1hl26)	GATE	seneca: instance-closed	instance-closed	{args:{config:{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:17:24.742Z ynpgvlsb622f/1447265844231/1703/- FATAL	sys	seneca	0.6.5	ynpgvlsb622f/1447265844231/1703/-	transport_listen	seneca: seneca: instance-closed	{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	-	
+2015-11-11T18:17:25.870Z iy0ya2chb8j3/1447265845839/1799/- INFO	hello	Seneca/0.6.5/iy0ya2chb8j3/1447265845839/1799/-	
+2015-11-11T18:17:26.277Z iy0ya2chb8j3/1447265845839/1799/- INFO	listen	{type:tcp,port:10204}	
+2015-11-11T18:17:26.293Z iy0ya2chb8j3/1447265845839/1799/- ERROR	act	web       	OUT		init:web	73	{init:web,tag:null}	ENTRY	(bsnx1)	GATE	seneca: instance-closed	instance-closed	{args:{init:web,tag:null},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:17:26.296Z iy0ya2chb8j3/1447265845839/1799/- FATAL	sys	seneca	0.6.5	iy0ya2chb8j3/1447265845839/1799/-	instance-closed	seneca: instance-closed	{args:{init:web,tag:null},plugin:{}}	-	
+2015-11-11T18:17:26.307Z iy0ya2chb8j3/1447265845839/1799/- ERROR	act	mem-store/LDH	OUT		init:mem-store	71	{init:mem-store,tag:LDH}	ENTRY	(sg8ov)	GATE	seneca: instance-closed	instance-closed	{args:{init:mem-store,tag:LDH},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:17:26.309Z iy0ya2chb8j3/1447265845839/1799/- FATAL	sys	seneca	0.6.5	iy0ya2chb8j3/1447265845839/1799/-	instance-closed	seneca: instance-closed	{args:{init:mem-store,tag:LDH},plugin:{}}	-	
+2015-11-11T18:17:26.316Z iy0ya2chb8j3/1447265845839/1799/- ERROR	act	transport	OUT		cmd:listen,role:transport	34	{config:{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	ENTRY	(bgb8u)	GATE	seneca: instance-closed	instance-closed	{args:{config:{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:17:26.322Z iy0ya2chb8j3/1447265845839/1799/- FATAL	sys	seneca	0.6.5	iy0ya2chb8j3/1447265845839/1799/-	transport_listen	seneca: seneca: instance-closed	{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	-	
+2015-11-11T18:17:27.455Z bf2cq8a1n1ny/1447265847424/1895/- INFO	hello	Seneca/0.6.5/bf2cq8a1n1ny/1447265847424/1895/-	
+2015-11-11T18:17:27.884Z bf2cq8a1n1ny/1447265847424/1895/- INFO	listen	{type:tcp,port:10204}	
+2015-11-11T18:17:27.900Z bf2cq8a1n1ny/1447265847424/1895/- ERROR	act	web       	OUT		init:web	76	{init:web,tag:null}	ENTRY	(0vt19)	GATE	seneca: instance-closed	instance-closed	{args:{init:web,tag:null},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:17:27.903Z bf2cq8a1n1ny/1447265847424/1895/- FATAL	sys	seneca	0.6.5	bf2cq8a1n1ny/1447265847424/1895/-	instance-closed	seneca: instance-closed	{args:{init:web,tag:null},plugin:{}}	-	
+2015-11-11T18:17:27.916Z bf2cq8a1n1ny/1447265847424/1895/- ERROR	act	mem-store/ZVK	OUT		init:mem-store	77	{init:mem-store,tag:ZVK}	ENTRY	(he3hg)	GATE	seneca: instance-closed	instance-closed	{args:{init:mem-store,tag:ZVK},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:17:27.917Z bf2cq8a1n1ny/1447265847424/1895/- FATAL	sys	seneca	0.6.5	bf2cq8a1n1ny/1447265847424/1895/-	instance-closed	seneca: instance-closed	{args:{init:mem-store,tag:ZVK},plugin:{}}	-	
+2015-11-11T18:17:27.924Z bf2cq8a1n1ny/1447265847424/1895/- ERROR	act	transport	OUT		cmd:listen,role:transport	36	{config:{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	ENTRY	(gsorg)	GATE	seneca: instance-closed	instance-closed	{args:{config:{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:17:27.931Z bf2cq8a1n1ny/1447265847424/1895/- FATAL	sys	seneca	0.6.5	bf2cq8a1n1ny/1447265847424/1895/-	transport_listen	seneca: seneca: instance-closed	{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	-	
+2015-11-11T18:17:29.065Z oya7c5kinbct/1447265849034/1992/- INFO	hello	Seneca/0.6.5/oya7c5kinbct/1447265849034/1992/-	
+2015-11-11T18:17:30.255Z 57hj5yz4wia5/1447265850225/2077/- INFO	hello	Seneca/0.6.5/57hj5yz4wia5/1447265850225/2077/-	
+2015-11-11T18:17:30.662Z 57hj5yz4wia5/1447265850225/2077/- INFO	listen	{type:tcp,port:10204}	
+2015-11-11T18:17:30.678Z 57hj5yz4wia5/1447265850225/2077/- ERROR	act	web       	OUT		init:web	72	{init:web,tag:null}	ENTRY	(fkhyh)	GATE	seneca: instance-closed	instance-closed	{args:{init:web,tag:null},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:17:30.681Z 57hj5yz4wia5/1447265850225/2077/- FATAL	sys	seneca	0.6.5	57hj5yz4wia5/1447265850225/2077/-	instance-closed	seneca: instance-closed	{args:{init:web,tag:null},plugin:{}}	-	
+2015-11-11T18:17:30.692Z 57hj5yz4wia5/1447265850225/2077/- ERROR	act	mem-store/ICQ	OUT		init:mem-store	71	{init:mem-store,tag:ICQ}	ENTRY	(6v162)	GATE	seneca: instance-closed	instance-closed	{args:{init:mem-store,tag:ICQ},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:17:30.694Z 57hj5yz4wia5/1447265850225/2077/- FATAL	sys	seneca	0.6.5	57hj5yz4wia5/1447265850225/2077/-	instance-closed	seneca: instance-closed	{args:{init:mem-store,tag:ICQ},plugin:{}}	-	
+2015-11-11T18:17:30.701Z 57hj5yz4wia5/1447265850225/2077/- ERROR	act	transport	OUT		cmd:listen,role:transport	35	{config:{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	ENTRY	(ldl7y)	GATE	seneca: instance-closed	instance-closed	{args:{config:{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:17:30.708Z 57hj5yz4wia5/1447265850225/2077/- FATAL	sys	seneca	0.6.5	57hj5yz4wia5/1447265850225/2077/-	transport_listen	seneca: seneca: instance-closed	{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	-	
+2015-11-11T18:17:31.859Z ev9dc7aeox89/1447265851829/2168/- INFO	hello	Seneca/0.6.5/ev9dc7aeox89/1447265851829/2168/-	
+2015-11-11T18:17:33.624Z ukkb9cf7jtwe/1447265853593/2290/- INFO	hello	Seneca/0.6.5/ukkb9cf7jtwe/1447265853593/2290/-	
+2015-11-11T18:17:34.036Z ukkb9cf7jtwe/1447265853593/2290/- INFO	listen	{type:tcp,port:10204}	
+2015-11-11T18:17:34.052Z ukkb9cf7jtwe/1447265853593/2290/- ERROR	act	web       	OUT		init:web	73	{init:web,tag:null}	ENTRY	(o6dls)	GATE	seneca: instance-closed	instance-closed	{args:{init:web,tag:null},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:17:34.055Z ukkb9cf7jtwe/1447265853593/2290/- FATAL	sys	seneca	0.6.5	ukkb9cf7jtwe/1447265853593/2290/-	instance-closed	seneca: instance-closed	{args:{init:web,tag:null},plugin:{}}	-	
+2015-11-11T18:17:34.069Z ukkb9cf7jtwe/1447265853593/2290/- ERROR	act	mem-store/UIS	OUT		init:mem-store	75	{init:mem-store,tag:UIS}	ENTRY	(74g2n)	GATE	seneca: instance-closed	instance-closed	{args:{init:mem-store,tag:UIS},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:17:34.071Z ukkb9cf7jtwe/1447265853593/2290/- FATAL	sys	seneca	0.6.5	ukkb9cf7jtwe/1447265853593/2290/-	instance-closed	seneca: instance-closed	{args:{init:mem-store,tag:UIS},plugin:{}}	-	
+2015-11-11T18:17:34.080Z ukkb9cf7jtwe/1447265853593/2290/- ERROR	act	transport	OUT		cmd:listen,role:transport	39	{config:{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	ENTRY	(tzrcd)	GATE	seneca: instance-closed	instance-closed	{args:{config:{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:17:34.087Z ukkb9cf7jtwe/1447265853593/2290/- FATAL	sys	seneca	0.6.5	ukkb9cf7jtwe/1447265853593/2290/-	transport_listen	seneca: seneca: instance-closed	{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	-	
+2015-11-11T18:17:36.530Z o9jyrm2x5hgj/1447265856500/2481/- INFO	hello	Seneca/0.6.5/o9jyrm2x5hgj/1447265856500/2481/-	
+2015-11-11T18:17:36.949Z o9jyrm2x5hgj/1447265856500/2481/- INFO	listen	{type:tcp,port:10204}	
+2015-11-11T18:17:36.969Z o9jyrm2x5hgj/1447265856500/2481/- ERROR	act	web       	OUT		init:web	79	{init:web,tag:null}	ENTRY	(pwknb)	GATE	seneca: instance-closed	instance-closed	{args:{init:web,tag:null},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:17:36.972Z o9jyrm2x5hgj/1447265856500/2481/- FATAL	sys	seneca	0.6.5	o9jyrm2x5hgj/1447265856500/2481/-	instance-closed	seneca: instance-closed	{args:{init:web,tag:null},plugin:{}}	-	
+2015-11-11T18:17:36.983Z o9jyrm2x5hgj/1447265856500/2481/- ERROR	act	mem-store/TEE	OUT		init:mem-store	77	{init:mem-store,tag:TEE}	ENTRY	(nqyhn)	GATE	seneca: instance-closed	instance-closed	{args:{init:mem-store,tag:TEE},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:17:36.985Z o9jyrm2x5hgj/1447265856500/2481/- FATAL	sys	seneca	0.6.5	o9jyrm2x5hgj/1447265856500/2481/-	instance-closed	seneca: instance-closed	{args:{init:mem-store,tag:TEE},plugin:{}}	-	
+2015-11-11T18:17:36.991Z o9jyrm2x5hgj/1447265856500/2481/- ERROR	act	transport	OUT		cmd:listen,role:transport	37	{config:{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	ENTRY	(546na)	GATE	seneca: instance-closed	instance-closed	{args:{config:{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:17:36.995Z o9jyrm2x5hgj/1447265856500/2481/- FATAL	sys	seneca	0.6.5	o9jyrm2x5hgj/1447265856500/2481/-	transport_listen	seneca: seneca: instance-closed	{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	-	
+2015-11-11T18:17:38.141Z v4cls5cpeent/1447265858110/2576/- INFO	hello	Seneca/0.6.5/v4cls5cpeent/1447265858110/2576/-	
+2015-11-11T18:17:38.580Z v4cls5cpeent/1447265858110/2576/- INFO	listen	{type:tcp,port:10204}	
+2015-11-11T18:17:38.600Z v4cls5cpeent/1447265858110/2576/- ERROR	act	web       	OUT		init:web	82	{init:web,tag:null}	ENTRY	(h1dh0)	GATE	seneca: instance-closed	instance-closed	{args:{init:web,tag:null},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:17:38.603Z v4cls5cpeent/1447265858110/2576/- FATAL	sys	seneca	0.6.5	v4cls5cpeent/1447265858110/2576/-	instance-closed	seneca: instance-closed	{args:{init:web,tag:null},plugin:{}}	-	
+2015-11-11T18:17:38.615Z v4cls5cpeent/1447265858110/2576/- ERROR	act	mem-store/FGF	OUT		init:mem-store	80	{init:mem-store,tag:FGF}	ENTRY	(mq2ar)	GATE	seneca: instance-closed	instance-closed	{args:{init:mem-store,tag:FGF},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:17:38.616Z v4cls5cpeent/1447265858110/2576/- FATAL	sys	seneca	0.6.5	v4cls5cpeent/1447265858110/2576/-	instance-closed	seneca: instance-closed	{args:{init:mem-store,tag:FGF},plugin:{}}	-	
+2015-11-11T18:17:38.623Z v4cls5cpeent/1447265858110/2576/- ERROR	act	transport	OUT		cmd:listen,role:transport	39	{config:{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	ENTRY	(4h0uw)	GATE	seneca: instance-closed	instance-closed	{args:{config:{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:17:38.626Z v4cls5cpeent/1447265858110/2576/- FATAL	sys	seneca	0.6.5	v4cls5cpeent/1447265858110/2576/-	transport_listen	seneca: seneca: instance-closed	{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	-	
+2015-11-11T18:17:39.769Z q4dq3fb0t6y6/1447265859732/2668/- INFO	hello	Seneca/0.6.5/q4dq3fb0t6y6/1447265859732/2668/-	
+2015-11-11T18:17:40.374Z tyl8nx9n4y57/1447265860344/2712/- INFO	hello	Seneca/0.6.5/tyl8nx9n4y57/1447265860344/2712/-	
+2015-11-11T18:17:40.788Z tyl8nx9n4y57/1447265860344/2712/- INFO	listen	{type:tcp,port:10204}	
+2015-11-11T18:17:40.808Z tyl8nx9n4y57/1447265860344/2712/- ERROR	act	web       	OUT		init:web	80	{init:web,tag:null}	ENTRY	(lgeyq)	GATE	seneca: instance-closed	instance-closed	{args:{init:web,tag:null},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:17:40.810Z tyl8nx9n4y57/1447265860344/2712/- FATAL	sys	seneca	0.6.5	tyl8nx9n4y57/1447265860344/2712/-	instance-closed	seneca: instance-closed	{args:{init:web,tag:null},plugin:{}}	-	
+2015-11-11T18:17:40.822Z tyl8nx9n4y57/1447265860344/2712/- ERROR	act	mem-store/GDD	OUT		init:mem-store	77	{init:mem-store,tag:GDD}	ENTRY	(kxgvd)	GATE	seneca: instance-closed	instance-closed	{args:{init:mem-store,tag:GDD},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:17:40.823Z tyl8nx9n4y57/1447265860344/2712/- FATAL	sys	seneca	0.6.5	tyl8nx9n4y57/1447265860344/2712/-	instance-closed	seneca: instance-closed	{args:{init:mem-store,tag:GDD},plugin:{}}	-	
+2015-11-11T18:17:40.829Z tyl8nx9n4y57/1447265860344/2712/- ERROR	act	transport	OUT		cmd:listen,role:transport	37	{config:{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	ENTRY	(9rwnt)	GATE	seneca: instance-closed	instance-closed	{args:{config:{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:17:40.831Z tyl8nx9n4y57/1447265860344/2712/- FATAL	sys	seneca	0.6.5	tyl8nx9n4y57/1447265860344/2712/-	transport_listen	seneca: seneca: instance-closed	{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	-	
+2015-11-11T18:17:41.962Z ixp2v3we7e0m/1447265861931/2799/- INFO	hello	Seneca/0.6.5/ixp2v3we7e0m/1447265861931/2799/-	
+2015-11-11T18:17:42.570Z rcn243vlwxjg/1447265862540/2843/- INFO	hello	Seneca/0.6.5/rcn243vlwxjg/1447265862540/2843/-	
+2015-11-11T18:17:44.894Z 72r2utkgt2wd/1447265864863/2999/- INFO	hello	Seneca/0.6.5/72r2utkgt2wd/1447265864863/2999/-	
+2015-11-11T18:17:45.480Z il32k2bjfm7p/1447265865449/3038/- INFO	hello	Seneca/0.6.5/il32k2bjfm7p/1447265865449/3038/-	
+2015-11-11T18:17:46.050Z jyjpznk3qpwo/1447265866020/3077/- INFO	hello	Seneca/0.6.5/jyjpznk3qpwo/1447265866020/3077/-	
+2015-11-11T18:17:46.466Z jyjpznk3qpwo/1447265866020/3077/- INFO	listen	{type:tcp,port:10204}	
+2015-11-11T18:17:46.488Z jyjpznk3qpwo/1447265866020/3077/- ERROR	act	web       	OUT		init:web	87	{init:web,tag:null}	ENTRY	(ilwbk)	GATE	seneca: instance-closed	instance-closed	{args:{init:web,tag:null},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:17:46.492Z jyjpznk3qpwo/1447265866020/3077/- FATAL	sys	seneca	0.6.5	jyjpznk3qpwo/1447265866020/3077/-	instance-closed	seneca: instance-closed	{args:{init:web,tag:null},plugin:{}}	-	
+2015-11-11T18:17:46.507Z jyjpznk3qpwo/1447265866020/3077/- ERROR	act	mem-store/ZDW	OUT		init:mem-store	89	{init:mem-store,tag:ZDW}	ENTRY	(rlpmb)	GATE	seneca: instance-closed	instance-closed	{args:{init:mem-store,tag:ZDW},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:17:46.510Z jyjpznk3qpwo/1447265866020/3077/- FATAL	sys	seneca	0.6.5	jyjpznk3qpwo/1447265866020/3077/-	instance-closed	seneca: instance-closed	{args:{init:mem-store,tag:ZDW},plugin:{}}	-	
+2015-11-11T18:17:46.517Z jyjpznk3qpwo/1447265866020/3077/- ERROR	act	transport	OUT		cmd:listen,role:transport	46	{config:{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	ENTRY	(031ak)	GATE	seneca: instance-closed	instance-closed	{args:{config:{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:17:46.520Z jyjpznk3qpwo/1447265866020/3077/- FATAL	sys	seneca	0.6.5	jyjpznk3qpwo/1447265866020/3077/-	transport_listen	seneca: seneca: instance-closed	{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	-	
+2015-11-11T18:17:47.639Z tp5rlrf9frel/1447265867609/3244/- INFO	hello	Seneca/0.6.5/tp5rlrf9frel/1447265867609/3244/-	
+2015-11-11T18:17:48.050Z tp5rlrf9frel/1447265867609/3244/- INFO	listen	{type:tcp,port:10204}	
+2015-11-11T18:17:48.070Z tp5rlrf9frel/1447265867609/3244/- ERROR	act	web       	OUT		init:web	78	{init:web,tag:null}	ENTRY	(356um)	GATE	seneca: instance-closed	instance-closed	{args:{init:web,tag:null},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:17:48.072Z tp5rlrf9frel/1447265867609/3244/- FATAL	sys	seneca	0.6.5	tp5rlrf9frel/1447265867609/3244/-	instance-closed	seneca: instance-closed	{args:{init:web,tag:null},plugin:{}}	-	
+2015-11-11T18:17:48.084Z tp5rlrf9frel/1447265867609/3244/- ERROR	act	mem-store/YNJ	OUT		init:mem-store	77	{init:mem-store,tag:YNJ}	ENTRY	(ropkx)	GATE	seneca: instance-closed	instance-closed	{args:{init:mem-store,tag:YNJ},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:17:48.085Z tp5rlrf9frel/1447265867609/3244/- FATAL	sys	seneca	0.6.5	tp5rlrf9frel/1447265867609/3244/-	instance-closed	seneca: instance-closed	{args:{init:mem-store,tag:YNJ},plugin:{}}	-	
+2015-11-11T18:17:48.091Z tp5rlrf9frel/1447265867609/3244/- ERROR	act	transport	OUT		cmd:listen,role:transport	37	{config:{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	ENTRY	(6m4ou)	GATE	seneca: instance-closed	instance-closed	{args:{config:{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:17:48.094Z tp5rlrf9frel/1447265867609/3244/- FATAL	sys	seneca	0.6.5	tp5rlrf9frel/1447265867609/3244/-	transport_listen	seneca: seneca: instance-closed	{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	-	
+2015-11-11T18:17:50.011Z a31q8pbfc8u1/1447265869981/3398/- INFO	hello	Seneca/0.6.5/a31q8pbfc8u1/1447265869981/3398/-	
+2015-11-11T18:17:50.417Z a31q8pbfc8u1/1447265869981/3398/- INFO	listen	{type:tcp,port:10204}	
+2015-11-11T18:17:50.437Z a31q8pbfc8u1/1447265869981/3398/- ERROR	act	web       	OUT		init:web	79	{init:web,tag:null}	ENTRY	(0y631)	GATE	seneca: instance-closed	instance-closed	{args:{init:web,tag:null},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:17:50.439Z a31q8pbfc8u1/1447265869981/3398/- FATAL	sys	seneca	0.6.5	a31q8pbfc8u1/1447265869981/3398/-	instance-closed	seneca: instance-closed	{args:{init:web,tag:null},plugin:{}}	-	
+2015-11-11T18:17:50.451Z a31q8pbfc8u1/1447265869981/3398/- ERROR	act	mem-store/ENU	OUT		init:mem-store	76	{init:mem-store,tag:ENU}	ENTRY	(pgzom)	GATE	seneca: instance-closed	instance-closed	{args:{init:mem-store,tag:ENU},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:17:50.452Z a31q8pbfc8u1/1447265869981/3398/- FATAL	sys	seneca	0.6.5	a31q8pbfc8u1/1447265869981/3398/-	instance-closed	seneca: instance-closed	{args:{init:mem-store,tag:ENU},plugin:{}}	-	
+2015-11-11T18:17:50.460Z a31q8pbfc8u1/1447265869981/3398/- ERROR	act	transport	OUT		cmd:listen,role:transport	38	{config:{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	ENTRY	(v5h9h)	GATE	seneca: instance-closed	instance-closed	{args:{config:{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:17:50.462Z a31q8pbfc8u1/1447265869981/3398/- FATAL	sys	seneca	0.6.5	a31q8pbfc8u1/1447265869981/3398/-	transport_listen	seneca: seneca: instance-closed	{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	-	
+2015-11-11T18:17:51.581Z dewvcpnswv02/1447265871550/3485/- INFO	hello	Seneca/0.6.5/dewvcpnswv02/1447265871550/3485/-	
+2015-11-11T18:17:52.186Z 4i4heu3f299s/1447265872155/3529/- INFO	hello	Seneca/0.6.5/4i4heu3f299s/1447265872155/3529/-	
+2015-11-11T18:17:52.784Z x3cte30nfe51/1447265872753/3568/- INFO	hello	Seneca/0.6.5/x3cte30nfe51/1447265872753/3568/-	
+2015-11-11T18:17:53.197Z x3cte30nfe51/1447265872753/3568/- INFO	listen	{type:tcp,port:10204}	
+2015-11-11T18:17:53.212Z x3cte30nfe51/1447265872753/3568/- ERROR	act	web       	OUT		init:web	73	{init:web,tag:null}	ENTRY	(6plxz)	GATE	seneca: instance-closed	instance-closed	{args:{init:web,tag:null},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:17:53.215Z x3cte30nfe51/1447265872753/3568/- FATAL	sys	seneca	0.6.5	x3cte30nfe51/1447265872753/3568/-	instance-closed	seneca: instance-closed	{args:{init:web,tag:null},plugin:{}}	-	
+2015-11-11T18:17:53.227Z x3cte30nfe51/1447265872753/3568/- ERROR	act	mem-store/KYD	OUT		init:mem-store	71	{init:mem-store,tag:KYD}	ENTRY	(u0jmz)	GATE	seneca: instance-closed	instance-closed	{args:{init:mem-store,tag:KYD},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:17:53.228Z x3cte30nfe51/1447265872753/3568/- FATAL	sys	seneca	0.6.5	x3cte30nfe51/1447265872753/3568/-	instance-closed	seneca: instance-closed	{args:{init:mem-store,tag:KYD},plugin:{}}	-	
+2015-11-11T18:17:53.235Z x3cte30nfe51/1447265872753/3568/- ERROR	act	transport	OUT		cmd:listen,role:transport	35	{config:{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	ENTRY	(57ecu)	GATE	seneca: instance-closed	instance-closed	{args:{config:{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:17:53.241Z x3cte30nfe51/1447265872753/3568/- FATAL	sys	seneca	0.6.5	x3cte30nfe51/1447265872753/3568/-	transport_listen	seneca: seneca: instance-closed	{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	-	
+2015-11-11T18:17:54.533Z mq8m48p26ffu/1447265874503/3681/- INFO	hello	Seneca/0.6.5/mq8m48p26ffu/1447265874503/3681/-	
+2015-11-11T18:17:55.103Z 39g47a1n1xf3/1447265875073/3720/- INFO	hello	Seneca/0.6.5/39g47a1n1xf3/1447265875073/3720/-	
+2015-11-11T18:17:57.403Z skc0wlzbpvu1/1447265877372/3876/- INFO	hello	Seneca/0.6.5/skc0wlzbpvu1/1447265877372/3876/-	
+2015-11-11T18:17:57.815Z skc0wlzbpvu1/1447265877372/3876/- INFO	listen	{type:tcp,port:10204}	
+2015-11-11T18:17:57.831Z skc0wlzbpvu1/1447265877372/3876/- ERROR	act	web       	OUT		init:web	72	{init:web,tag:null}	ENTRY	(26xep)	GATE	seneca: instance-closed	instance-closed	{args:{init:web,tag:null},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:17:57.834Z skc0wlzbpvu1/1447265877372/3876/- FATAL	sys	seneca	0.6.5	skc0wlzbpvu1/1447265877372/3876/-	instance-closed	seneca: instance-closed	{args:{init:web,tag:null},plugin:{}}	-	
+2015-11-11T18:17:57.848Z skc0wlzbpvu1/1447265877372/3876/- ERROR	act	mem-store/SYO	OUT		init:mem-store	73	{init:mem-store,tag:SYO}	ENTRY	(6u0za)	GATE	seneca: instance-closed	instance-closed	{args:{init:mem-store,tag:SYO},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:17:57.849Z skc0wlzbpvu1/1447265877372/3876/- FATAL	sys	seneca	0.6.5	skc0wlzbpvu1/1447265877372/3876/-	instance-closed	seneca: instance-closed	{args:{init:mem-store,tag:SYO},plugin:{}}	-	
+2015-11-11T18:17:57.857Z skc0wlzbpvu1/1447265877372/3876/- ERROR	act	transport	OUT		cmd:listen,role:transport	37	{config:{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	ENTRY	(7xiub)	GATE	seneca: instance-closed	instance-closed	{args:{config:{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:17:57.863Z skc0wlzbpvu1/1447265877372/3876/- FATAL	sys	seneca	0.6.5	skc0wlzbpvu1/1447265877372/3876/-	transport_listen	seneca: seneca: instance-closed	{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	-	
+2015-11-11T18:17:58.967Z lcmwdsh1ygzg/1447265878936/3971/- INFO	hello	Seneca/0.6.5/lcmwdsh1ygzg/1447265878936/3971/-	
+2015-11-11T18:17:59.380Z lcmwdsh1ygzg/1447265878936/3971/- INFO	listen	{type:tcp,port:10204}	
+2015-11-11T18:17:59.401Z lcmwdsh1ygzg/1447265878936/3971/- ERROR	act	web       	OUT		init:web	83	{init:web,tag:null}	ENTRY	(mgkfw)	GATE	seneca: instance-closed	instance-closed	{args:{init:web,tag:null},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:17:59.404Z lcmwdsh1ygzg/1447265878936/3971/- FATAL	sys	seneca	0.6.5	lcmwdsh1ygzg/1447265878936/3971/-	instance-closed	seneca: instance-closed	{args:{init:web,tag:null},plugin:{}}	-	
+2015-11-11T18:17:59.418Z lcmwdsh1ygzg/1447265878936/3971/- ERROR	act	mem-store/TVB	OUT		init:mem-store	83	{init:mem-store,tag:TVB}	ENTRY	(uvz1j)	GATE	seneca: instance-closed	instance-closed	{args:{init:mem-store,tag:TVB},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:17:59.421Z lcmwdsh1ygzg/1447265878936/3971/- FATAL	sys	seneca	0.6.5	lcmwdsh1ygzg/1447265878936/3971/-	instance-closed	seneca: instance-closed	{args:{init:mem-store,tag:TVB},plugin:{}}	-	
+2015-11-11T18:17:59.430Z lcmwdsh1ygzg/1447265878936/3971/- ERROR	act	transport	OUT		cmd:listen,role:transport	44	{config:{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	ENTRY	(zovj3)	GATE	seneca: instance-closed	instance-closed	{args:{config:{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:17:59.432Z lcmwdsh1ygzg/1447265878936/3971/- FATAL	sys	seneca	0.6.5	lcmwdsh1ygzg/1447265878936/3971/-	transport_listen	seneca: seneca: instance-closed	{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	-	
+2015-11-11T18:18:00.157Z qzxgemxqyts3/1447265880127/4042/- INFO	hello	Seneca/0.6.5/qzxgemxqyts3/1447265880127/4042/-	
+2015-11-11T18:18:00.572Z qzxgemxqyts3/1447265880127/4042/- INFO	listen	{type:tcp,port:10204}	
+2015-11-11T18:18:00.591Z qzxgemxqyts3/1447265880127/4042/- ERROR	act	web       	OUT		init:web	79	{init:web,tag:null}	ENTRY	(iihbi)	GATE	seneca: instance-closed	instance-closed	{args:{init:web,tag:null},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:18:00.594Z qzxgemxqyts3/1447265880127/4042/- FATAL	sys	seneca	0.6.5	qzxgemxqyts3/1447265880127/4042/-	instance-closed	seneca: instance-closed	{args:{init:web,tag:null},plugin:{}}	-	
+2015-11-11T18:18:00.608Z qzxgemxqyts3/1447265880127/4042/- ERROR	act	mem-store/ECJ	OUT		init:mem-store	80	{init:mem-store,tag:ECJ}	ENTRY	(dvggf)	GATE	seneca: instance-closed	instance-closed	{args:{init:mem-store,tag:ECJ},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:18:00.610Z qzxgemxqyts3/1447265880127/4042/- FATAL	sys	seneca	0.6.5	qzxgemxqyts3/1447265880127/4042/-	instance-closed	seneca: instance-closed	{args:{init:mem-store,tag:ECJ},plugin:{}}	-	
+2015-11-11T18:18:00.618Z qzxgemxqyts3/1447265880127/4042/- ERROR	act	transport	OUT		cmd:listen,role:transport	42	{config:{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	ENTRY	(kvb6l)	GATE	seneca: instance-closed	instance-closed	{args:{config:{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:18:00.621Z qzxgemxqyts3/1447265880127/4042/- FATAL	sys	seneca	0.6.5	qzxgemxqyts3/1447265880127/4042/-	transport_listen	seneca: seneca: instance-closed	{type:tcp,host:0.0.0.0,port:10204,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	-	
+2015-11-11T18:37:30.072Z aymjrb8gyghp/1447267050042/8174/- INFO	hello	Seneca/0.6.5/aymjrb8gyghp/1447267050042/8174/-	
+2015-11-11T18:37:30.491Z aymjrb8gyghp/1447267050042/8174/- INFO	listen	{type:tcp,port:10003}	
+2015-11-11T18:37:30.512Z aymjrb8gyghp/1447267050042/8174/- ERROR	act	web       	OUT		init:web	80	{init:web,tag:null}	ENTRY	(jzdq7)	GATE	seneca: instance-closed	instance-closed	{args:{init:web,tag:null},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:37:30.515Z aymjrb8gyghp/1447267050042/8174/- FATAL	sys	seneca	0.6.5	aymjrb8gyghp/1447267050042/8174/-	instance-closed	seneca: instance-closed	{args:{init:web,tag:null},plugin:{}}	-	
+2015-11-11T18:37:30.531Z aymjrb8gyghp/1447267050042/8174/- ERROR	act	mem-store/LQC	OUT		init:mem-store	82	{init:mem-store,tag:LQC}	ENTRY	(ngh9f)	GATE	seneca: instance-closed	instance-closed	{args:{init:mem-store,tag:LQC},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:37:30.533Z aymjrb8gyghp/1447267050042/8174/- FATAL	sys	seneca	0.6.5	aymjrb8gyghp/1447267050042/8174/-	instance-closed	seneca: instance-closed	{args:{init:mem-store,tag:LQC},plugin:{}}	-	
+2015-11-11T18:37:30.541Z aymjrb8gyghp/1447267050042/8174/- ERROR	act	transport	OUT		cmd:listen,role:transport	44	{config:{type:tcp,host:0.0.0.0,port:10003,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	ENTRY	(p2ve3)	GATE	seneca: instance-closed	instance-closed	{args:{config:{type:tcp,host:0.0.0.0,port:10003,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:37:30.544Z aymjrb8gyghp/1447267050042/8174/- FATAL	sys	seneca	0.6.5	aymjrb8gyghp/1447267050042/8174/-	transport_listen	seneca: seneca: instance-closed	{type:tcp,host:0.0.0.0,port:10003,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	-	
+2015-11-11T18:37:31.061Z xdudo89p4u8e/1447267051030/8233/- INFO	hello	Seneca/0.6.5/xdudo89p4u8e/1447267051030/8233/-	
+2015-11-11T18:37:31.477Z xdudo89p4u8e/1447267051030/8233/- INFO	listen	{type:tcp,port:10003}	
+2015-11-11T18:37:31.497Z xdudo89p4u8e/1447267051030/8233/- ERROR	act	web       	OUT		init:web	85	{init:web,tag:null}	ENTRY	(pzrod)	GATE	seneca: instance-closed	instance-closed	{args:{init:web,tag:null},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:37:31.500Z xdudo89p4u8e/1447267051030/8233/- FATAL	sys	seneca	0.6.5	xdudo89p4u8e/1447267051030/8233/-	instance-closed	seneca: instance-closed	{args:{init:web,tag:null},plugin:{}}	-	
+2015-11-11T18:37:31.512Z xdudo89p4u8e/1447267051030/8233/- ERROR	act	mem-store/MDM	OUT		init:mem-store	83	{init:mem-store,tag:MDM}	ENTRY	(udswl)	GATE	seneca: instance-closed	instance-closed	{args:{init:mem-store,tag:MDM},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:37:31.513Z xdudo89p4u8e/1447267051030/8233/- FATAL	sys	seneca	0.6.5	xdudo89p4u8e/1447267051030/8233/-	instance-closed	seneca: instance-closed	{args:{init:mem-store,tag:MDM},plugin:{}}	-	
+2015-11-11T18:37:31.519Z xdudo89p4u8e/1447267051030/8233/- ERROR	act	transport	OUT		cmd:listen,role:transport	38	{config:{type:tcp,host:0.0.0.0,port:10003,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	ENTRY	(628yr)	GATE	seneca: instance-closed	instance-closed	{args:{config:{type:tcp,host:0.0.0.0,port:10003,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:37:31.522Z xdudo89p4u8e/1447267051030/8233/- FATAL	sys	seneca	0.6.5	xdudo89p4u8e/1447267051030/8233/-	transport_listen	seneca: seneca: instance-closed	{type:tcp,host:0.0.0.0,port:10003,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	-	
+2015-11-11T18:37:32.352Z 55wre25dd7ia/1447267052322/8313/- INFO	hello	Seneca/0.6.5/55wre25dd7ia/1447267052322/8313/-	
+2015-11-11T18:37:33.555Z ivyj0bf5d1p9/1447267053525/8397/- INFO	hello	Seneca/0.6.5/ivyj0bf5d1p9/1447267053525/8397/-	
+2015-11-11T18:37:33.958Z ivyj0bf5d1p9/1447267053525/8397/- INFO	listen	{type:tcp,port:10003}	
+2015-11-11T18:37:33.977Z ivyj0bf5d1p9/1447267053525/8397/- ERROR	act	web       	OUT		init:web	76	{init:web,tag:null}	ENTRY	(sow9u)	GATE	seneca: instance-closed	instance-closed	{args:{init:web,tag:null},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:37:33.980Z ivyj0bf5d1p9/1447267053525/8397/- FATAL	sys	seneca	0.6.5	ivyj0bf5d1p9/1447267053525/8397/-	instance-closed	seneca: instance-closed	{args:{init:web,tag:null},plugin:{}}	-	
+2015-11-11T18:37:33.991Z ivyj0bf5d1p9/1447267053525/8397/- ERROR	act	mem-store/BTT	OUT		init:mem-store	75	{init:mem-store,tag:BTT}	ENTRY	(fj2wx)	GATE	seneca: instance-closed	instance-closed	{args:{init:mem-store,tag:BTT},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:37:33.992Z ivyj0bf5d1p9/1447267053525/8397/- FATAL	sys	seneca	0.6.5	ivyj0bf5d1p9/1447267053525/8397/-	instance-closed	seneca: instance-closed	{args:{init:mem-store,tag:BTT},plugin:{}}	-	
+2015-11-11T18:37:34.002Z ivyj0bf5d1p9/1447267053525/8397/- ERROR	act	transport	OUT		cmd:listen,role:transport	39	{config:{type:tcp,host:0.0.0.0,port:10003,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	ENTRY	(fe91y)	GATE	seneca: instance-closed	instance-closed	{args:{config:{type:tcp,host:0.0.0.0,port:10003,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:37:34.004Z ivyj0bf5d1p9/1447267053525/8397/- FATAL	sys	seneca	0.6.5	ivyj0bf5d1p9/1447267053525/8397/-	transport_listen	seneca: seneca: instance-closed	{type:tcp,host:0.0.0.0,port:10003,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	-	
+2015-11-11T18:37:35.856Z wnmhmufyma5n/1447267055826/8553/- INFO	hello	Seneca/0.6.5/wnmhmufyma5n/1447267055826/8553/-	
+2015-11-11T18:37:37.016Z yv2vfp4akuh5/1447267056986/8631/- INFO	hello	Seneca/0.6.5/yv2vfp4akuh5/1447267056986/8631/-	
+2015-11-11T18:37:37.428Z yv2vfp4akuh5/1447267056986/8631/- INFO	listen	{type:tcp,port:10003}	
+2015-11-11T18:37:37.444Z yv2vfp4akuh5/1447267056986/8631/- ERROR	act	web       	OUT		init:web	71	{init:web,tag:null}	ENTRY	(npwub)	GATE	seneca: instance-closed	instance-closed	{args:{init:web,tag:null},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:37:37.446Z yv2vfp4akuh5/1447267056986/8631/- FATAL	sys	seneca	0.6.5	yv2vfp4akuh5/1447267056986/8631/-	instance-closed	seneca: instance-closed	{args:{init:web,tag:null},plugin:{}}	-	
+2015-11-11T18:37:37.458Z yv2vfp4akuh5/1447267056986/8631/- ERROR	act	mem-store/ZDV	OUT		init:mem-store	70	{init:mem-store,tag:ZDV}	ENTRY	(0ka74)	GATE	seneca: instance-closed	instance-closed	{args:{init:mem-store,tag:ZDV},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:37:37.459Z yv2vfp4akuh5/1447267056986/8631/- FATAL	sys	seneca	0.6.5	yv2vfp4akuh5/1447267056986/8631/-	instance-closed	seneca: instance-closed	{args:{init:mem-store,tag:ZDV},plugin:{}}	-	
+2015-11-11T18:37:37.467Z yv2vfp4akuh5/1447267056986/8631/- ERROR	act	transport	OUT		cmd:listen,role:transport	34	{config:{type:tcp,host:0.0.0.0,port:10003,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	ENTRY	(gvfre)	GATE	seneca: instance-closed	instance-closed	{args:{config:{type:tcp,host:0.0.0.0,port:10003,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:37:37.473Z yv2vfp4akuh5/1447267056986/8631/- FATAL	sys	seneca	0.6.5	yv2vfp4akuh5/1447267056986/8631/-	transport_listen	seneca: seneca: instance-closed	{type:tcp,host:0.0.0.0,port:10003,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	-	
+2015-11-11T18:37:38.178Z 6ezwj0dvgrda/1447267058148/8705/- INFO	hello	Seneca/0.6.5/6ezwj0dvgrda/1447267058148/8705/-	
+2015-11-11T18:37:38.766Z xlumsh1anx9l/1447267058737/8744/- INFO	hello	Seneca/0.6.5/xlumsh1anx9l/1447267058737/8744/-	
+2015-11-11T18:37:41.069Z 1fwsclhpwyx6/1447267061039/8900/- INFO	hello	Seneca/0.6.5/1fwsclhpwyx6/1447267061039/8900/-	
+2015-11-11T18:37:42.227Z cdasze2j7a6w/1447267062195/8987/- INFO	hello	Seneca/0.6.5/cdasze2j7a6w/1447267062195/8987/-	
+2015-11-11T18:37:42.822Z 1yktyu2zelhf/1447267062792/9026/- INFO	hello	Seneca/0.6.5/1yktyu2zelhf/1447267062792/9026/-	
+2015-11-11T18:37:43.231Z 1yktyu2zelhf/1447267062792/9026/- INFO	listen	{type:tcp,port:10003}	
+2015-11-11T18:37:43.247Z 1yktyu2zelhf/1447267062792/9026/- ERROR	act	web       	OUT		init:web	72	{init:web,tag:null}	ENTRY	(fei24)	GATE	seneca: instance-closed	instance-closed	{args:{init:web,tag:null},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:37:43.250Z 1yktyu2zelhf/1447267062792/9026/- FATAL	sys	seneca	0.6.5	1yktyu2zelhf/1447267062792/9026/-	instance-closed	seneca: instance-closed	{args:{init:web,tag:null},plugin:{}}	-	
+2015-11-11T18:37:43.261Z 1yktyu2zelhf/1447267062792/9026/- ERROR	act	mem-store/VRX	OUT		init:mem-store	71	{init:mem-store,tag:VRX}	ENTRY	(oja2u)	GATE	seneca: instance-closed	instance-closed	{args:{init:mem-store,tag:VRX},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:37:43.263Z 1yktyu2zelhf/1447267062792/9026/- FATAL	sys	seneca	0.6.5	1yktyu2zelhf/1447267062792/9026/-	instance-closed	seneca: instance-closed	{args:{init:mem-store,tag:VRX},plugin:{}}	-	
+2015-11-11T18:37:43.269Z 1yktyu2zelhf/1447267062792/9026/- ERROR	act	transport	OUT		cmd:listen,role:transport	34	{config:{type:tcp,host:0.0.0.0,port:10003,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	ENTRY	(bulgo)	GATE	seneca: instance-closed	instance-closed	{args:{config:{type:tcp,host:0.0.0.0,port:10003,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:37:43.275Z 1yktyu2zelhf/1447267062792/9026/- FATAL	sys	seneca	0.6.5	1yktyu2zelhf/1447267062792/9026/-	transport_listen	seneca: seneca: instance-closed	{type:tcp,host:0.0.0.0,port:10003,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	-	
+2015-11-11T18:37:43.804Z v1daq8pkloie/1447267063770/9085/- INFO	hello	Seneca/0.6.5/v1daq8pkloie/1447267063770/9085/-	
+2015-11-11T18:37:44.226Z v1daq8pkloie/1447267063770/9085/- INFO	listen	{type:tcp,port:10003}	
+2015-11-11T18:37:44.243Z v1daq8pkloie/1447267063770/9085/- ERROR	act	web       	OUT		init:web	80	{init:web,tag:null}	ENTRY	(xcscl)	GATE	seneca: instance-closed	instance-closed	{args:{init:web,tag:null},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:37:44.246Z v1daq8pkloie/1447267063770/9085/- FATAL	sys	seneca	0.6.5	v1daq8pkloie/1447267063770/9085/-	instance-closed	seneca: instance-closed	{args:{init:web,tag:null},plugin:{}}	-	
+2015-11-11T18:37:44.260Z v1daq8pkloie/1447267063770/9085/- ERROR	act	mem-store/SQK	OUT		init:mem-store	81	{init:mem-store,tag:SQK}	ENTRY	(izp45)	GATE	seneca: instance-closed	instance-closed	{args:{init:mem-store,tag:SQK},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:37:44.262Z v1daq8pkloie/1447267063770/9085/- FATAL	sys	seneca	0.6.5	v1daq8pkloie/1447267063770/9085/-	instance-closed	seneca: instance-closed	{args:{init:mem-store,tag:SQK},plugin:{}}	-	
+2015-11-11T18:37:44.271Z v1daq8pkloie/1447267063770/9085/- ERROR	act	transport	OUT		cmd:listen,role:transport	40	{config:{type:tcp,host:0.0.0.0,port:10003,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	ENTRY	(a0bam)	GATE	seneca: instance-closed	instance-closed	{args:{config:{type:tcp,host:0.0.0.0,port:10003,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:37:44.278Z v1daq8pkloie/1447267063770/9085/- FATAL	sys	seneca	0.6.5	v1daq8pkloie/1447267063770/9085/-	transport_listen	seneca: seneca: instance-closed	{type:tcp,host:0.0.0.0,port:10003,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	-	
+2015-11-11T18:37:45.133Z 8r2fxfgspcut/1447267065102/9165/- INFO	hello	Seneca/0.6.5/8r2fxfgspcut/1447267065102/9165/-	
+2015-11-11T18:37:45.705Z ddbgk223uh10/1447267065675/9204/- INFO	hello	Seneca/0.6.5/ddbgk223uh10/1447267065675/9204/-	
+2015-11-11T18:37:46.882Z yqkdgmyw7inu/1447267066851/9282/- INFO	hello	Seneca/0.6.5/yqkdgmyw7inu/1447267066851/9282/-	
+2015-11-11T18:37:47.473Z 7noroi213ig7/1447267067443/9321/- INFO	hello	Seneca/0.6.5/7noroi213ig7/1447267067443/9321/-	
+2015-11-11T18:37:47.881Z 7noroi213ig7/1447267067443/9321/- INFO	listen	{type:tcp,port:10003}	
+2015-11-11T18:37:47.900Z 7noroi213ig7/1447267067443/9321/- ERROR	act	web       	OUT		init:web	77	{init:web,tag:null}	ENTRY	(8t6zg)	GATE	seneca: instance-closed	instance-closed	{args:{init:web,tag:null},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:37:47.903Z 7noroi213ig7/1447267067443/9321/- FATAL	sys	seneca	0.6.5	7noroi213ig7/1447267067443/9321/-	instance-closed	seneca: instance-closed	{args:{init:web,tag:null},plugin:{}}	-	
+2015-11-11T18:37:47.914Z 7noroi213ig7/1447267067443/9321/- ERROR	act	mem-store/EBZ	OUT		init:mem-store	76	{init:mem-store,tag:EBZ}	ENTRY	(cpzmx)	GATE	seneca: instance-closed	instance-closed	{args:{init:mem-store,tag:EBZ},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:37:47.915Z 7noroi213ig7/1447267067443/9321/- FATAL	sys	seneca	0.6.5	7noroi213ig7/1447267067443/9321/-	instance-closed	seneca: instance-closed	{args:{init:mem-store,tag:EBZ},plugin:{}}	-	
+2015-11-11T18:37:47.922Z 7noroi213ig7/1447267067443/9321/- ERROR	act	transport	OUT		cmd:listen,role:transport	37	{config:{type:tcp,host:0.0.0.0,port:10003,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	ENTRY	(dh40z)	GATE	seneca: instance-closed	instance-closed	{args:{config:{type:tcp,host:0.0.0.0,port:10003,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:37:47.924Z 7noroi213ig7/1447267067443/9321/- FATAL	sys	seneca	0.6.5	7noroi213ig7/1447267067443/9321/-	transport_listen	seneca: seneca: instance-closed	{type:tcp,host:0.0.0.0,port:10003,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	-	
+2015-11-11T18:37:49.102Z zzeouj5asgig/1447267069072/9496/- INFO	hello	Seneca/0.6.5/zzeouj5asgig/1447267069072/9496/-	
+2015-11-11T18:37:49.538Z zzeouj5asgig/1447267069072/9496/- INFO	listen	{type:tcp,port:10003}	
+2015-11-11T18:37:49.554Z zzeouj5asgig/1447267069072/9496/- ERROR	act	web       	OUT		init:web	72	{init:web,tag:null}	ENTRY	(q8l3k)	GATE	seneca: instance-closed	instance-closed	{args:{init:web,tag:null},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:37:49.556Z zzeouj5asgig/1447267069072/9496/- FATAL	sys	seneca	0.6.5	zzeouj5asgig/1447267069072/9496/-	instance-closed	seneca: instance-closed	{args:{init:web,tag:null},plugin:{}}	-	
+2015-11-11T18:37:49.568Z zzeouj5asgig/1447267069072/9496/- ERROR	act	mem-store/JYQ	OUT		init:mem-store	72	{init:mem-store,tag:JYQ}	ENTRY	(xnogg)	GATE	seneca: instance-closed	instance-closed	{args:{init:mem-store,tag:JYQ},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:37:49.570Z zzeouj5asgig/1447267069072/9496/- FATAL	sys	seneca	0.6.5	zzeouj5asgig/1447267069072/9496/-	instance-closed	seneca: instance-closed	{args:{init:mem-store,tag:JYQ},plugin:{}}	-	
+2015-11-11T18:37:49.576Z zzeouj5asgig/1447267069072/9496/- ERROR	act	transport	OUT		cmd:listen,role:transport	34	{config:{type:tcp,host:0.0.0.0,port:10003,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	ENTRY	(5fkn8)	GATE	seneca: instance-closed	instance-closed	{args:{config:{type:tcp,host:0.0.0.0,port:10003,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:37:49.582Z zzeouj5asgig/1447267069072/9496/- FATAL	sys	seneca	0.6.5	zzeouj5asgig/1447267069072/9496/-	transport_listen	seneca: seneca: instance-closed	{type:tcp,host:0.0.0.0,port:10003,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	-	
+2015-11-11T18:37:50.707Z jrl3uvq8y9j3/1447267070676/9588/- INFO	hello	Seneca/0.6.5/jrl3uvq8y9j3/1447267070676/9588/-	
+2015-11-11T18:37:51.840Z uilvyjshuorn/1447267071810/9671/- INFO	hello	Seneca/0.6.5/uilvyjshuorn/1447267071810/9671/-	
+2015-11-11T18:37:52.983Z koayx2oschjd/1447267072953/9749/- INFO	hello	Seneca/0.6.5/koayx2oschjd/1447267072953/9749/-	
+2015-11-11T18:37:54.746Z wy73st76odwm/1447267074715/9866/- INFO	hello	Seneca/0.6.5/wy73st76odwm/1447267074715/9866/-	
+2015-11-11T18:37:55.157Z wy73st76odwm/1447267074715/9866/- INFO	listen	{type:tcp,port:10003}	
+2015-11-11T18:37:55.176Z wy73st76odwm/1447267074715/9866/- ERROR	act	web       	OUT		init:web	79	{init:web,tag:null}	ENTRY	(2ydgn)	GATE	seneca: instance-closed	instance-closed	{args:{init:web,tag:null},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:37:55.179Z wy73st76odwm/1447267074715/9866/- FATAL	sys	seneca	0.6.5	wy73st76odwm/1447267074715/9866/-	instance-closed	seneca: instance-closed	{args:{init:web,tag:null},plugin:{}}	-	
+2015-11-11T18:37:55.190Z wy73st76odwm/1447267074715/9866/- ERROR	act	mem-store/DEW	OUT		init:mem-store	76	{init:mem-store,tag:DEW}	ENTRY	(eb5il)	GATE	seneca: instance-closed	instance-closed	{args:{init:mem-store,tag:DEW},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:37:55.191Z wy73st76odwm/1447267074715/9866/- FATAL	sys	seneca	0.6.5	wy73st76odwm/1447267074715/9866/-	instance-closed	seneca: instance-closed	{args:{init:mem-store,tag:DEW},plugin:{}}	-	
+2015-11-11T18:37:55.199Z wy73st76odwm/1447267074715/9866/- ERROR	act	transport	OUT		cmd:listen,role:transport	38	{config:{type:tcp,host:0.0.0.0,port:10003,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	ENTRY	(5bg0n)	GATE	seneca: instance-closed	instance-closed	{args:{config:{type:tcp,host:0.0.0.0,port:10003,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:37:55.201Z wy73st76odwm/1447267074715/9866/- FATAL	sys	seneca	0.6.5	wy73st76odwm/1447267074715/9866/-	transport_listen	seneca: seneca: instance-closed	{type:tcp,host:0.0.0.0,port:10003,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	-	
+2015-11-11T18:37:55.731Z ncfd7swr2oje/1447267075701/9925/- INFO	hello	Seneca/0.6.5/ncfd7swr2oje/1447267075701/9925/-	
+2015-11-11T18:37:56.149Z ncfd7swr2oje/1447267075701/9925/- INFO	listen	{type:tcp,port:10003}	
+2015-11-11T18:37:56.168Z ncfd7swr2oje/1447267075701/9925/- ERROR	act	web       	OUT		init:web	84	{init:web,tag:null}	ENTRY	(4apw6)	GATE	seneca: instance-closed	instance-closed	{args:{init:web,tag:null},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:37:56.171Z ncfd7swr2oje/1447267075701/9925/- FATAL	sys	seneca	0.6.5	ncfd7swr2oje/1447267075701/9925/-	instance-closed	seneca: instance-closed	{args:{init:web,tag:null},plugin:{}}	-	
+2015-11-11T18:37:56.182Z ncfd7swr2oje/1447267075701/9925/- ERROR	act	mem-store/LIH	OUT		init:mem-store	80	{init:mem-store,tag:LIH}	ENTRY	(nghfr)	GATE	seneca: instance-closed	instance-closed	{args:{init:mem-store,tag:LIH},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:37:56.184Z ncfd7swr2oje/1447267075701/9925/- FATAL	sys	seneca	0.6.5	ncfd7swr2oje/1447267075701/9925/-	instance-closed	seneca: instance-closed	{args:{init:mem-store,tag:LIH},plugin:{}}	-	
+2015-11-11T18:37:56.190Z ncfd7swr2oje/1447267075701/9925/- ERROR	act	transport	OUT		cmd:listen,role:transport	38	{config:{type:tcp,host:0.0.0.0,port:10003,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	ENTRY	(5hu4v)	GATE	seneca: instance-closed	instance-closed	{args:{config:{type:tcp,host:0.0.0.0,port:10003,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:37:56.192Z ncfd7swr2oje/1447267075701/9925/- FATAL	sys	seneca	0.6.5	ncfd7swr2oje/1447267075701/9925/-	transport_listen	seneca: seneca: instance-closed	{type:tcp,host:0.0.0.0,port:10003,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	-	
+2015-11-11T18:37:57.616Z lvbiljdz4gwd/1447267077585/10048/- INFO	hello	Seneca/0.6.5/lvbiljdz4gwd/1447267077585/10048/-	
+2015-11-11T18:37:58.225Z ofub06pf9t08/1447267078194/10087/- INFO	hello	Seneca/0.6.5/ofub06pf9t08/1447267078194/10087/-	
+2015-11-11T18:37:58.637Z ofub06pf9t08/1447267078194/10087/- INFO	listen	{type:tcp,port:10003}	
+2015-11-11T18:37:58.653Z ofub06pf9t08/1447267078194/10087/- ERROR	act	web       	OUT		init:web	77	{init:web,tag:null}	ENTRY	(8gw8g)	GATE	seneca: instance-closed	instance-closed	{args:{init:web,tag:null},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:37:58.656Z ofub06pf9t08/1447267078194/10087/- FATAL	sys	seneca	0.6.5	ofub06pf9t08/1447267078194/10087/-	instance-closed	seneca: instance-closed	{args:{init:web,tag:null},plugin:{}}	-	
+2015-11-11T18:37:58.668Z ofub06pf9t08/1447267078194/10087/- ERROR	act	mem-store/ERK	OUT		init:mem-store	76	{init:mem-store,tag:ERK}	ENTRY	(ihzuo)	GATE	seneca: instance-closed	instance-closed	{args:{init:mem-store,tag:ERK},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:37:58.670Z ofub06pf9t08/1447267078194/10087/- FATAL	sys	seneca	0.6.5	ofub06pf9t08/1447267078194/10087/-	instance-closed	seneca: instance-closed	{args:{init:mem-store,tag:ERK},plugin:{}}	-	
+2015-11-11T18:37:58.676Z ofub06pf9t08/1447267078194/10087/- ERROR	act	transport	OUT		cmd:listen,role:transport	35	{config:{type:tcp,host:0.0.0.0,port:10003,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	ENTRY	(ky6dv)	GATE	seneca: instance-closed	instance-closed	{args:{config:{type:tcp,host:0.0.0.0,port:10003,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:37:58.683Z ofub06pf9t08/1447267078194/10087/- FATAL	sys	seneca	0.6.5	ofub06pf9t08/1447267078194/10087/-	transport_listen	seneca: seneca: instance-closed	{type:tcp,host:0.0.0.0,port:10003,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	-	
+2015-11-11T18:37:59.808Z lte3fimuqqjc/1447267079776/10174/- INFO	hello	Seneca/0.6.5/lte3fimuqqjc/1447267079776/10174/-	
+2015-11-11T18:38:00.413Z 9yph7nno0kpc/1447267080383/10218/- INFO	hello	Seneca/0.6.5/9yph7nno0kpc/1447267080383/10218/-	
+2015-11-11T18:38:00.988Z tn00aqav9mgf/1447267080958/10257/- INFO	hello	Seneca/0.6.5/tn00aqav9mgf/1447267080958/10257/-	
+2015-11-11T18:38:01.579Z zek9tabq75dx/1447267081547/10296/- INFO	hello	Seneca/0.6.5/zek9tabq75dx/1447267081547/10296/-	
+2015-11-11T18:38:08.434Z h3247vkh1h6w/1447267088404/10766/- INFO	hello	Seneca/0.6.5/h3247vkh1h6w/1447267088404/10766/-	
+2015-11-11T18:38:09.008Z z3iit0ndjnus/1447267088978/10805/- INFO	hello	Seneca/0.6.5/z3iit0ndjnus/1447267088978/10805/-	
+2015-11-11T18:38:09.438Z z3iit0ndjnus/1447267088978/10805/- INFO	listen	{type:tcp,port:10003}	
+2015-11-11T18:38:09.458Z z3iit0ndjnus/1447267088978/10805/- ERROR	act	web       	OUT		init:web	78	{init:web,tag:null}	ENTRY	(3auhc)	GATE	seneca: instance-closed	instance-closed	{args:{init:web,tag:null},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:38:09.461Z z3iit0ndjnus/1447267088978/10805/- FATAL	sys	seneca	0.6.5	z3iit0ndjnus/1447267088978/10805/-	instance-closed	seneca: instance-closed	{args:{init:web,tag:null},plugin:{}}	-	
+2015-11-11T18:38:09.474Z z3iit0ndjnus/1447267088978/10805/- ERROR	act	mem-store/CHD	OUT		init:mem-store	78	{init:mem-store,tag:CHD}	ENTRY	(t7gfx)	GATE	seneca: instance-closed	instance-closed	{args:{init:mem-store,tag:CHD},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:38:09.476Z z3iit0ndjnus/1447267088978/10805/- FATAL	sys	seneca	0.6.5	z3iit0ndjnus/1447267088978/10805/-	instance-closed	seneca: instance-closed	{args:{init:mem-store,tag:CHD},plugin:{}}	-	
+2015-11-11T18:38:09.483Z z3iit0ndjnus/1447267088978/10805/- ERROR	act	transport	OUT		cmd:listen,role:transport	41	{config:{type:tcp,host:0.0.0.0,port:10003,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	ENTRY	(5tp50)	GATE	seneca: instance-closed	instance-closed	{args:{config:{type:tcp,host:0.0.0.0,port:10003,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:38:09.487Z z3iit0ndjnus/1447267088978/10805/- FATAL	sys	seneca	0.6.5	z3iit0ndjnus/1447267088978/10805/-	transport_listen	seneca: seneca: instance-closed	{type:tcp,host:0.0.0.0,port:10003,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	-	
+2015-11-11T18:38:10.001Z y06u569rukek/1447267089970/10864/- INFO	hello	Seneca/0.6.5/y06u569rukek/1447267089970/10864/-	
+2015-11-11T18:38:10.411Z y06u569rukek/1447267089970/10864/- INFO	listen	{type:tcp,port:10003}	
+2015-11-11T18:38:10.430Z y06u569rukek/1447267089970/10864/- ERROR	act	web       	OUT		init:web	79	{init:web,tag:null}	ENTRY	(nr2yj)	GATE	seneca: instance-closed	instance-closed	{args:{init:web,tag:null},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:38:10.432Z y06u569rukek/1447267089970/10864/- FATAL	sys	seneca	0.6.5	y06u569rukek/1447267089970/10864/-	instance-closed	seneca: instance-closed	{args:{init:web,tag:null},plugin:{}}	-	
+2015-11-11T18:38:10.445Z y06u569rukek/1447267089970/10864/- ERROR	act	mem-store/LOC	OUT		init:mem-store	78	{init:mem-store,tag:LOC}	ENTRY	(folzi)	GATE	seneca: instance-closed	instance-closed	{args:{init:mem-store,tag:LOC},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:38:10.447Z y06u569rukek/1447267089970/10864/- FATAL	sys	seneca	0.6.5	y06u569rukek/1447267089970/10864/-	instance-closed	seneca: instance-closed	{args:{init:mem-store,tag:LOC},plugin:{}}	-	
+2015-11-11T18:38:10.454Z y06u569rukek/1447267089970/10864/- ERROR	act	transport	OUT		cmd:listen,role:transport	40	{config:{type:tcp,host:0.0.0.0,port:10003,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	ENTRY	(3mm4t)	GATE	seneca: instance-closed	instance-closed	{args:{config:{type:tcp,host:0.0.0.0,port:10003,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:38:10.456Z y06u569rukek/1447267089970/10864/- FATAL	sys	seneca	0.6.5	y06u569rukek/1447267089970/10864/-	transport_listen	seneca: seneca: instance-closed	{type:tcp,host:0.0.0.0,port:10003,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	-	
+2015-11-11T18:38:11.273Z ohqb0wy48y00/1447267091243/10945/- INFO	hello	Seneca/0.6.5/ohqb0wy48y00/1447267091243/10945/-	
+2015-11-11T18:38:11.678Z ohqb0wy48y00/1447267091243/10945/- INFO	listen	{type:tcp,port:10003}	
+2015-11-11T18:38:11.698Z ohqb0wy48y00/1447267091243/10945/- ERROR	act	web       	OUT		init:web	77	{init:web,tag:null}	ENTRY	(xfjyv)	GATE	seneca: instance-closed	instance-closed	{args:{init:web,tag:null},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:38:11.700Z ohqb0wy48y00/1447267091243/10945/- FATAL	sys	seneca	0.6.5	ohqb0wy48y00/1447267091243/10945/-	instance-closed	seneca: instance-closed	{args:{init:web,tag:null},plugin:{}}	-	
+2015-11-11T18:38:11.711Z ohqb0wy48y00/1447267091243/10945/- ERROR	act	mem-store/BAH	OUT		init:mem-store	76	{init:mem-store,tag:BAH}	ENTRY	(zrhf9)	GATE	seneca: instance-closed	instance-closed	{args:{init:mem-store,tag:BAH},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:38:11.713Z ohqb0wy48y00/1447267091243/10945/- FATAL	sys	seneca	0.6.5	ohqb0wy48y00/1447267091243/10945/-	instance-closed	seneca: instance-closed	{args:{init:mem-store,tag:BAH},plugin:{}}	-	
+2015-11-11T18:38:11.719Z ohqb0wy48y00/1447267091243/10945/- ERROR	act	transport	OUT		cmd:listen,role:transport	37	{config:{type:tcp,host:0.0.0.0,port:10003,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	ENTRY	(30cyv)	GATE	seneca: instance-closed	instance-closed	{args:{config:{type:tcp,host:0.0.0.0,port:10003,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:38:11.722Z ohqb0wy48y00/1447267091243/10945/- FATAL	sys	seneca	0.6.5	ohqb0wy48y00/1447267091243/10945/-	transport_listen	seneca: seneca: instance-closed	{type:tcp,host:0.0.0.0,port:10003,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	-	
+2015-11-11T18:38:13.025Z au4uki15340u/1447267092995/11058/- INFO	hello	Seneca/0.6.5/au4uki15340u/1447267092995/11058/-	
+2015-11-11T18:38:14.152Z qvy9gdhtj8dh/1447267094122/11136/- INFO	hello	Seneca/0.6.5/qvy9gdhtj8dh/1447267094122/11136/-	
+2015-11-11T18:38:14.732Z ij5an63w2ydq/1447267094702/11176/- INFO	hello	Seneca/0.6.5/ij5an63w2ydq/1447267094702/11176/-	
+2015-11-11T18:38:15.138Z ij5an63w2ydq/1447267094702/11176/- INFO	listen	{type:tcp,port:10003}	
+2015-11-11T18:38:15.158Z ij5an63w2ydq/1447267094702/11176/- ERROR	act	web       	OUT		init:web	80	{init:web,tag:null}	ENTRY	(yr5p3)	GATE	seneca: instance-closed	instance-closed	{args:{init:web,tag:null},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:38:15.161Z ij5an63w2ydq/1447267094702/11176/- FATAL	sys	seneca	0.6.5	ij5an63w2ydq/1447267094702/11176/-	instance-closed	seneca: instance-closed	{args:{init:web,tag:null},plugin:{}}	-	
+2015-11-11T18:38:15.172Z ij5an63w2ydq/1447267094702/11176/- ERROR	act	mem-store/POK	OUT		init:mem-store	78	{init:mem-store,tag:POK}	ENTRY	(r1jib)	GATE	seneca: instance-closed	instance-closed	{args:{init:mem-store,tag:POK},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:38:15.174Z ij5an63w2ydq/1447267094702/11176/- FATAL	sys	seneca	0.6.5	ij5an63w2ydq/1447267094702/11176/-	instance-closed	seneca: instance-closed	{args:{init:mem-store,tag:POK},plugin:{}}	-	
+2015-11-11T18:38:15.181Z ij5an63w2ydq/1447267094702/11176/- ERROR	act	transport	OUT		cmd:listen,role:transport	38	{config:{type:tcp,host:0.0.0.0,port:10003,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	ENTRY	(w67xt)	GATE	seneca: instance-closed	instance-closed	{args:{config:{type:tcp,host:0.0.0.0,port:10003,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:38:15.183Z ij5an63w2ydq/1447267094702/11176/- FATAL	sys	seneca	0.6.5	ij5an63w2ydq/1447267094702/11176/-	transport_listen	seneca: seneca: instance-closed	{type:tcp,host:0.0.0.0,port:10003,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	-	
+2015-11-11T18:38:16.477Z e07uuhgb3agc/1447267096447/11289/- INFO	hello	Seneca/0.6.5/e07uuhgb3agc/1447267096447/11289/-	
+2015-11-11T18:38:16.887Z e07uuhgb3agc/1447267096447/11289/- INFO	listen	{type:tcp,port:10003}	
+2015-11-11T18:38:16.903Z e07uuhgb3agc/1447267096447/11289/- ERROR	act	web       	OUT		init:web	74	{init:web,tag:null}	ENTRY	(x90nk)	GATE	seneca: instance-closed	instance-closed	{args:{init:web,tag:null},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:38:16.906Z e07uuhgb3agc/1447267096447/11289/- FATAL	sys	seneca	0.6.5	e07uuhgb3agc/1447267096447/11289/-	instance-closed	seneca: instance-closed	{args:{init:web,tag:null},plugin:{}}	-	
+2015-11-11T18:38:16.919Z e07uuhgb3agc/1447267096447/11289/- ERROR	act	mem-store/RGL	OUT		init:mem-store	73	{init:mem-store,tag:RGL}	ENTRY	(6f6u6)	GATE	seneca: instance-closed	instance-closed	{args:{init:mem-store,tag:RGL},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:38:16.921Z e07uuhgb3agc/1447267096447/11289/- FATAL	sys	seneca	0.6.5	e07uuhgb3agc/1447267096447/11289/-	instance-closed	seneca: instance-closed	{args:{init:mem-store,tag:RGL},plugin:{}}	-	
+2015-11-11T18:38:16.928Z e07uuhgb3agc/1447267096447/11289/- ERROR	act	transport	OUT		cmd:listen,role:transport	36	{config:{type:tcp,host:0.0.0.0,port:10003,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	ENTRY	(rl3a6)	GATE	seneca: instance-closed	instance-closed	{args:{config:{type:tcp,host:0.0.0.0,port:10003,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:38:16.934Z e07uuhgb3agc/1447267096447/11289/- FATAL	sys	seneca	0.6.5	e07uuhgb3agc/1447267096447/11289/-	transport_listen	seneca: seneca: instance-closed	{type:tcp,host:0.0.0.0,port:10003,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	-	
+2015-11-11T18:38:18.075Z uosaw4npomzh/1447267098042/11380/- INFO	hello	Seneca/0.6.5/uosaw4npomzh/1447267098042/11380/-	
+2015-11-11T18:38:19.284Z z26v7uv9cq70/1447267099253/11543/- INFO	hello	Seneca/0.6.5/z26v7uv9cq70/1447267099253/11543/-	
+2015-11-11T18:38:19.724Z z26v7uv9cq70/1447267099253/11543/- INFO	listen	{type:tcp,port:10003}	
+2015-11-11T18:38:19.744Z z26v7uv9cq70/1447267099253/11543/- ERROR	act	web       	OUT		init:web	78	{init:web,tag:null}	ENTRY	(cdsgn)	GATE	seneca: instance-closed	instance-closed	{args:{init:web,tag:null},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:38:19.746Z z26v7uv9cq70/1447267099253/11543/- FATAL	sys	seneca	0.6.5	z26v7uv9cq70/1447267099253/11543/-	instance-closed	seneca: instance-closed	{args:{init:web,tag:null},plugin:{}}	-	
+2015-11-11T18:38:19.757Z z26v7uv9cq70/1447267099253/11543/- ERROR	act	mem-store/HDN	OUT		init:mem-store	78	{init:mem-store,tag:HDN}	ENTRY	(j74rp)	GATE	seneca: instance-closed	instance-closed	{args:{init:mem-store,tag:HDN},plugin:{}}	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:38:19.758Z z26v7uv9cq70/1447267099253/11543/- FATAL	sys	seneca	0.6.5	z26v7uv9cq70/1447267099253/11543/-	instance-closed	seneca: instance-closed	{args:{init:mem-store,tag:HDN},plugin:{}}	-	
+2015-11-11T18:38:19.765Z z26v7uv9cq70/1447267099253/11543/- ERROR	act	transport	OUT		cmd:listen,role:transport	37	{config:{type:tcp,host:0.0.0.0,port:10003,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	ENTRY	(4d8sd)	GATE	seneca: instance-closed	instance-closed	{args:{config:{type:tcp,host:0.0.0.0,port:10003,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path	Error: seneca: instance-closed
+    at errormaker (/root/simpleSocket/node_modules/seneca/node_modules/eraro/eraro.js:94:15)
+    at Object.execspec.fn (/root/simpleSocket/node_modules/seneca/seneca.js:1709:23)
+    at Immediate._onImmediate (/root/simpleSocket/node_modules/seneca/node_modules/gate-executor/gate-executor.js:108:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)	
+2015-11-11T18:38:19.767Z z26v7uv9cq70/1447267099253/11543/- FATAL	sys	seneca	0.6.5	z26v7uv9cq70/1447267099253/11543/-	transport_listen	seneca: seneca: instance-closed	{type:tcp,host:0.0.0.0,port:10003,timeout:10556,msgprefix:seneca_,callmax:111111,msgidlen:12,path:null}	-	

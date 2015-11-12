@@ -1,0 +1,1567 @@
+2015-11-11 19:49:49: [PM2][WORKER] Started with refreshing interval: 30000
+2015-11-11 19:49:49: [[[[ PM2/God daemon launched ]]]]
+2015-11-11 19:49:49: BUS system [READY] on port .pm4/pub.sock
+2015-11-11 19:49:49: RPC interface [READY] on port .pm4/rpc.sock
+2015-11-11 19:49:49: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:49:50: App name:main id:0 online
+2015-11-11 19:49:50: Starting execution sequence in -fork mode- for app name:logger id:1
+2015-11-11 19:49:50: App name:logger id:1 online
+2015-11-11 19:49:50: Starting execution sequence in -fork mode- for app name:translator id:2
+2015-11-11 19:49:50: App name:translator id:2 online
+2015-11-11 19:49:50: Change detected for app name: main - restarting
+2015-11-11 19:49:50: Stopping app:main id:0
+2015-11-11 19:49:50: Change detected for app name: logger - restarting
+2015-11-11 19:49:50: Stopping app:logger id:1
+2015-11-11 19:49:50: Change detected for app name: translator - restarting
+2015-11-11 19:49:50: Stopping app:translator id:2
+2015-11-11 19:49:50: App name:main id:0 exited with code SIGTERM
+2015-11-11 19:49:50: App name:translator id:2 exited with code SIGTERM
+2015-11-11 19:49:50: Process with pid 13497 killed
+2015-11-11 19:49:50: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:49:50: Process with pid 13504 still not killed, retrying...
+2015-11-11 19:49:50: Process with pid 13511 killed
+2015-11-11 19:49:50: Starting execution sequence in -fork mode- for app name:translator id:2
+2015-11-11 19:49:50: App name:main id:0 online
+2015-11-11 19:49:50: App name:translator id:2 online
+2015-11-11 19:49:50: Process with pid 13504 still not killed, retrying...
+2015-11-11 19:49:50: Process with pid 13504 still not killed, retrying...
+2015-11-11 19:49:50: Change detected for app name: main - restarting
+2015-11-11 19:49:50: Stopping app:main id:0
+2015-11-11 19:49:50: Change detected for app name: translator - restarting
+2015-11-11 19:49:50: Stopping app:translator id:2
+2015-11-11 19:49:50: Process with pid 13504 still not killed, retrying...
+2015-11-11 19:49:50: App name:main id:0 exited with code SIGTERM
+2015-11-11 19:49:50: App name:translator id:2 exited with code SIGTERM
+2015-11-11 19:49:51: App name:logger id:1 exited with code 0
+2015-11-11 19:49:51: Process with pid 13542 killed
+2015-11-11 19:49:51: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:49:51: Process with pid 13543 killed
+2015-11-11 19:49:51: Starting execution sequence in -fork mode- for app name:translator id:2
+2015-11-11 19:49:51: Process with pid 13504 killed
+2015-11-11 19:49:51: Starting execution sequence in -fork mode- for app name:logger id:1
+2015-11-11 19:49:51: App name:main id:0 online
+2015-11-11 19:49:51: App name:translator id:2 online
+2015-11-11 19:49:51: App name:logger id:1 online
+2015-11-11 19:49:51: Change detected for app name: main - restarting
+2015-11-11 19:49:51: Stopping app:main id:0
+2015-11-11 19:49:51: Change detected for app name: logger - restarting
+2015-11-11 19:49:51: Stopping app:logger id:1
+2015-11-11 19:49:51: Change detected for app name: translator - restarting
+2015-11-11 19:49:51: Stopping app:translator id:2
+2015-11-11 19:49:51: App name:main id:0 exited with code SIGTERM
+2015-11-11 19:49:51: App name:logger id:1 exited with code SIGTERM
+2015-11-11 19:49:51: Process with pid 13568 killed
+2015-11-11 19:49:51: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:49:51: Process with pid 13574 killed
+2015-11-11 19:49:51: Starting execution sequence in -fork mode- for app name:logger id:1
+2015-11-11 19:49:51: Process with pid 13569 still not killed, retrying...
+2015-11-11 19:49:51: App name:main id:0 online
+2015-11-11 19:49:51: App name:logger id:1 online
+2015-11-11 19:49:51: Process with pid 13569 still not killed, retrying...
+2015-11-11 19:49:51: Process with pid 13569 still not killed, retrying...
+2015-11-11 19:49:52: App name:translator id:2 exited with code 0
+2015-11-11 19:49:52: Process with pid 13569 killed
+2015-11-11 19:49:52: Starting execution sequence in -fork mode- for app name:translator id:2
+2015-11-11 19:49:52: App name:translator id:2 online
+2015-11-11 19:49:52: Change detected for app name: main - restarting
+2015-11-11 19:49:52: Stopping app:main id:0
+2015-11-11 19:49:52: Change detected for app name: logger - restarting
+2015-11-11 19:49:52: Stopping app:logger id:1
+2015-11-11 19:49:52: Change detected for app name: translator - restarting
+2015-11-11 19:49:52: Stopping app:translator id:2
+2015-11-11 19:49:52: App name:main id:0 exited with code SIGTERM
+2015-11-11 19:49:52: App name:translator id:2 exited with code SIGTERM
+2015-11-11 19:49:52: App name:logger id:1 exited with code SIGTERM
+2015-11-11 19:49:52: Process with pid 13607 killed
+2015-11-11 19:49:52: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:49:52: Process with pid 13608 killed
+2015-11-11 19:49:52: Starting execution sequence in -fork mode- for app name:logger id:1
+2015-11-11 19:49:52: Process with pid 13633 killed
+2015-11-11 19:49:52: Starting execution sequence in -fork mode- for app name:translator id:2
+2015-11-11 19:49:52: App name:main id:0 online
+2015-11-11 19:49:52: App name:logger id:1 online
+2015-11-11 19:49:52: App name:translator id:2 online
+2015-11-11 19:49:52: Change detected for app name: main - restarting
+2015-11-11 19:49:52: Stopping app:main id:0
+2015-11-11 19:49:52: Change detected for app name: logger - restarting
+2015-11-11 19:49:52: Stopping app:logger id:1
+2015-11-11 19:49:52: Change detected for app name: translator - restarting
+2015-11-11 19:49:52: Stopping app:translator id:2
+2015-11-11 19:49:52: App name:main id:0 exited with code SIGTERM
+2015-11-11 19:49:52: App name:logger id:1 exited with code SIGTERM
+2015-11-11 19:49:52: App name:translator id:2 exited with code SIGTERM
+2015-11-11 19:49:52: Process with pid 13642 killed
+2015-11-11 19:49:52: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:49:52: Process with pid 13643 killed
+2015-11-11 19:49:52: Starting execution sequence in -fork mode- for app name:logger id:1
+2015-11-11 19:49:52: Process with pid 13648 killed
+2015-11-11 19:49:52: Starting execution sequence in -fork mode- for app name:translator id:2
+2015-11-11 19:49:52: App name:main id:0 online
+2015-11-11 19:49:52: App name:logger id:1 online
+2015-11-11 19:49:52: App name:translator id:2 online
+2015-11-11 19:49:53: Change detected for app name: main - restarting
+2015-11-11 19:49:53: Stopping app:main id:0
+2015-11-11 19:49:53: Change detected for app name: logger - restarting
+2015-11-11 19:49:53: Stopping app:logger id:1
+2015-11-11 19:49:53: Change detected for app name: translator - restarting
+2015-11-11 19:49:53: Stopping app:translator id:2
+2015-11-11 19:49:53: App name:main id:0 exited with code SIGTERM
+2015-11-11 19:49:53: App name:logger id:1 exited with code SIGTERM
+2015-11-11 19:49:53: Process with pid 13681 killed
+2015-11-11 19:49:53: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:49:53: Process with pid 13682 killed
+2015-11-11 19:49:53: Starting execution sequence in -fork mode- for app name:logger id:1
+2015-11-11 19:49:53: Process with pid 13687 still not killed, retrying...
+2015-11-11 19:49:53: App name:main id:0 online
+2015-11-11 19:49:53: App name:logger id:1 online
+2015-11-11 19:49:53: Process with pid 13687 still not killed, retrying...
+2015-11-11 19:49:53: Process with pid 13687 still not killed, retrying...
+2015-11-11 19:49:53: Process with pid 13687 still not killed, retrying...
+2015-11-11 19:49:53: App name:translator id:2 exited with code 0
+2015-11-11 19:49:53: Process with pid 13687 killed
+2015-11-11 19:49:53: Starting execution sequence in -fork mode- for app name:translator id:2
+2015-11-11 19:49:53: App name:translator id:2 online
+2015-11-11 19:49:53: Change detected for app name: main - restarting
+2015-11-11 19:49:53: Stopping app:main id:0
+2015-11-11 19:49:53: Change detected for app name: logger - restarting
+2015-11-11 19:49:53: Stopping app:logger id:1
+2015-11-11 19:49:53: Change detected for app name: translator - restarting
+2015-11-11 19:49:53: Stopping app:translator id:2
+2015-11-11 19:49:53: App name:main id:0 exited with code SIGTERM
+2015-11-11 19:49:53: App name:translator id:2 exited with code SIGTERM
+2015-11-11 19:49:53: Proc is not defined anymore or is being killed
+2015-11-11 19:49:54: Process with pid 13720 killed
+2015-11-11 19:49:54: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:49:54: Process with pid 13721 still not killed, retrying...
+2015-11-11 19:49:54: Process with pid 13746 killed
+2015-11-11 19:49:54: Starting execution sequence in -fork mode- for app name:translator id:2
+2015-11-11 19:49:54: App name:main id:0 online
+2015-11-11 19:49:54: App name:translator id:2 online
+2015-11-11 19:49:54: Process with pid 13721 still not killed, retrying...
+2015-11-11 19:49:54: Process with pid 13721 still not killed, retrying...
+2015-11-11 19:49:54: Change detected for app name: main - restarting
+2015-11-11 19:49:54: Stopping app:main id:0
+2015-11-11 19:49:54: Change detected for app name: translator - restarting
+2015-11-11 19:49:54: Stopping app:translator id:2
+2015-11-11 19:49:54: App name:main id:0 exited with code SIGTERM
+2015-11-11 19:49:54: App name:translator id:2 exited with code SIGTERM
+2015-11-11 19:49:54: Process with pid 13721 still not killed, retrying...
+2015-11-11 19:49:54: App name:logger id:1 exited with code 0
+2015-11-11 19:49:54: Process with pid 13751 killed
+2015-11-11 19:49:54: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:49:54: Process with pid 13758 killed
+2015-11-11 19:49:54: Starting execution sequence in -fork mode- for app name:translator id:2
+2015-11-11 19:49:54: App name:main id:0 online
+2015-11-11 19:49:54: App name:translator id:2 online
+2015-11-11 19:49:54: Process with pid 13721 killed
+2015-11-11 19:49:54: Starting execution sequence in -fork mode- for app name:logger id:1
+2015-11-11 19:49:54: App name:logger id:1 online
+2015-11-11 19:49:54: Change detected for app name: main - restarting
+2015-11-11 19:49:54: Stopping app:main id:0
+2015-11-11 19:49:54: Change detected for app name: logger - restarting
+2015-11-11 19:49:54: Stopping app:logger id:1
+2015-11-11 19:49:54: Change detected for app name: translator - restarting
+2015-11-11 19:49:54: Stopping app:translator id:2
+2015-11-11 19:49:54: App name:main id:0 exited with code SIGTERM
+2015-11-11 19:49:54: App name:logger id:1 exited with code SIGTERM
+2015-11-11 19:49:55: Process with pid 13777 killed
+2015-11-11 19:49:55: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:49:55: Process with pid 13789 killed
+2015-11-11 19:49:55: Starting execution sequence in -fork mode- for app name:logger id:1
+2015-11-11 19:49:55: Process with pid 13778 still not killed, retrying...
+2015-11-11 19:49:55: App name:main id:0 online
+2015-11-11 19:49:55: App name:logger id:1 online
+2015-11-11 19:49:55: Process with pid 13778 still not killed, retrying...
+2015-11-11 19:49:55: Process with pid 13778 still not killed, retrying...
+2015-11-11 19:49:55: Process with pid 13778 still not killed, retrying...
+2015-11-11 19:49:55: App name:translator id:2 exited with code 0
+2015-11-11 19:49:55: Process with pid 13778 killed
+2015-11-11 19:49:55: Starting execution sequence in -fork mode- for app name:translator id:2
+2015-11-11 19:49:55: App name:translator id:2 online
+2015-11-11 19:49:55: Change detected for app name: main - restarting
+2015-11-11 19:49:55: Stopping app:main id:0
+2015-11-11 19:49:55: Change detected for app name: logger - restarting
+2015-11-11 19:49:55: Stopping app:logger id:1
+2015-11-11 19:49:55: Change detected for app name: translator - restarting
+2015-11-11 19:49:55: Stopping app:translator id:2
+2015-11-11 19:49:55: App name:main id:0 exited with code SIGTERM
+2015-11-11 19:49:55: App name:translator id:2 exited with code SIGTERM
+2015-11-11 19:49:55: Proc is not defined anymore or is being killed
+2015-11-11 19:49:55: Process with pid 13816 killed
+2015-11-11 19:49:55: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:49:55: Process with pid 13817 still not killed, retrying...
+2015-11-11 19:49:55: Process with pid 13843 killed
+2015-11-11 19:49:55: Starting execution sequence in -fork mode- for app name:translator id:2
+2015-11-11 19:49:55: App name:main id:0 online
+2015-11-11 19:49:55: App name:translator id:2 online
+2015-11-11 19:49:55: Process with pid 13817 still not killed, retrying...
+2015-11-11 19:49:55: Process with pid 13817 still not killed, retrying...
+2015-11-11 19:49:55: Change detected for app name: main - restarting
+2015-11-11 19:49:55: Stopping app:main id:0
+2015-11-11 19:49:55: Change detected for app name: translator - restarting
+2015-11-11 19:49:55: Stopping app:translator id:2
+2015-11-11 19:49:55: App name:main id:0 exited with code SIGTERM
+2015-11-11 19:49:55: App name:translator id:2 exited with code SIGTERM
+2015-11-11 19:49:55: Process with pid 13817 still not killed, retrying...
+2015-11-11 19:49:55: App name:logger id:1 exited with code 0
+2015-11-11 19:49:56: Process with pid 13848 killed
+2015-11-11 19:49:56: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:49:56: Process with pid 13849 killed
+2015-11-11 19:49:56: Starting execution sequence in -fork mode- for app name:translator id:2
+2015-11-11 19:49:56: Process with pid 13817 killed
+2015-11-11 19:49:56: Starting execution sequence in -fork mode- for app name:logger id:1
+2015-11-11 19:49:56: App name:main id:0 online
+2015-11-11 19:49:56: App name:translator id:2 online
+2015-11-11 19:49:56: App name:logger id:1 online
+2015-11-11 19:49:56: Change detected for app name: main - restarting
+2015-11-11 19:49:56: Stopping app:main id:0
+2015-11-11 19:49:56: Change detected for app name: logger - restarting
+2015-11-11 19:49:56: Stopping app:logger id:1
+2015-11-11 19:49:56: Change detected for app name: translator - restarting
+2015-11-11 19:49:56: Stopping app:translator id:2
+2015-11-11 19:49:56: App name:main id:0 exited with code SIGTERM
+2015-11-11 19:49:56: App name:logger id:1 exited with code SIGTERM
+2015-11-11 19:49:56: Process with pid 13874 killed
+2015-11-11 19:49:56: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:49:56: Process with pid 13880 killed
+2015-11-11 19:49:56: Starting execution sequence in -fork mode- for app name:logger id:1
+2015-11-11 19:49:56: Process with pid 13875 still not killed, retrying...
+2015-11-11 19:49:56: App name:main id:0 online
+2015-11-11 19:49:56: App name:logger id:1 online
+2015-11-11 19:49:56: Process with pid 13875 still not killed, retrying...
+2015-11-11 19:49:56: Process with pid 13875 still not killed, retrying...
+2015-11-11 19:49:56: App name:translator id:2 exited with code 0
+2015-11-11 19:49:56: Process with pid 13875 killed
+2015-11-11 19:49:56: Starting execution sequence in -fork mode- for app name:translator id:2
+2015-11-11 19:49:56: App name:translator id:2 online
+2015-11-11 19:49:57: Change detected for app name: main - restarting
+2015-11-11 19:49:57: Stopping app:main id:0
+2015-11-11 19:49:57: Change detected for app name: logger - restarting
+2015-11-11 19:49:57: Stopping app:logger id:1
+2015-11-11 19:49:57: Change detected for app name: translator - restarting
+2015-11-11 19:49:57: Stopping app:translator id:2
+2015-11-11 19:49:57: App name:main id:0 exited with code SIGTERM
+2015-11-11 19:49:57: App name:logger id:1 exited with code SIGTERM
+2015-11-11 19:49:57: App name:translator id:2 exited with code SIGTERM
+2015-11-11 19:49:57: Process with pid 13913 killed
+2015-11-11 19:49:57: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:49:57: Process with pid 13914 killed
+2015-11-11 19:49:57: Starting execution sequence in -fork mode- for app name:logger id:1
+2015-11-11 19:49:57: Process with pid 13939 killed
+2015-11-11 19:49:57: Starting execution sequence in -fork mode- for app name:translator id:2
+2015-11-11 19:49:57: App name:main id:0 online
+2015-11-11 19:49:57: App name:logger id:1 online
+2015-11-11 19:49:57: App name:translator id:2 online
+2015-11-11 19:49:57: Change detected for app name: main - restarting
+2015-11-11 19:49:57: Stopping app:main id:0
+2015-11-11 19:49:57: Change detected for app name: logger - restarting
+2015-11-11 19:49:57: Stopping app:logger id:1
+2015-11-11 19:49:57: Change detected for app name: translator - restarting
+2015-11-11 19:49:57: Stopping app:translator id:2
+2015-11-11 19:49:57: App name:main id:0 exited with code SIGTERM
+2015-11-11 19:49:57: App name:logger id:1 exited with code SIGTERM
+2015-11-11 19:49:57: App name:translator id:2 exited with code SIGTERM
+2015-11-11 19:49:57: Process with pid 13948 killed
+2015-11-11 19:49:57: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:49:57: Process with pid 13949 killed
+2015-11-11 19:49:57: Starting execution sequence in -fork mode- for app name:logger id:1
+2015-11-11 19:49:57: Process with pid 13954 killed
+2015-11-11 19:49:57: Starting execution sequence in -fork mode- for app name:translator id:2
+2015-11-11 19:49:57: App name:main id:0 online
+2015-11-11 19:49:57: App name:logger id:1 online
+2015-11-11 19:49:57: App name:translator id:2 online
+2015-11-11 19:49:58: Change detected for app name: main - restarting
+2015-11-11 19:49:58: Stopping app:main id:0
+2015-11-11 19:49:58: Change detected for app name: logger - restarting
+2015-11-11 19:49:58: Stopping app:logger id:1
+2015-11-11 19:49:58: Change detected for app name: translator - restarting
+2015-11-11 19:49:58: Stopping app:translator id:2
+2015-11-11 19:49:58: App name:main id:0 exited with code SIGTERM
+2015-11-11 19:49:58: App name:logger id:1 exited with code SIGTERM
+2015-11-11 19:49:58: App name:translator id:2 exited with code SIGTERM
+2015-11-11 19:49:58: Process with pid 13987 killed
+2015-11-11 19:49:58: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:49:58: Process with pid 13988 killed
+2015-11-11 19:49:58: Starting execution sequence in -fork mode- for app name:logger id:1
+2015-11-11 19:49:58: Process with pid 13993 killed
+2015-11-11 19:49:58: Starting execution sequence in -fork mode- for app name:translator id:2
+2015-11-11 19:49:58: App name:main id:0 online
+2015-11-11 19:49:58: App name:logger id:1 online
+2015-11-11 19:49:58: App name:translator id:2 online
+2015-11-11 19:49:58: Change detected for app name: main - restarting
+2015-11-11 19:49:58: Stopping app:main id:0
+2015-11-11 19:49:58: Change detected for app name: logger - restarting
+2015-11-11 19:49:58: Stopping app:logger id:1
+2015-11-11 19:49:58: Change detected for app name: translator - restarting
+2015-11-11 19:49:58: Stopping app:translator id:2
+2015-11-11 19:49:58: App name:main id:0 exited with code SIGTERM
+2015-11-11 19:49:58: App name:logger id:1 exited with code SIGTERM
+2015-11-11 19:49:58: App name:translator id:2 exited with code SIGTERM
+2015-11-11 19:49:58: Process with pid 14026 killed
+2015-11-11 19:49:58: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:49:58: Process with pid 14027 killed
+2015-11-11 19:49:58: Starting execution sequence in -fork mode- for app name:logger id:1
+2015-11-11 19:49:58: Process with pid 14032 killed
+2015-11-11 19:49:58: Starting execution sequence in -fork mode- for app name:translator id:2
+2015-11-11 19:49:58: App name:main id:0 online
+2015-11-11 19:49:58: App name:logger id:1 online
+2015-11-11 19:49:59: App name:translator id:2 online
+2015-11-11 19:49:59: Change detected for app name: main - restarting
+2015-11-11 19:49:59: Stopping app:main id:0
+2015-11-11 19:49:59: Change detected for app name: logger - restarting
+2015-11-11 19:49:59: Stopping app:logger id:1
+2015-11-11 19:49:59: Change detected for app name: translator - restarting
+2015-11-11 19:49:59: Stopping app:translator id:2
+2015-11-11 19:49:59: App name:main id:0 exited with code SIGTERM
+2015-11-11 19:49:59: App name:logger id:1 exited with code SIGTERM
+2015-11-11 19:49:59: App name:translator id:2 exited with code SIGTERM
+2015-11-11 19:49:59: Process with pid 14065 killed
+2015-11-11 19:49:59: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:49:59: Process with pid 14066 killed
+2015-11-11 19:49:59: Starting execution sequence in -fork mode- for app name:logger id:1
+2015-11-11 19:49:59: Process with pid 14075 killed
+2015-11-11 19:49:59: Starting execution sequence in -fork mode- for app name:translator id:2
+2015-11-11 19:49:59: App name:main id:0 online
+2015-11-11 19:49:59: App name:logger id:1 online
+2015-11-11 19:49:59: App name:translator id:2 online
+2015-11-11 19:49:59: Change detected for app name: main - restarting
+2015-11-11 19:49:59: Stopping app:main id:0
+2015-11-11 19:49:59: Change detected for app name: logger - restarting
+2015-11-11 19:49:59: Stopping app:logger id:1
+2015-11-11 19:49:59: Change detected for app name: translator - restarting
+2015-11-11 19:49:59: Stopping app:translator id:2
+2015-11-11 19:49:59: App name:main id:0 exited with code SIGTERM
+2015-11-11 19:49:59: App name:logger id:1 exited with code SIGTERM
+2015-11-11 19:49:59: App name:translator id:2 exited with code SIGTERM
+2015-11-11 19:50:00: Process with pid 14109 killed
+2015-11-11 19:50:00: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:50:00: Process with pid 14110 killed
+2015-11-11 19:50:00: Starting execution sequence in -fork mode- for app name:logger id:1
+2015-11-11 19:50:00: Process with pid 14115 killed
+2015-11-11 19:50:00: Starting execution sequence in -fork mode- for app name:translator id:2
+2015-11-11 19:50:00: App name:main id:0 online
+2015-11-11 19:50:00: App name:logger id:1 online
+2015-11-11 19:50:00: App name:translator id:2 online
+2015-11-11 19:50:00: Change detected for app name: main - restarting
+2015-11-11 19:50:00: Stopping app:main id:0
+2015-11-11 19:50:00: Change detected for app name: logger - restarting
+2015-11-11 19:50:00: Stopping app:logger id:1
+2015-11-11 19:50:00: Change detected for app name: translator - restarting
+2015-11-11 19:50:00: Stopping app:translator id:2
+2015-11-11 19:50:00: App name:main id:0 exited with code SIGTERM
+2015-11-11 19:50:00: App name:logger id:1 exited with code SIGTERM
+2015-11-11 19:50:00: Process with pid 14152 killed
+2015-11-11 19:50:00: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:50:00: Process with pid 14153 killed
+2015-11-11 19:50:00: Starting execution sequence in -fork mode- for app name:logger id:1
+2015-11-11 19:50:00: Process with pid 14158 still not killed, retrying...
+2015-11-11 19:50:00: App name:main id:0 online
+2015-11-11 19:50:00: App name:logger id:1 online
+2015-11-11 19:50:00: Process with pid 14158 still not killed, retrying...
+2015-11-11 19:50:00: Process with pid 14158 still not killed, retrying...
+2015-11-11 19:50:00: App name:translator id:2 exited with code 0
+2015-11-11 19:50:01: Process with pid 14158 killed
+2015-11-11 19:50:01: Starting execution sequence in -fork mode- for app name:translator id:2
+2015-11-11 19:50:01: App name:translator id:2 online
+2015-11-11 19:50:01: Change detected for app name: main - restarting
+2015-11-11 19:50:01: Stopping app:main id:0
+2015-11-11 19:50:01: Change detected for app name: logger - restarting
+2015-11-11 19:50:01: Stopping app:logger id:1
+2015-11-11 19:50:01: Change detected for app name: translator - restarting
+2015-11-11 19:50:01: Stopping app:translator id:2
+2015-11-11 19:50:01: App name:main id:0 exited with code SIGTERM
+2015-11-11 19:50:01: App name:logger id:1 exited with code SIGTERM
+2015-11-11 19:50:01: App name:translator id:2 exited with code SIGTERM
+2015-11-11 19:50:01: Proc is not defined anymore or is being killed
+2015-11-11 19:50:01: Process with pid 14191 killed
+2015-11-11 19:50:01: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:50:01: Process with pid 14192 killed
+2015-11-11 19:50:01: Starting execution sequence in -fork mode- for app name:logger id:1
+2015-11-11 19:50:01: Process with pid 14218 killed
+2015-11-11 19:50:01: Starting execution sequence in -fork mode- for app name:translator id:2
+2015-11-11 19:50:01: App name:main id:0 online
+2015-11-11 19:50:01: App name:logger id:1 online
+2015-11-11 19:50:01: App name:translator id:2 online
+2015-11-11 19:50:01: Change detected for app name: main - restarting
+2015-11-11 19:50:01: Stopping app:main id:0
+2015-11-11 19:50:01: Change detected for app name: logger - restarting
+2015-11-11 19:50:01: Stopping app:logger id:1
+2015-11-11 19:50:01: Change detected for app name: translator - restarting
+2015-11-11 19:50:01: Stopping app:translator id:2
+2015-11-11 19:50:01: App name:main id:0 exited with code SIGTERM
+2015-11-11 19:50:01: App name:logger id:1 exited with code SIGTERM
+2015-11-11 19:50:01: App name:translator id:2 exited with code SIGTERM
+2015-11-11 19:50:01: Process with pid 14231 killed
+2015-11-11 19:50:01: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:50:01: Process with pid 14236 killed
+2015-11-11 19:50:01: Starting execution sequence in -fork mode- for app name:logger id:1
+2015-11-11 19:50:01: Process with pid 14237 killed
+2015-11-11 19:50:01: Starting execution sequence in -fork mode- for app name:translator id:2
+2015-11-11 19:50:01: App name:main id:0 online
+2015-11-11 19:50:01: App name:logger id:1 online
+2015-11-11 19:50:01: App name:translator id:2 online
+2015-11-11 19:50:02: Change detected for app name: main - restarting
+2015-11-11 19:50:02: Stopping app:main id:0
+2015-11-11 19:50:02: Change detected for app name: logger - restarting
+2015-11-11 19:50:02: Stopping app:logger id:1
+2015-11-11 19:50:02: Change detected for app name: translator - restarting
+2015-11-11 19:50:02: Stopping app:translator id:2
+2015-11-11 19:50:02: App name:main id:0 exited with code SIGTERM
+2015-11-11 19:50:02: App name:logger id:1 exited with code SIGTERM
+2015-11-11 19:50:02: App name:translator id:2 exited with code SIGTERM
+2015-11-11 19:50:02: Process with pid 14271 killed
+2015-11-11 19:50:02: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:50:02: Process with pid 14272 killed
+2015-11-11 19:50:02: Starting execution sequence in -fork mode- for app name:logger id:1
+2015-11-11 19:50:02: Process with pid 14277 killed
+2015-11-11 19:50:02: Starting execution sequence in -fork mode- for app name:translator id:2
+2015-11-11 19:50:02: App name:main id:0 online
+2015-11-11 19:50:02: App name:logger id:1 online
+2015-11-11 19:50:02: App name:translator id:2 online
+2015-11-11 19:50:02: Change detected for app name: main - restarting
+2015-11-11 19:50:02: Stopping app:main id:0
+2015-11-11 19:50:02: Change detected for app name: logger - restarting
+2015-11-11 19:50:02: Stopping app:logger id:1
+2015-11-11 19:50:02: Change detected for app name: translator - restarting
+2015-11-11 19:50:02: Stopping app:translator id:2
+2015-11-11 19:50:02: App name:main id:0 exited with code SIGTERM
+2015-11-11 19:50:02: App name:logger id:1 exited with code SIGTERM
+2015-11-11 19:50:03: Process with pid 14310 killed
+2015-11-11 19:50:03: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:50:03: Process with pid 14311 killed
+2015-11-11 19:50:03: Starting execution sequence in -fork mode- for app name:logger id:1
+2015-11-11 19:50:03: Process with pid 14316 still not killed, retrying...
+2015-11-11 19:50:03: App name:main id:0 online
+2015-11-11 19:50:03: App name:logger id:1 online
+2015-11-11 19:50:03: Process with pid 14316 still not killed, retrying...
+2015-11-11 19:50:03: Process with pid 14316 still not killed, retrying...
+2015-11-11 19:50:03: App name:translator id:2 exited with code 0
+2015-11-11 19:50:03: Process with pid 14316 killed
+2015-11-11 19:50:03: Starting execution sequence in -fork mode- for app name:translator id:2
+2015-11-11 19:50:03: App name:translator id:2 online
+2015-11-11 19:50:03: Change detected for app name: main - restarting
+2015-11-11 19:50:03: Stopping app:main id:0
+2015-11-11 19:50:03: Change detected for app name: logger - restarting
+2015-11-11 19:50:03: Stopping app:logger id:1
+2015-11-11 19:50:03: Change detected for app name: translator - restarting
+2015-11-11 19:50:03: Stopping app:translator id:2
+2015-11-11 19:50:03: App name:main id:0 exited with code SIGTERM
+2015-11-11 19:50:03: App name:logger id:1 exited with code SIGTERM
+2015-11-11 19:50:03: App name:translator id:2 exited with code SIGTERM
+2015-11-11 19:50:03: Process with pid 14349 killed
+2015-11-11 19:50:03: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:50:03: Process with pid 14350 killed
+2015-11-11 19:50:03: Starting execution sequence in -fork mode- for app name:logger id:1
+2015-11-11 19:50:03: Process with pid 14375 killed
+2015-11-11 19:50:03: Starting execution sequence in -fork mode- for app name:translator id:2
+2015-11-11 19:50:03: App name:main id:0 online
+2015-11-11 19:50:03: App name:logger id:1 online
+2015-11-11 19:50:03: App name:translator id:2 online
+2015-11-11 19:50:04: Change detected for app name: main - restarting
+2015-11-11 19:50:04: Stopping app:main id:0
+2015-11-11 19:50:04: Change detected for app name: logger - restarting
+2015-11-11 19:50:04: Stopping app:logger id:1
+2015-11-11 19:50:04: Change detected for app name: translator - restarting
+2015-11-11 19:50:04: Stopping app:translator id:2
+2015-11-11 19:50:04: App name:main id:0 exited with code SIGTERM
+2015-11-11 19:50:04: App name:logger id:1 exited with code SIGTERM
+2015-11-11 19:50:04: App name:translator id:2 exited with code SIGTERM
+2015-11-11 19:50:04: Process with pid 14384 killed
+2015-11-11 19:50:04: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:50:04: Process with pid 14385 killed
+2015-11-11 19:50:04: Starting execution sequence in -fork mode- for app name:logger id:1
+2015-11-11 19:50:04: Process with pid 14390 killed
+2015-11-11 19:50:04: Starting execution sequence in -fork mode- for app name:translator id:2
+2015-11-11 19:50:04: App name:main id:0 online
+2015-11-11 19:50:04: App name:logger id:1 online
+2015-11-11 19:50:04: App name:translator id:2 online
+2015-11-11 19:50:04: Change detected for app name: main - restarting
+2015-11-11 19:50:04: Stopping app:main id:0
+2015-11-11 19:50:04: Change detected for app name: logger - restarting
+2015-11-11 19:50:04: Stopping app:logger id:1
+2015-11-11 19:50:04: Change detected for app name: translator - restarting
+2015-11-11 19:50:04: Stopping app:translator id:2
+2015-11-11 19:50:04: App name:main id:0 exited with code SIGTERM
+2015-11-11 19:50:04: App name:logger id:1 exited with code SIGTERM
+2015-11-11 19:50:04: App name:translator id:2 exited with code SIGTERM
+2015-11-11 19:50:04: Process with pid 14423 killed
+2015-11-11 19:50:04: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:50:04: Process with pid 14424 killed
+2015-11-11 19:50:04: Starting execution sequence in -fork mode- for app name:logger id:1
+2015-11-11 19:50:04: Process with pid 14429 killed
+2015-11-11 19:50:04: Starting execution sequence in -fork mode- for app name:translator id:2
+2015-11-11 19:50:04: App name:main id:0 online
+2015-11-11 19:50:04: App name:logger id:1 online
+2015-11-11 19:50:04: App name:translator id:2 online
+2015-11-11 19:50:05: Change detected for app name: main - restarting
+2015-11-11 19:50:05: Stopping app:main id:0
+2015-11-11 19:50:05: Change detected for app name: logger - restarting
+2015-11-11 19:50:05: Stopping app:logger id:1
+2015-11-11 19:50:05: Change detected for app name: translator - restarting
+2015-11-11 19:50:05: Stopping app:translator id:2
+2015-11-11 19:50:05: App name:main id:0 exited with code SIGTERM
+2015-11-11 19:50:05: App name:logger id:1 exited with code SIGTERM
+2015-11-11 19:50:05: App name:translator id:2 exited with code SIGTERM
+2015-11-11 19:50:05: Process with pid 14462 killed
+2015-11-11 19:50:05: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:50:05: Process with pid 14463 killed
+2015-11-11 19:50:05: Starting execution sequence in -fork mode- for app name:logger id:1
+2015-11-11 19:50:05: Process with pid 14468 killed
+2015-11-11 19:50:05: Starting execution sequence in -fork mode- for app name:translator id:2
+2015-11-11 19:50:05: App name:main id:0 online
+2015-11-11 19:50:05: App name:logger id:1 online
+2015-11-11 19:50:05: App name:translator id:2 online
+2015-11-11 19:50:05: Change detected for app name: main - restarting
+2015-11-11 19:50:05: Stopping app:main id:0
+2015-11-11 19:50:05: Change detected for app name: logger - restarting
+2015-11-11 19:50:05: Stopping app:logger id:1
+2015-11-11 19:50:05: Change detected for app name: translator - restarting
+2015-11-11 19:50:05: Stopping app:translator id:2
+2015-11-11 19:50:05: App name:main id:0 exited with code SIGTERM
+2015-11-11 19:50:05: App name:logger id:1 exited with code SIGTERM
+2015-11-11 19:50:05: App name:translator id:2 exited with code SIGTERM
+2015-11-11 19:50:05: Process with pid 14501 killed
+2015-11-11 19:50:06: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:50:06: Process with pid 14502 killed
+2015-11-11 19:50:06: Starting execution sequence in -fork mode- for app name:logger id:1
+2015-11-11 19:50:06: Process with pid 14507 killed
+2015-11-11 19:50:06: Starting execution sequence in -fork mode- for app name:translator id:2
+2015-11-11 19:50:06: App name:main id:0 online
+2015-11-11 19:50:06: App name:logger id:1 online
+2015-11-11 19:50:06: App name:translator id:2 online
+2015-11-11 19:50:06: Change detected for app name: main - restarting
+2015-11-11 19:50:06: Stopping app:main id:0
+2015-11-11 19:50:06: Change detected for app name: logger - restarting
+2015-11-11 19:50:06: Stopping app:logger id:1
+2015-11-11 19:50:06: Change detected for app name: translator - restarting
+2015-11-11 19:50:06: Stopping app:translator id:2
+2015-11-11 19:50:06: App name:main id:0 exited with code SIGTERM
+2015-11-11 19:50:06: App name:logger id:1 exited with code SIGTERM
+2015-11-11 19:50:06: App name:translator id:2 exited with code SIGTERM
+2015-11-11 19:50:06: Process with pid 14541 killed
+2015-11-11 19:50:06: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:50:06: Process with pid 14542 killed
+2015-11-11 19:50:06: Starting execution sequence in -fork mode- for app name:logger id:1
+2015-11-11 19:50:06: Process with pid 14547 killed
+2015-11-11 19:50:06: Starting execution sequence in -fork mode- for app name:translator id:2
+2015-11-11 19:50:06: App name:main id:0 online
+2015-11-11 19:50:06: App name:logger id:1 online
+2015-11-11 19:50:06: App name:translator id:2 online
+2015-11-11 19:50:07: Change detected for app name: main - restarting
+2015-11-11 19:50:07: Stopping app:main id:0
+2015-11-11 19:50:07: Change detected for app name: logger - restarting
+2015-11-11 19:50:07: Stopping app:logger id:1
+2015-11-11 19:50:07: Change detected for app name: translator - restarting
+2015-11-11 19:50:07: Stopping app:translator id:2
+2015-11-11 19:50:07: App name:main id:0 exited with code SIGTERM
+2015-11-11 19:50:07: App name:logger id:1 exited with code SIGTERM
+2015-11-11 19:50:07: App name:translator id:2 exited with code SIGTERM
+2015-11-11 19:50:07: Process with pid 14580 killed
+2015-11-11 19:50:07: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:50:07: Process with pid 14581 killed
+2015-11-11 19:50:07: Starting execution sequence in -fork mode- for app name:logger id:1
+2015-11-11 19:50:07: Process with pid 14586 killed
+2015-11-11 19:50:07: Starting execution sequence in -fork mode- for app name:translator id:2
+2015-11-11 19:50:07: App name:main id:0 online
+2015-11-11 19:50:07: App name:logger id:1 online
+2015-11-11 19:50:07: App name:translator id:2 online
+2015-11-11 19:50:07: Change detected for app name: main - restarting
+2015-11-11 19:50:07: Stopping app:main id:0
+2015-11-11 19:50:07: Change detected for app name: logger - restarting
+2015-11-11 19:50:07: Stopping app:logger id:1
+2015-11-11 19:50:07: Change detected for app name: translator - restarting
+2015-11-11 19:50:07: Stopping app:translator id:2
+2015-11-11 19:50:07: App name:main id:0 exited with code SIGTERM
+2015-11-11 19:50:07: App name:logger id:1 exited with code SIGTERM
+2015-11-11 19:50:07: App name:translator id:2 exited with code SIGTERM
+2015-11-11 19:50:07: Process with pid 14619 killed
+2015-11-11 19:50:07: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:50:07: Process with pid 14620 killed
+2015-11-11 19:50:07: Starting execution sequence in -fork mode- for app name:logger id:1
+2015-11-11 19:50:07: Process with pid 14625 killed
+2015-11-11 19:50:07: Starting execution sequence in -fork mode- for app name:translator id:2
+2015-11-11 19:50:07: App name:main id:0 online
+2015-11-11 19:50:07: App name:logger id:1 online
+2015-11-11 19:50:07: App name:translator id:2 online
+2015-11-11 19:50:08: Change detected for app name: main - restarting
+2015-11-11 19:50:08: Stopping app:main id:0
+2015-11-11 19:50:08: Change detected for app name: logger - restarting
+2015-11-11 19:50:08: Stopping app:logger id:1
+2015-11-11 19:50:08: Change detected for app name: translator - restarting
+2015-11-11 19:50:08: Stopping app:translator id:2
+2015-11-11 19:50:08: App name:main id:0 exited with code SIGTERM
+2015-11-11 19:50:08: App name:logger id:1 exited with code SIGTERM
+2015-11-11 19:50:08: App name:translator id:2 exited with code SIGTERM
+2015-11-11 19:50:08: Process with pid 14658 killed
+2015-11-11 19:50:08: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:50:08: Process with pid 14659 killed
+2015-11-11 19:50:08: Starting execution sequence in -fork mode- for app name:logger id:1
+2015-11-11 19:50:08: Process with pid 14664 killed
+2015-11-11 19:50:08: Starting execution sequence in -fork mode- for app name:translator id:2
+2015-11-11 19:50:08: App name:main id:0 online
+2015-11-11 19:50:08: App name:logger id:1 online
+2015-11-11 19:50:08: App name:translator id:2 online
+2015-11-11 19:50:08: Change detected for app name: main - restarting
+2015-11-11 19:50:08: Stopping app:main id:0
+2015-11-11 19:50:08: Change detected for app name: logger - restarting
+2015-11-11 19:50:08: Stopping app:logger id:1
+2015-11-11 19:50:08: Change detected for app name: translator - restarting
+2015-11-11 19:50:08: Stopping app:translator id:2
+2015-11-11 19:50:08: App name:main id:0 exited with code SIGTERM
+2015-11-11 19:50:08: App name:logger id:1 exited with code SIGTERM
+2015-11-11 19:50:08: App name:translator id:2 exited with code SIGTERM
+2015-11-11 19:50:08: Process with pid 14697 killed
+2015-11-11 19:50:08: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:50:08: Process with pid 14698 killed
+2015-11-11 19:50:08: Starting execution sequence in -fork mode- for app name:logger id:1
+2015-11-11 19:50:08: Process with pid 14703 killed
+2015-11-11 19:50:08: Starting execution sequence in -fork mode- for app name:translator id:2
+2015-11-11 19:50:08: App name:main id:0 online
+2015-11-11 19:50:08: App name:logger id:1 online
+2015-11-11 19:50:08: App name:translator id:2 online
+2015-11-11 19:50:09: Change detected for app name: main - restarting
+2015-11-11 19:50:09: Stopping app:main id:0
+2015-11-11 19:50:09: Change detected for app name: logger - restarting
+2015-11-11 19:50:09: Stopping app:logger id:1
+2015-11-11 19:50:09: Change detected for app name: translator - restarting
+2015-11-11 19:50:09: Stopping app:translator id:2
+2015-11-11 19:50:09: App name:main id:0 exited with code SIGTERM
+2015-11-11 19:50:09: App name:logger id:1 exited with code SIGTERM
+2015-11-11 19:50:09: App name:translator id:2 exited with code SIGTERM
+2015-11-11 19:50:09: Process with pid 14736 killed
+2015-11-11 19:50:09: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:50:09: Process with pid 14737 killed
+2015-11-11 19:50:09: Starting execution sequence in -fork mode- for app name:logger id:1
+2015-11-11 19:50:09: Process with pid 14742 killed
+2015-11-11 19:50:09: Starting execution sequence in -fork mode- for app name:translator id:2
+2015-11-11 19:50:09: App name:main id:0 online
+2015-11-11 19:50:09: App name:logger id:1 online
+2015-11-11 19:50:09: App name:translator id:2 online
+2015-11-11 19:50:09: Change detected for app name: main - restarting
+2015-11-11 19:50:09: Stopping app:main id:0
+2015-11-11 19:50:09: Change detected for app name: logger - restarting
+2015-11-11 19:50:09: Stopping app:logger id:1
+2015-11-11 19:50:09: Change detected for app name: translator - restarting
+2015-11-11 19:50:09: Stopping app:translator id:2
+2015-11-11 19:50:09: App name:main id:0 exited with code SIGTERM
+2015-11-11 19:50:09: App name:logger id:1 exited with code SIGTERM
+2015-11-11 19:50:09: App name:translator id:2 exited with code SIGTERM
+2015-11-11 19:50:10: Process with pid 14775 killed
+2015-11-11 19:50:10: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:50:10: Process with pid 14776 killed
+2015-11-11 19:50:10: Starting execution sequence in -fork mode- for app name:logger id:1
+2015-11-11 19:50:10: Process with pid 14781 killed
+2015-11-11 19:50:10: Starting execution sequence in -fork mode- for app name:translator id:2
+2015-11-11 19:50:10: App name:main id:0 online
+2015-11-11 19:50:10: App name:logger id:1 online
+2015-11-11 19:50:10: App name:translator id:2 online
+2015-11-11 19:50:10: Change detected for app name: main - restarting
+2015-11-11 19:50:10: Stopping app:main id:0
+2015-11-11 19:50:10: Change detected for app name: logger - restarting
+2015-11-11 19:50:10: Stopping app:logger id:1
+2015-11-11 19:50:10: Change detected for app name: translator - restarting
+2015-11-11 19:50:10: Stopping app:translator id:2
+2015-11-11 19:50:10: App name:main id:0 exited with code SIGTERM
+2015-11-11 19:50:10: App name:logger id:1 exited with code SIGTERM
+2015-11-11 19:50:10: App name:translator id:2 exited with code SIGTERM
+2015-11-11 19:50:10: Process with pid 14814 killed
+2015-11-11 19:50:10: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:50:10: Process with pid 14815 killed
+2015-11-11 19:50:10: Starting execution sequence in -fork mode- for app name:logger id:1
+2015-11-11 19:50:10: Process with pid 14820 killed
+2015-11-11 19:50:10: Starting execution sequence in -fork mode- for app name:translator id:2
+2015-11-11 19:50:10: App name:main id:0 online
+2015-11-11 19:50:10: App name:logger id:1 online
+2015-11-11 19:50:10: App name:translator id:2 online
+2015-11-11 19:50:11: Change detected for app name: main - restarting
+2015-11-11 19:50:11: Stopping app:main id:0
+2015-11-11 19:50:11: Change detected for app name: logger - restarting
+2015-11-11 19:50:11: Stopping app:logger id:1
+2015-11-11 19:50:11: Change detected for app name: translator - restarting
+2015-11-11 19:50:11: Stopping app:translator id:2
+2015-11-11 19:50:11: App name:main id:0 exited with code SIGTERM
+2015-11-11 19:50:11: App name:logger id:1 exited with code SIGTERM
+2015-11-11 19:50:11: App name:translator id:2 exited with code SIGTERM
+2015-11-11 19:50:11: Process with pid 14853 killed
+2015-11-11 19:50:11: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:50:11: Process with pid 14854 killed
+2015-11-11 19:50:11: Starting execution sequence in -fork mode- for app name:logger id:1
+2015-11-11 19:50:11: Process with pid 14859 killed
+2015-11-11 19:50:11: Starting execution sequence in -fork mode- for app name:translator id:2
+2015-11-11 19:50:11: App name:main id:0 online
+2015-11-11 19:50:11: App name:logger id:1 online
+2015-11-11 19:50:11: App name:translator id:2 online
+2015-11-11 19:50:11: Change detected for app name: main - restarting
+2015-11-11 19:50:11: Stopping app:main id:0
+2015-11-11 19:50:11: Change detected for app name: logger - restarting
+2015-11-11 19:50:11: Stopping app:logger id:1
+2015-11-11 19:50:11: Change detected for app name: translator - restarting
+2015-11-11 19:50:11: Stopping app:translator id:2
+2015-11-11 19:50:11: App name:main id:0 exited with code SIGTERM
+2015-11-11 19:50:11: App name:logger id:1 exited with code SIGTERM
+2015-11-11 19:50:11: App name:translator id:2 exited with code SIGTERM
+2015-11-11 19:50:11: Process with pid 14892 killed
+2015-11-11 19:50:11: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:50:11: Process with pid 14897 killed
+2015-11-11 19:50:11: Starting execution sequence in -fork mode- for app name:logger id:1
+2015-11-11 19:50:11: Process with pid 14898 killed
+2015-11-11 19:50:11: Starting execution sequence in -fork mode- for app name:translator id:2
+2015-11-11 19:50:11: App name:main id:0 online
+2015-11-11 19:50:11: App name:logger id:1 online
+2015-11-11 19:50:11: App name:translator id:2 online
+2015-11-11 19:50:12: Change detected for app name: main - restarting
+2015-11-11 19:50:12: Stopping app:main id:0
+2015-11-11 19:50:12: Change detected for app name: logger - restarting
+2015-11-11 19:50:12: Stopping app:logger id:1
+2015-11-11 19:50:12: Change detected for app name: translator - restarting
+2015-11-11 19:50:12: Stopping app:translator id:2
+2015-11-11 19:50:12: App name:main id:0 exited with code SIGTERM
+2015-11-11 19:50:12: App name:logger id:1 exited with code SIGTERM
+2015-11-11 19:50:12: App name:translator id:2 exited with code SIGTERM
+2015-11-11 19:50:12: Process with pid 14932 killed
+2015-11-11 19:50:12: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:50:12: Process with pid 14937 killed
+2015-11-11 19:50:12: Starting execution sequence in -fork mode- for app name:logger id:1
+2015-11-11 19:50:12: Process with pid 14942 killed
+2015-11-11 19:50:12: Starting execution sequence in -fork mode- for app name:translator id:2
+2015-11-11 19:50:12: App name:main id:0 online
+2015-11-11 19:50:12: App name:logger id:1 online
+2015-11-11 19:50:12: App name:translator id:2 online
+2015-11-11 19:50:12: [Watch] Stop watching 0
+2015-11-11 19:50:12: Stopping app:main id:0
+2015-11-11 19:50:12: App name:main id:0 exited with code SIGTERM
+2015-11-11 19:50:12: Proc is not defined anymore or is being killed
+2015-11-11 19:50:12: Process with pid 14975 killed
+2015-11-11 19:50:12: [Watch] Stop watching 1
+2015-11-11 19:50:12: Stopping app:logger id:1
+2015-11-11 19:50:12: App name:logger id:1 exited with code SIGTERM
+2015-11-11 19:50:12: Process with pid 14976 killed
+2015-11-11 19:50:12: [Watch] Stop watching 2
+2015-11-11 19:50:12: Stopping app:translator id:2
+2015-11-11 19:50:12: App name:translator id:2 exited with code SIGTERM
+2015-11-11 19:50:12: Process with pid 14981 killed
+2015-11-11 19:53:58: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:53:58: App name:main id:0 online
+2015-11-11 19:53:58: Starting execution sequence in -fork mode- for app name:logger id:1
+2015-11-11 19:53:58: App name:logger id:1 online
+2015-11-11 19:53:58: Starting execution sequence in -fork mode- for app name:translator id:2
+2015-11-11 19:53:58: App name:translator id:2 online
+2015-11-11 19:53:59: Change detected for app name: main - restarting
+2015-11-11 19:53:59: Stopping app:main id:0
+2015-11-11 19:53:59: Change detected for app name: logger - restarting
+2015-11-11 19:53:59: Stopping app:logger id:1
+2015-11-11 19:53:59: Change detected for app name: translator - restarting
+2015-11-11 19:53:59: Stopping app:translator id:2
+2015-11-11 19:53:59: App name:main id:0 exited with code SIGTERM
+2015-11-11 19:53:59: App name:logger id:1 exited with code SIGTERM
+2015-11-11 19:53:59: App name:translator id:2 exited with code SIGTERM
+2015-11-11 19:53:59: Process with pid 15661 killed
+2015-11-11 19:53:59: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:53:59: Process with pid 15668 killed
+2015-11-11 19:53:59: Starting execution sequence in -fork mode- for app name:logger id:1
+2015-11-11 19:53:59: Process with pid 15675 killed
+2015-11-11 19:53:59: Starting execution sequence in -fork mode- for app name:translator id:2
+2015-11-11 19:53:59: App name:main id:0 online
+2015-11-11 19:53:59: App name:logger id:1 online
+2015-11-11 19:53:59: App name:translator id:2 online
+2015-11-11 19:53:59: Change detected for app name: main - restarting
+2015-11-11 19:53:59: Stopping app:main id:0
+2015-11-11 19:53:59: Change detected for app name: logger - restarting
+2015-11-11 19:53:59: Stopping app:logger id:1
+2015-11-11 19:53:59: Change detected for app name: translator - restarting
+2015-11-11 19:53:59: Stopping app:translator id:2
+2015-11-11 19:53:59: App name:main id:0 exited with code SIGTERM
+2015-11-11 19:53:59: App name:logger id:1 exited with code SIGTERM
+2015-11-11 19:53:59: App name:translator id:2 exited with code SIGTERM
+2015-11-11 19:53:59: Process with pid 15700 killed
+2015-11-11 19:53:59: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:53:59: Process with pid 15701 killed
+2015-11-11 19:53:59: Starting execution sequence in -fork mode- for app name:logger id:1
+2015-11-11 19:53:59: Process with pid 15706 killed
+2015-11-11 19:53:59: Starting execution sequence in -fork mode- for app name:translator id:2
+2015-11-11 19:53:59: App name:main id:0 online
+2015-11-11 19:53:59: App name:logger id:1 online
+2015-11-11 19:53:59: App name:translator id:2 online
+2015-11-11 19:54:00: Change detected for app name: main - restarting
+2015-11-11 19:54:00: Stopping app:main id:0
+2015-11-11 19:54:00: Change detected for app name: logger - restarting
+2015-11-11 19:54:00: Stopping app:logger id:1
+2015-11-11 19:54:00: Change detected for app name: translator - restarting
+2015-11-11 19:54:00: Stopping app:translator id:2
+2015-11-11 19:54:00: App name:main id:0 exited with code SIGTERM
+2015-11-11 19:54:00: App name:logger id:1 exited with code SIGTERM
+2015-11-11 19:54:00: App name:translator id:2 exited with code SIGTERM
+2015-11-11 19:54:00: Process with pid 15739 killed
+2015-11-11 19:54:00: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:54:00: Process with pid 15740 killed
+2015-11-11 19:54:00: Starting execution sequence in -fork mode- for app name:logger id:1
+2015-11-11 19:54:00: Process with pid 15745 killed
+2015-11-11 19:54:00: Starting execution sequence in -fork mode- for app name:translator id:2
+2015-11-11 19:54:00: App name:main id:0 online
+2015-11-11 19:54:00: App name:logger id:1 online
+2015-11-11 19:54:00: App name:translator id:2 online
+2015-11-11 19:54:00: Change detected for app name: main - restarting
+2015-11-11 19:54:00: Stopping app:main id:0
+2015-11-11 19:54:00: Change detected for app name: logger - restarting
+2015-11-11 19:54:00: Stopping app:logger id:1
+2015-11-11 19:54:00: Change detected for app name: translator - restarting
+2015-11-11 19:54:00: Stopping app:translator id:2
+2015-11-11 19:54:00: App name:main id:0 exited with code SIGTERM
+2015-11-11 19:54:00: App name:logger id:1 exited with code SIGTERM
+2015-11-11 19:54:00: App name:translator id:2 exited with code SIGTERM
+2015-11-11 19:54:00: Process with pid 15779 killed
+2015-11-11 19:54:00: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:54:00: Process with pid 15780 killed
+2015-11-11 19:54:00: Starting execution sequence in -fork mode- for app name:logger id:1
+2015-11-11 19:54:00: Process with pid 15785 killed
+2015-11-11 19:54:00: Starting execution sequence in -fork mode- for app name:translator id:2
+2015-11-11 19:54:00: App name:main id:0 online
+2015-11-11 19:54:00: App name:logger id:1 online
+2015-11-11 19:54:00: App name:translator id:2 online
+2015-11-11 19:54:01: Change detected for app name: main - restarting
+2015-11-11 19:54:01: Stopping app:main id:0
+2015-11-11 19:54:01: Change detected for app name: logger - restarting
+2015-11-11 19:54:01: Stopping app:logger id:1
+2015-11-11 19:54:01: Change detected for app name: translator - restarting
+2015-11-11 19:54:01: Stopping app:translator id:2
+2015-11-11 19:54:01: App name:main id:0 exited with code SIGTERM
+2015-11-11 19:54:01: App name:logger id:1 exited with code SIGTERM
+2015-11-11 19:54:01: App name:translator id:2 exited with code SIGTERM
+2015-11-11 19:54:01: Process with pid 15818 killed
+2015-11-11 19:54:01: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:54:01: Process with pid 15819 killed
+2015-11-11 19:54:01: Starting execution sequence in -fork mode- for app name:logger id:1
+2015-11-11 19:54:01: Process with pid 15824 killed
+2015-11-11 19:54:01: Starting execution sequence in -fork mode- for app name:translator id:2
+2015-11-11 19:54:01: App name:main id:0 online
+2015-11-11 19:54:01: App name:logger id:1 online
+2015-11-11 19:54:01: App name:translator id:2 online
+2015-11-11 19:54:01: Change detected for app name: main - restarting
+2015-11-11 19:54:01: Stopping app:main id:0
+2015-11-11 19:54:01: Change detected for app name: logger - restarting
+2015-11-11 19:54:01: Stopping app:logger id:1
+2015-11-11 19:54:01: Change detected for app name: translator - restarting
+2015-11-11 19:54:01: Stopping app:translator id:2
+2015-11-11 19:54:01: App name:main id:0 exited with code SIGTERM
+2015-11-11 19:54:01: App name:logger id:1 exited with code SIGTERM
+2015-11-11 19:54:02: Process with pid 15857 killed
+2015-11-11 19:54:02: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:54:02: Process with pid 15858 killed
+2015-11-11 19:54:02: Starting execution sequence in -fork mode- for app name:logger id:1
+2015-11-11 19:54:02: Process with pid 15863 still not killed, retrying...
+2015-11-11 19:54:02: App name:main id:0 online
+2015-11-11 19:54:02: App name:logger id:1 online
+2015-11-11 19:54:02: Process with pid 15863 still not killed, retrying...
+2015-11-11 19:54:02: Process with pid 15863 still not killed, retrying...
+2015-11-11 19:54:02: Process with pid 15863 still not killed, retrying...
+2015-11-11 19:54:02: App name:translator id:2 exited with code 0
+2015-11-11 19:54:02: Process with pid 15863 killed
+2015-11-11 19:54:02: Starting execution sequence in -fork mode- for app name:translator id:2
+2015-11-11 19:54:02: App name:translator id:2 online
+2015-11-11 19:54:02: Change detected for app name: main - restarting
+2015-11-11 19:54:02: Stopping app:main id:0
+2015-11-11 19:54:02: Change detected for app name: logger - restarting
+2015-11-11 19:54:02: Stopping app:logger id:1
+2015-11-11 19:54:02: Change detected for app name: translator - restarting
+2015-11-11 19:54:02: Stopping app:translator id:2
+2015-11-11 19:54:02: App name:main id:0 exited with code SIGTERM
+2015-11-11 19:54:02: App name:translator id:2 exited with code SIGTERM
+2015-11-11 19:54:02: Proc is not defined anymore or is being killed
+2015-11-11 19:54:02: Process with pid 15896 killed
+2015-11-11 19:54:02: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:54:02: Process with pid 15897 still not killed, retrying...
+2015-11-11 19:54:02: Process with pid 15922 killed
+2015-11-11 19:54:02: Starting execution sequence in -fork mode- for app name:translator id:2
+2015-11-11 19:54:02: App name:main id:0 online
+2015-11-11 19:54:02: App name:translator id:2 online
+2015-11-11 19:54:02: Process with pid 15897 still not killed, retrying...
+2015-11-11 19:54:02: Process with pid 15897 still not killed, retrying...
+2015-11-11 19:54:03: Change detected for app name: main - restarting
+2015-11-11 19:54:03: Stopping app:main id:0
+2015-11-11 19:54:03: Change detected for app name: translator - restarting
+2015-11-11 19:54:03: Stopping app:translator id:2
+2015-11-11 19:54:03: App name:main id:0 exited with code SIGTERM
+2015-11-11 19:54:03: App name:translator id:2 exited with code SIGTERM
+2015-11-11 19:54:03: Process with pid 15897 still not killed, retrying...
+2015-11-11 19:54:03: App name:logger id:1 exited with code 0
+2015-11-11 19:54:03: Process with pid 15927 killed
+2015-11-11 19:54:03: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:54:03: Process with pid 15928 killed
+2015-11-11 19:54:03: Starting execution sequence in -fork mode- for app name:translator id:2
+2015-11-11 19:54:03: Process with pid 15897 killed
+2015-11-11 19:54:03: Starting execution sequence in -fork mode- for app name:logger id:1
+2015-11-11 19:54:03: App name:main id:0 online
+2015-11-11 19:54:03: App name:translator id:2 online
+2015-11-11 19:54:03: App name:logger id:1 online
+2015-11-11 19:54:03: Change detected for app name: main - restarting
+2015-11-11 19:54:03: Stopping app:main id:0
+2015-11-11 19:54:03: Change detected for app name: logger - restarting
+2015-11-11 19:54:03: Stopping app:logger id:1
+2015-11-11 19:54:03: Change detected for app name: translator - restarting
+2015-11-11 19:54:03: Stopping app:translator id:2
+2015-11-11 19:54:03: App name:main id:0 exited with code SIGTERM
+2015-11-11 19:54:03: App name:translator id:2 exited with code SIGTERM
+2015-11-11 19:54:03: App name:logger id:1 exited with code SIGTERM
+2015-11-11 19:54:03: Process with pid 15953 killed
+2015-11-11 19:54:03: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:54:03: Process with pid 15959 killed
+2015-11-11 19:54:03: Starting execution sequence in -fork mode- for app name:logger id:1
+2015-11-11 19:54:03: Process with pid 15954 killed
+2015-11-11 19:54:03: Starting execution sequence in -fork mode- for app name:translator id:2
+2015-11-11 19:54:03: App name:main id:0 online
+2015-11-11 19:54:03: App name:logger id:1 online
+2015-11-11 19:54:03: App name:translator id:2 online
+2015-11-11 19:54:04: Change detected for app name: main - restarting
+2015-11-11 19:54:04: Stopping app:main id:0
+2015-11-11 19:54:04: Change detected for app name: logger - restarting
+2015-11-11 19:54:04: Stopping app:logger id:1
+2015-11-11 19:54:04: Change detected for app name: translator - restarting
+2015-11-11 19:54:04: Stopping app:translator id:2
+2015-11-11 19:54:04: App name:main id:0 exited with code SIGTERM
+2015-11-11 19:54:04: App name:logger id:1 exited with code SIGTERM
+2015-11-11 19:54:04: App name:translator id:2 exited with code SIGTERM
+2015-11-11 19:54:04: Process with pid 15992 killed
+2015-11-11 19:54:04: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:54:04: Process with pid 15993 killed
+2015-11-11 19:54:04: Starting execution sequence in -fork mode- for app name:logger id:1
+2015-11-11 19:54:04: Process with pid 15998 killed
+2015-11-11 19:54:04: Starting execution sequence in -fork mode- for app name:translator id:2
+2015-11-11 19:54:04: App name:main id:0 online
+2015-11-11 19:54:04: App name:logger id:1 online
+2015-11-11 19:54:04: App name:translator id:2 online
+2015-11-11 19:54:04: Change detected for app name: main - restarting
+2015-11-11 19:54:04: Stopping app:main id:0
+2015-11-11 19:54:04: Change detected for app name: logger - restarting
+2015-11-11 19:54:04: Stopping app:logger id:1
+2015-11-11 19:54:04: Change detected for app name: translator - restarting
+2015-11-11 19:54:04: Stopping app:translator id:2
+2015-11-11 19:54:04: App name:main id:0 exited with code SIGTERM
+2015-11-11 19:54:04: App name:logger id:1 exited with code SIGTERM
+2015-11-11 19:54:04: App name:translator id:2 exited with code SIGTERM
+2015-11-11 19:54:04: Process with pid 16031 killed
+2015-11-11 19:54:04: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:54:04: Process with pid 16032 killed
+2015-11-11 19:54:04: Starting execution sequence in -fork mode- for app name:logger id:1
+2015-11-11 19:54:04: Process with pid 16041 killed
+2015-11-11 19:54:04: Starting execution sequence in -fork mode- for app name:translator id:2
+2015-11-11 19:54:04: App name:main id:0 online
+2015-11-11 19:54:04: App name:logger id:1 online
+2015-11-11 19:54:04: App name:translator id:2 online
+2015-11-11 19:54:05: Change detected for app name: main - restarting
+2015-11-11 19:54:05: Stopping app:main id:0
+2015-11-11 19:54:05: Change detected for app name: logger - restarting
+2015-11-11 19:54:05: Stopping app:logger id:1
+2015-11-11 19:54:05: Change detected for app name: translator - restarting
+2015-11-11 19:54:05: Stopping app:translator id:2
+2015-11-11 19:54:05: App name:main id:0 exited with code SIGTERM
+2015-11-11 19:54:05: App name:logger id:1 exited with code SIGTERM
+2015-11-11 19:54:05: App name:translator id:2 exited with code SIGTERM
+2015-11-11 19:54:05: Process with pid 16070 killed
+2015-11-11 19:54:05: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:54:05: Process with pid 16071 killed
+2015-11-11 19:54:05: Starting execution sequence in -fork mode- for app name:logger id:1
+2015-11-11 19:54:05: Process with pid 16076 killed
+2015-11-11 19:54:05: Starting execution sequence in -fork mode- for app name:translator id:2
+2015-11-11 19:54:05: App name:main id:0 online
+2015-11-11 19:54:05: App name:logger id:1 online
+2015-11-11 19:54:05: App name:translator id:2 online
+2015-11-11 19:54:05: Change detected for app name: main - restarting
+2015-11-11 19:54:05: Stopping app:main id:0
+2015-11-11 19:54:05: Change detected for app name: logger - restarting
+2015-11-11 19:54:05: Stopping app:logger id:1
+2015-11-11 19:54:05: Change detected for app name: translator - restarting
+2015-11-11 19:54:05: Stopping app:translator id:2
+2015-11-11 19:54:05: App name:main id:0 exited with code SIGTERM
+2015-11-11 19:54:05: App name:logger id:1 exited with code SIGTERM
+2015-11-11 19:54:05: App name:translator id:2 exited with code SIGTERM
+2015-11-11 19:54:06: Process with pid 16114 killed
+2015-11-11 19:54:06: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:54:06: Process with pid 16115 killed
+2015-11-11 19:54:06: Starting execution sequence in -fork mode- for app name:logger id:1
+2015-11-11 19:54:06: Process with pid 16120 killed
+2015-11-11 19:54:06: Starting execution sequence in -fork mode- for app name:translator id:2
+2015-11-11 19:54:06: App name:main id:0 online
+2015-11-11 19:54:06: App name:logger id:1 online
+2015-11-11 19:54:06: App name:translator id:2 online
+2015-11-11 19:54:06: Change detected for app name: main - restarting
+2015-11-11 19:54:06: Stopping app:main id:0
+2015-11-11 19:54:06: Change detected for app name: logger - restarting
+2015-11-11 19:54:06: Stopping app:logger id:1
+2015-11-11 19:54:06: Change detected for app name: translator - restarting
+2015-11-11 19:54:06: Stopping app:translator id:2
+2015-11-11 19:54:06: App name:main id:0 exited with code SIGTERM
+2015-11-11 19:54:06: App name:logger id:1 exited with code SIGTERM
+2015-11-11 19:54:06: App name:translator id:2 exited with code SIGTERM
+2015-11-11 19:54:06: Process with pid 16153 killed
+2015-11-11 19:54:06: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:54:06: Process with pid 16154 killed
+2015-11-11 19:54:06: Starting execution sequence in -fork mode- for app name:logger id:1
+2015-11-11 19:54:06: Process with pid 16159 killed
+2015-11-11 19:54:06: Starting execution sequence in -fork mode- for app name:translator id:2
+2015-11-11 19:54:06: App name:main id:0 online
+2015-11-11 19:54:06: App name:logger id:1 online
+2015-11-11 19:54:06: App name:translator id:2 online
+2015-11-11 19:54:07: Change detected for app name: main - restarting
+2015-11-11 19:54:07: Stopping app:main id:0
+2015-11-11 19:54:07: Change detected for app name: logger - restarting
+2015-11-11 19:54:07: Stopping app:logger id:1
+2015-11-11 19:54:07: Change detected for app name: translator - restarting
+2015-11-11 19:54:07: Stopping app:translator id:2
+2015-11-11 19:54:07: App name:main id:0 exited with code SIGTERM
+2015-11-11 19:54:07: App name:logger id:1 exited with code SIGTERM
+2015-11-11 19:54:07: App name:translator id:2 exited with code SIGTERM
+2015-11-11 19:54:07: Process with pid 16192 killed
+2015-11-11 19:54:07: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:54:07: Process with pid 16193 killed
+2015-11-11 19:54:07: Starting execution sequence in -fork mode- for app name:logger id:1
+2015-11-11 19:54:07: Process with pid 16198 killed
+2015-11-11 19:54:07: Starting execution sequence in -fork mode- for app name:translator id:2
+2015-11-11 19:54:07: App name:main id:0 online
+2015-11-11 19:54:07: App name:logger id:1 online
+2015-11-11 19:54:07: App name:translator id:2 online
+2015-11-11 19:54:07: Change detected for app name: main - restarting
+2015-11-11 19:54:07: Stopping app:main id:0
+2015-11-11 19:54:07: Change detected for app name: logger - restarting
+2015-11-11 19:54:07: Stopping app:logger id:1
+2015-11-11 19:54:07: Change detected for app name: translator - restarting
+2015-11-11 19:54:07: Stopping app:translator id:2
+2015-11-11 19:54:07: App name:main id:0 exited with code SIGTERM
+2015-11-11 19:54:07: App name:translator id:2 exited with code SIGTERM
+2015-11-11 19:54:07: Process with pid 16231 killed
+2015-11-11 19:54:07: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:54:07: Process with pid 16232 still not killed, retrying...
+2015-11-11 19:54:07: Process with pid 16237 killed
+2015-11-11 19:54:07: Starting execution sequence in -fork mode- for app name:translator id:2
+2015-11-11 19:54:07: App name:main id:0 online
+2015-11-11 19:54:07: App name:translator id:2 online
+2015-11-11 19:54:07: Process with pid 16232 still not killed, retrying...
+2015-11-11 19:54:08: Process with pid 16232 still not killed, retrying...
+2015-11-11 19:54:08: Change detected for app name: main - restarting
+2015-11-11 19:54:08: Stopping app:main id:0
+2015-11-11 19:54:08: Change detected for app name: translator - restarting
+2015-11-11 19:54:08: Stopping app:translator id:2
+2015-11-11 19:54:08: Process with pid 16232 still not killed, retrying...
+2015-11-11 19:54:08: App name:main id:0 exited with code SIGTERM
+2015-11-11 19:54:08: App name:translator id:2 exited with code SIGTERM
+2015-11-11 19:54:08: App name:logger id:1 exited with code 0
+2015-11-11 19:54:08: Process with pid 16270 killed
+2015-11-11 19:54:08: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:54:08: Process with pid 16271 killed
+2015-11-11 19:54:08: Starting execution sequence in -fork mode- for app name:translator id:2
+2015-11-11 19:54:08: Process with pid 16232 killed
+2015-11-11 19:54:08: Starting execution sequence in -fork mode- for app name:logger id:1
+2015-11-11 19:54:08: App name:main id:0 online
+2015-11-11 19:54:08: App name:translator id:2 online
+2015-11-11 19:54:08: App name:logger id:1 online
+2015-11-11 19:54:08: Change detected for app name: main - restarting
+2015-11-11 19:54:08: Stopping app:main id:0
+2015-11-11 19:54:08: Change detected for app name: logger - restarting
+2015-11-11 19:54:08: Stopping app:logger id:1
+2015-11-11 19:54:08: Change detected for app name: translator - restarting
+2015-11-11 19:54:08: Stopping app:translator id:2
+2015-11-11 19:54:08: App name:main id:0 exited with code SIGTERM
+2015-11-11 19:54:08: App name:logger id:1 exited with code SIGTERM
+2015-11-11 19:54:08: App name:translator id:2 exited with code SIGTERM
+2015-11-11 19:54:08: Process with pid 16296 killed
+2015-11-11 19:54:08: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:54:08: Process with pid 16302 killed
+2015-11-11 19:54:08: Starting execution sequence in -fork mode- for app name:logger id:1
+2015-11-11 19:54:08: Process with pid 16297 killed
+2015-11-11 19:54:08: Starting execution sequence in -fork mode- for app name:translator id:2
+2015-11-11 19:54:08: App name:main id:0 online
+2015-11-11 19:54:08: App name:logger id:1 online
+2015-11-11 19:54:08: App name:translator id:2 online
+2015-11-11 19:54:09: Change detected for app name: main - restarting
+2015-11-11 19:54:09: Stopping app:main id:0
+2015-11-11 19:54:09: Change detected for app name: logger - restarting
+2015-11-11 19:54:09: Stopping app:logger id:1
+2015-11-11 19:54:09: Change detected for app name: translator - restarting
+2015-11-11 19:54:09: Stopping app:translator id:2
+2015-11-11 19:54:09: App name:main id:0 exited with code SIGTERM
+2015-11-11 19:54:09: App name:logger id:1 exited with code SIGTERM
+2015-11-11 19:54:09: App name:translator id:2 exited with code SIGTERM
+2015-11-11 19:54:09: Process with pid 16335 killed
+2015-11-11 19:54:09: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:54:09: Process with pid 16340 killed
+2015-11-11 19:54:09: Starting execution sequence in -fork mode- for app name:logger id:1
+2015-11-11 19:54:09: Process with pid 16341 killed
+2015-11-11 19:54:09: Starting execution sequence in -fork mode- for app name:translator id:2
+2015-11-11 19:54:09: App name:main id:0 online
+2015-11-11 19:54:09: App name:logger id:1 online
+2015-11-11 19:54:09: App name:translator id:2 online
+2015-11-11 19:54:09: Change detected for app name: main - restarting
+2015-11-11 19:54:09: Stopping app:main id:0
+2015-11-11 19:54:09: Change detected for app name: logger - restarting
+2015-11-11 19:54:09: Stopping app:logger id:1
+2015-11-11 19:54:09: Change detected for app name: translator - restarting
+2015-11-11 19:54:09: Stopping app:translator id:2
+2015-11-11 19:54:09: App name:main id:0 exited with code SIGTERM
+2015-11-11 19:54:09: App name:logger id:1 exited with code SIGTERM
+2015-11-11 19:54:10: Process with pid 16374 killed
+2015-11-11 19:54:10: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:54:10: Process with pid 16375 killed
+2015-11-11 19:54:10: Starting execution sequence in -fork mode- for app name:logger id:1
+2015-11-11 19:54:10: Process with pid 16380 still not killed, retrying...
+2015-11-11 19:54:10: App name:main id:0 online
+2015-11-11 19:54:10: App name:logger id:1 online
+2015-11-11 19:54:10: Process with pid 16380 still not killed, retrying...
+2015-11-11 19:54:10: Process with pid 16380 still not killed, retrying...
+2015-11-11 19:54:10: App name:translator id:2 exited with code 0
+2015-11-11 19:54:10: Process with pid 16380 killed
+2015-11-11 19:54:10: Starting execution sequence in -fork mode- for app name:translator id:2
+2015-11-11 19:54:10: App name:translator id:2 online
+2015-11-11 19:54:10: Change detected for app name: main - restarting
+2015-11-11 19:54:10: Stopping app:main id:0
+2015-11-11 19:54:10: Change detected for app name: logger - restarting
+2015-11-11 19:54:10: Stopping app:logger id:1
+2015-11-11 19:54:10: Change detected for app name: translator - restarting
+2015-11-11 19:54:10: Stopping app:translator id:2
+2015-11-11 19:54:10: App name:main id:0 exited with code SIGTERM
+2015-11-11 19:54:10: App name:translator id:2 exited with code SIGTERM
+2015-11-11 19:54:10: App name:logger id:1 exited with code SIGTERM
+2015-11-11 19:54:10: Process with pid 16413 killed
+2015-11-11 19:54:10: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:54:10: Process with pid 16414 killed
+2015-11-11 19:54:10: Starting execution sequence in -fork mode- for app name:logger id:1
+2015-11-11 19:54:10: Process with pid 16439 killed
+2015-11-11 19:54:10: Starting execution sequence in -fork mode- for app name:translator id:2
+2015-11-11 19:54:10: App name:main id:0 online
+2015-11-11 19:54:10: App name:logger id:1 online
+2015-11-11 19:54:10: App name:translator id:2 online
+2015-11-11 19:54:11: Change detected for app name: main - restarting
+2015-11-11 19:54:11: Stopping app:main id:0
+2015-11-11 19:54:11: Change detected for app name: logger - restarting
+2015-11-11 19:54:11: Stopping app:logger id:1
+2015-11-11 19:54:11: Change detected for app name: translator - restarting
+2015-11-11 19:54:11: Stopping app:translator id:2
+2015-11-11 19:54:11: App name:main id:0 exited with code SIGTERM
+2015-11-11 19:54:11: App name:logger id:1 exited with code SIGTERM
+2015-11-11 19:54:11: App name:translator id:2 exited with code SIGTERM
+2015-11-11 19:54:11: Process with pid 16448 killed
+2015-11-11 19:54:11: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:54:11: Process with pid 16449 killed
+2015-11-11 19:54:11: Starting execution sequence in -fork mode- for app name:logger id:1
+2015-11-11 19:54:11: Process with pid 16454 killed
+2015-11-11 19:54:11: Starting execution sequence in -fork mode- for app name:translator id:2
+2015-11-11 19:54:11: App name:main id:0 online
+2015-11-11 19:54:11: App name:logger id:1 online
+2015-11-11 19:54:11: App name:translator id:2 online
+2015-11-11 19:54:11: Change detected for app name: main - restarting
+2015-11-11 19:54:11: Stopping app:main id:0
+2015-11-11 19:54:11: Change detected for app name: logger - restarting
+2015-11-11 19:54:11: Stopping app:logger id:1
+2015-11-11 19:54:11: Change detected for app name: translator - restarting
+2015-11-11 19:54:11: Stopping app:translator id:2
+2015-11-11 19:54:11: App name:main id:0 exited with code SIGTERM
+2015-11-11 19:54:11: App name:logger id:1 exited with code SIGTERM
+2015-11-11 19:54:11: App name:translator id:2 exited with code SIGTERM
+2015-11-11 19:54:11: Process with pid 16487 killed
+2015-11-11 19:54:11: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:54:11: Process with pid 16488 killed
+2015-11-11 19:54:11: Starting execution sequence in -fork mode- for app name:logger id:1
+2015-11-11 19:54:11: Process with pid 16497 killed
+2015-11-11 19:54:11: Starting execution sequence in -fork mode- for app name:translator id:2
+2015-11-11 19:54:11: App name:main id:0 online
+2015-11-11 19:54:11: App name:logger id:1 online
+2015-11-11 19:54:11: App name:translator id:2 online
+2015-11-11 19:54:12: Change detected for app name: main - restarting
+2015-11-11 19:54:12: Stopping app:main id:0
+2015-11-11 19:54:12: Change detected for app name: logger - restarting
+2015-11-11 19:54:12: Stopping app:logger id:1
+2015-11-11 19:54:12: Change detected for app name: translator - restarting
+2015-11-11 19:54:12: Stopping app:translator id:2
+2015-11-11 19:54:12: App name:main id:0 exited with code SIGTERM
+2015-11-11 19:54:12: App name:logger id:1 exited with code SIGTERM
+2015-11-11 19:54:12: Process with pid 16526 killed
+2015-11-11 19:54:12: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:54:12: Process with pid 16527 killed
+2015-11-11 19:54:12: Starting execution sequence in -fork mode- for app name:logger id:1
+2015-11-11 19:54:12: Process with pid 16532 still not killed, retrying...
+2015-11-11 19:54:12: App name:main id:0 online
+2015-11-11 19:54:12: App name:logger id:1 online
+2015-11-11 19:54:12: Process with pid 16532 still not killed, retrying...
+2015-11-11 19:54:12: Process with pid 16532 still not killed, retrying...
+2015-11-11 19:54:12: App name:translator id:2 exited with code 0
+2015-11-11 19:54:12: Process with pid 16532 killed
+2015-11-11 19:54:12: Starting execution sequence in -fork mode- for app name:translator id:2
+2015-11-11 19:54:12: App name:translator id:2 online
+2015-11-11 19:54:12: Change detected for app name: main - restarting
+2015-11-11 19:54:12: Stopping app:main id:0
+2015-11-11 19:54:12: Change detected for app name: logger - restarting
+2015-11-11 19:54:12: Stopping app:logger id:1
+2015-11-11 19:54:12: Change detected for app name: translator - restarting
+2015-11-11 19:54:12: Stopping app:translator id:2
+2015-11-11 19:54:12: App name:main id:0 exited with code SIGTERM
+2015-11-11 19:54:12: App name:logger id:1 exited with code SIGTERM
+2015-11-11 19:54:12: App name:translator id:2 exited with code SIGTERM
+2015-11-11 19:54:12: Process with pid 16565 killed
+2015-11-11 19:54:12: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:54:12: Process with pid 16566 killed
+2015-11-11 19:54:13: Starting execution sequence in -fork mode- for app name:logger id:1
+2015-11-11 19:54:13: Process with pid 16591 killed
+2015-11-11 19:54:13: Starting execution sequence in -fork mode- for app name:translator id:2
+2015-11-11 19:54:13: App name:main id:0 online
+2015-11-11 19:54:13: App name:logger id:1 online
+2015-11-11 19:54:13: App name:translator id:2 online
+2015-11-11 19:54:13: Change detected for app name: main - restarting
+2015-11-11 19:54:13: Stopping app:main id:0
+2015-11-11 19:54:13: Change detected for app name: logger - restarting
+2015-11-11 19:54:13: Stopping app:logger id:1
+2015-11-11 19:54:13: Change detected for app name: translator - restarting
+2015-11-11 19:54:13: Stopping app:translator id:2
+2015-11-11 19:54:13: App name:main id:0 exited with code SIGTERM
+2015-11-11 19:54:13: App name:logger id:1 exited with code SIGTERM
+2015-11-11 19:54:13: Process with pid 16600 killed
+2015-11-11 19:54:13: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:54:13: Process with pid 16601 killed
+2015-11-11 19:54:13: Starting execution sequence in -fork mode- for app name:logger id:1
+2015-11-11 19:54:13: Process with pid 16606 still not killed, retrying...
+2015-11-11 19:54:13: App name:main id:0 online
+2015-11-11 19:54:13: App name:logger id:1 online
+2015-11-11 19:54:13: Process with pid 16606 still not killed, retrying...
+2015-11-11 19:54:13: Process with pid 16606 still not killed, retrying...
+2015-11-11 19:54:13: Process with pid 16606 still not killed, retrying...
+2015-11-11 19:54:13: App name:translator id:2 exited with code 0
+2015-11-11 19:54:14: Process with pid 16606 killed
+2015-11-11 19:54:14: Starting execution sequence in -fork mode- for app name:translator id:2
+2015-11-11 19:54:14: App name:translator id:2 online
+2015-11-11 19:54:14: Change detected for app name: main - restarting
+2015-11-11 19:54:14: Stopping app:main id:0
+2015-11-11 19:54:14: Change detected for app name: logger - restarting
+2015-11-11 19:54:14: Stopping app:logger id:1
+2015-11-11 19:54:14: Change detected for app name: translator - restarting
+2015-11-11 19:54:14: Stopping app:translator id:2
+2015-11-11 19:54:14: App name:main id:0 exited with code SIGTERM
+2015-11-11 19:54:14: App name:translator id:2 exited with code SIGTERM
+2015-11-11 19:54:14: Proc is not defined anymore or is being killed
+2015-11-11 19:54:14: Process with pid 16639 killed
+2015-11-11 19:54:14: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:54:14: Process with pid 16640 still not killed, retrying...
+2015-11-11 19:54:14: Process with pid 16665 killed
+2015-11-11 19:54:14: Starting execution sequence in -fork mode- for app name:translator id:2
+2015-11-11 19:54:14: App name:main id:0 online
+2015-11-11 19:54:14: App name:translator id:2 online
+2015-11-11 19:54:14: Process with pid 16640 still not killed, retrying...
+2015-11-11 19:54:14: Process with pid 16640 still not killed, retrying...
+2015-11-11 19:54:14: Change detected for app name: main - restarting
+2015-11-11 19:54:14: Stopping app:main id:0
+2015-11-11 19:54:14: Change detected for app name: translator - restarting
+2015-11-11 19:54:14: Stopping app:translator id:2
+2015-11-11 19:54:14: App name:main id:0 exited with code SIGTERM
+2015-11-11 19:54:14: App name:translator id:2 exited with code SIGTERM
+2015-11-11 19:54:14: App name:logger id:1 exited with code 0
+2015-11-11 19:54:14: Process with pid 16640 killed
+2015-11-11 19:54:14: Starting execution sequence in -fork mode- for app name:logger id:1
+2015-11-11 19:54:14: App name:logger id:1 online
+2015-11-11 19:54:14: Process with pid 16666 killed
+2015-11-11 19:54:14: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:54:14: Process with pid 16667 killed
+2015-11-11 19:54:14: Starting execution sequence in -fork mode- for app name:translator id:2
+2015-11-11 19:54:14: App name:main id:0 online
+2015-11-11 19:54:14: App name:translator id:2 online
+2015-11-11 19:54:14: Change detected for app name: main - restarting
+2015-11-11 19:54:14: Stopping app:main id:0
+2015-11-11 19:54:14: Change detected for app name: logger - restarting
+2015-11-11 19:54:14: Stopping app:logger id:1
+2015-11-11 19:54:14: Change detected for app name: translator - restarting
+2015-11-11 19:54:14: Stopping app:translator id:2
+2015-11-11 19:54:14: App name:main id:0 exited with code SIGTERM
+2015-11-11 19:54:14: App name:logger id:1 exited with code SIGTERM
+2015-11-11 19:54:14: App name:translator id:2 exited with code SIGTERM
+2015-11-11 19:54:15: Process with pid 16701 killed
+2015-11-11 19:54:15: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:54:15: Process with pid 16692 killed
+2015-11-11 19:54:15: Starting execution sequence in -fork mode- for app name:logger id:1
+2015-11-11 19:54:15: Process with pid 16702 killed
+2015-11-11 19:54:15: Starting execution sequence in -fork mode- for app name:translator id:2
+2015-11-11 19:54:15: App name:main id:0 online
+2015-11-11 19:54:15: App name:logger id:1 online
+2015-11-11 19:54:15: App name:translator id:2 online
+2015-11-11 19:54:15: Change detected for app name: main - restarting
+2015-11-11 19:54:15: Stopping app:main id:0
+2015-11-11 19:54:15: Change detected for app name: logger - restarting
+2015-11-11 19:54:15: Stopping app:logger id:1
+2015-11-11 19:54:15: Change detected for app name: translator - restarting
+2015-11-11 19:54:15: Stopping app:translator id:2
+2015-11-11 19:54:15: App name:main id:0 exited with code SIGTERM
+2015-11-11 19:54:15: App name:translator id:2 exited with code SIGTERM
+2015-11-11 19:54:15: Process with pid 16731 killed
+2015-11-11 19:54:15: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:54:15: Process with pid 16732 still not killed, retrying...
+2015-11-11 19:54:15: Process with pid 16737 killed
+2015-11-11 19:54:15: Starting execution sequence in -fork mode- for app name:translator id:2
+2015-11-11 19:54:15: App name:main id:0 online
+2015-11-11 19:54:15: App name:translator id:2 online
+2015-11-11 19:54:15: Process with pid 16732 still not killed, retrying...
+2015-11-11 19:54:15: Process with pid 16732 still not killed, retrying...
+2015-11-11 19:54:15: Process with pid 16732 still not killed, retrying...
+2015-11-11 19:54:15: Change detected for app name: main - restarting
+2015-11-11 19:54:15: Stopping app:main id:0
+2015-11-11 19:54:15: Change detected for app name: translator - restarting
+2015-11-11 19:54:15: Stopping app:translator id:2
+2015-11-11 19:54:15: App name:main id:0 exited with code SIGTERM
+2015-11-11 19:54:15: App name:translator id:2 exited with code SIGTERM
+2015-11-11 19:54:16: App name:logger id:1 exited with code 0
+2015-11-11 19:54:16: Process with pid 16732 killed
+2015-11-11 19:54:16: Starting execution sequence in -fork mode- for app name:logger id:1
+2015-11-11 19:54:16: Process with pid 16770 killed
+2015-11-11 19:54:16: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:54:16: Process with pid 16771 killed
+2015-11-11 19:54:16: Starting execution sequence in -fork mode- for app name:translator id:2
+2015-11-11 19:54:16: App name:logger id:1 online
+2015-11-11 19:54:16: App name:main id:0 online
+2015-11-11 19:54:16: App name:translator id:2 online
+2015-11-11 19:54:16: Change detected for app name: main - restarting
+2015-11-11 19:54:16: Stopping app:main id:0
+2015-11-11 19:54:16: Change detected for app name: logger - restarting
+2015-11-11 19:54:16: Stopping app:logger id:1
+2015-11-11 19:54:16: Change detected for app name: translator - restarting
+2015-11-11 19:54:16: Stopping app:translator id:2
+2015-11-11 19:54:16: App name:main id:0 exited with code SIGTERM
+2015-11-11 19:54:16: App name:logger id:1 exited with code SIGTERM
+2015-11-11 19:54:16: App name:translator id:2 exited with code SIGTERM
+2015-11-11 19:54:16: Process with pid 16797 killed
+2015-11-11 19:54:16: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:54:16: Process with pid 16796 killed
+2015-11-11 19:54:16: Starting execution sequence in -fork mode- for app name:logger id:1
+2015-11-11 19:54:16: Process with pid 16802 killed
+2015-11-11 19:54:16: Starting execution sequence in -fork mode- for app name:translator id:2
+2015-11-11 19:54:16: App name:main id:0 online
+2015-11-11 19:54:16: App name:logger id:1 online
+2015-11-11 19:54:16: App name:translator id:2 online
+2015-11-11 19:54:17: Change detected for app name: main - restarting
+2015-11-11 19:54:17: Stopping app:main id:0
+2015-11-11 19:54:17: Change detected for app name: logger - restarting
+2015-11-11 19:54:17: Stopping app:logger id:1
+2015-11-11 19:54:17: Change detected for app name: translator - restarting
+2015-11-11 19:54:17: Stopping app:translator id:2
+2015-11-11 19:54:17: App name:main id:0 exited with code SIGTERM
+2015-11-11 19:54:17: App name:logger id:1 exited with code SIGTERM
+2015-11-11 19:54:17: App name:translator id:2 exited with code SIGTERM
+2015-11-11 19:54:17: Process with pid 16835 killed
+2015-11-11 19:54:17: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:54:17: Process with pid 16836 killed
+2015-11-11 19:54:17: Starting execution sequence in -fork mode- for app name:logger id:1
+2015-11-11 19:54:17: Process with pid 16841 killed
+2015-11-11 19:54:17: Starting execution sequence in -fork mode- for app name:translator id:2
+2015-11-11 19:54:17: App name:main id:0 online
+2015-11-11 19:54:17: App name:logger id:1 online
+2015-11-11 19:54:17: App name:translator id:2 online
+2015-11-11 19:54:17: Change detected for app name: main - restarting
+2015-11-11 19:54:17: Stopping app:main id:0
+2015-11-11 19:54:17: Change detected for app name: logger - restarting
+2015-11-11 19:54:17: Stopping app:logger id:1
+2015-11-11 19:54:17: Change detected for app name: translator - restarting
+2015-11-11 19:54:17: Stopping app:translator id:2
+2015-11-11 19:54:17: App name:main id:0 exited with code SIGTERM
+2015-11-11 19:54:17: App name:logger id:1 exited with code SIGTERM
+2015-11-11 19:54:17: App name:translator id:2 exited with code SIGTERM
+2015-11-11 19:54:17: Process with pid 16874 killed
+2015-11-11 19:54:17: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:54:17: Process with pid 16875 killed
+2015-11-11 19:54:17: Starting execution sequence in -fork mode- for app name:logger id:1
+2015-11-11 19:54:17: Process with pid 16880 killed
+2015-11-11 19:54:17: Starting execution sequence in -fork mode- for app name:translator id:2
+2015-11-11 19:54:17: App name:main id:0 online
+2015-11-11 19:54:17: App name:logger id:1 online
+2015-11-11 19:54:17: App name:translator id:2 online
+2015-11-11 19:54:18: Change detected for app name: main - restarting
+2015-11-11 19:54:18: Stopping app:main id:0
+2015-11-11 19:54:18: Change detected for app name: logger - restarting
+2015-11-11 19:54:18: Stopping app:logger id:1
+2015-11-11 19:54:18: Change detected for app name: translator - restarting
+2015-11-11 19:54:18: Stopping app:translator id:2
+2015-11-11 19:54:18: App name:main id:0 exited with code SIGTERM
+2015-11-11 19:54:18: App name:logger id:1 exited with code SIGTERM
+2015-11-11 19:54:18: App name:translator id:2 exited with code SIGTERM
+2015-11-11 19:54:18: Process with pid 16913 killed
+2015-11-11 19:54:18: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:54:18: Process with pid 16914 killed
+2015-11-11 19:54:18: Starting execution sequence in -fork mode- for app name:logger id:1
+2015-11-11 19:54:18: Process with pid 16919 killed
+2015-11-11 19:54:18: Starting execution sequence in -fork mode- for app name:translator id:2
+2015-11-11 19:54:18: App name:main id:0 online
+2015-11-11 19:54:18: App name:logger id:1 online
+2015-11-11 19:54:18: App name:translator id:2 online
+2015-11-11 19:54:18: Change detected for app name: main - restarting
+2015-11-11 19:54:18: Stopping app:main id:0
+2015-11-11 19:54:18: Change detected for app name: logger - restarting
+2015-11-11 19:54:18: Stopping app:logger id:1
+2015-11-11 19:54:18: Change detected for app name: translator - restarting
+2015-11-11 19:54:18: Stopping app:translator id:2
+2015-11-11 19:54:18: App name:main id:0 exited with code SIGTERM
+2015-11-11 19:54:18: App name:logger id:1 exited with code SIGTERM
+2015-11-11 19:54:18: Process with pid 16952 killed
+2015-11-11 19:54:18: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:54:18: Process with pid 16953 killed
+2015-11-11 19:54:18: Starting execution sequence in -fork mode- for app name:logger id:1
+2015-11-11 19:54:18: Process with pid 16958 still not killed, retrying...
+2015-11-11 19:54:18: App name:main id:0 online
+2015-11-11 19:54:19: App name:logger id:1 online
+2015-11-11 19:54:19: Process with pid 16958 still not killed, retrying...
+2015-11-11 19:54:19: Process with pid 16958 still not killed, retrying...
+2015-11-11 19:54:19: Process with pid 16958 still not killed, retrying...
+2015-11-11 19:54:19: App name:translator id:2 exited with code 0
+2015-11-11 19:54:19: Process with pid 16958 killed
+2015-11-11 19:54:19: Starting execution sequence in -fork mode- for app name:translator id:2
+2015-11-11 19:54:19: App name:translator id:2 online
+2015-11-11 19:54:19: Change detected for app name: main - restarting
+2015-11-11 19:54:19: Stopping app:main id:0
+2015-11-11 19:54:19: Change detected for app name: logger - restarting
+2015-11-11 19:54:19: Stopping app:logger id:1
+2015-11-11 19:54:19: Change detected for app name: translator - restarting
+2015-11-11 19:54:19: Stopping app:translator id:2
+2015-11-11 19:54:19: App name:main id:0 exited with code SIGTERM
+2015-11-11 19:54:19: App name:translator id:2 exited with code SIGTERM
+2015-11-11 19:54:19: Proc is not defined anymore or is being killed
+2015-11-11 19:54:19: Process with pid 16991 killed
+2015-11-11 19:54:19: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:54:19: Process with pid 16992 still not killed, retrying...
+2015-11-11 19:54:19: Process with pid 17069 killed
+2015-11-11 19:54:19: Starting execution sequence in -fork mode- for app name:translator id:2
+2015-11-11 19:54:19: App name:main id:0 online
+2015-11-11 19:54:19: App name:translator id:2 online
+2015-11-11 19:54:19: Process with pid 16992 still not killed, retrying...
+2015-11-11 19:54:19: Process with pid 16992 still not killed, retrying...
+2015-11-11 19:54:19: Change detected for app name: main - restarting
+2015-11-11 19:54:19: Stopping app:main id:0
+2015-11-11 19:54:19: Change detected for app name: translator - restarting
+2015-11-11 19:54:19: Stopping app:translator id:2
+2015-11-11 19:54:19: Process with pid 16992 still not killed, retrying...
+2015-11-11 19:54:19: App name:main id:0 exited with code SIGTERM
+2015-11-11 19:54:19: App name:translator id:2 exited with code SIGTERM
+2015-11-11 19:54:19: App name:logger id:1 exited with code 0
+2015-11-11 19:54:19: Process with pid 17091 killed
+2015-11-11 19:54:20: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:54:20: Process with pid 17095 killed
+2015-11-11 19:54:20: Starting execution sequence in -fork mode- for app name:translator id:2
+2015-11-11 19:54:20: Process with pid 16992 killed
+2015-11-11 19:54:20: Starting execution sequence in -fork mode- for app name:logger id:1
+2015-11-11 19:54:20: App name:main id:0 online
+2015-11-11 19:54:20: App name:translator id:2 online
+2015-11-11 19:54:20: App name:logger id:1 online
+2015-11-11 19:54:20: [Watch] Stop watching 0
+2015-11-11 19:54:20: Stopping app:main id:0
+2015-11-11 19:54:20: App name:main id:0 exited with code SIGTERM
+2015-11-11 19:54:20: Process with pid 17133 killed
+2015-11-11 19:54:20: [Watch] Stop watching 1
+2015-11-11 19:54:20: Stopping app:logger id:1
+2015-11-11 19:54:20: App name:logger id:1 exited with code SIGTERM
+2015-11-11 19:54:20: Process with pid 17139 killed
+2015-11-11 19:54:20: [Watch] Stop watching 2
+2015-11-11 19:54:20: Stopping app:translator id:2
+2015-11-11 19:54:20: Process with pid 17134 still not killed, retrying...
+2015-11-11 19:54:20: Process with pid 17134 still not killed, retrying...
+2015-11-11 19:54:20: Process with pid 17134 still not killed, retrying...
+2015-11-11 19:54:20: App name:translator id:2 exited with code 0
+2015-11-11 19:54:21: Process with pid 17134 killed
+2015-11-11 19:54:48: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:54:48: App name:main id:0 online
+2015-11-11 19:54:48: Starting execution sequence in -fork mode- for app name:logger id:1
+2015-11-11 19:54:48: App name:logger id:1 online
+2015-11-11 19:54:48: Starting execution sequence in -fork mode- for app name:translator id:2
+2015-11-11 19:54:48: App name:translator id:2 online
+2015-11-11 19:54:49: App name:main id:0 exited with code 255
+2015-11-11 19:54:49: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:54:49: App name:main id:0 online
+2015-11-11 19:54:50: App name:main id:0 exited with code 255
+2015-11-11 19:54:50: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:54:50: App name:main id:0 online
+2015-11-11 19:54:51: App name:main id:0 exited with code 255
+2015-11-11 19:54:51: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:54:51: App name:main id:0 online
+2015-11-11 19:54:52: App name:main id:0 exited with code 255
+2015-11-11 19:54:52: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:54:52: App name:main id:0 online
+2015-11-11 19:54:54: App name:main id:0 exited with code 255
+2015-11-11 19:54:54: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:54:54: App name:main id:0 online
+2015-11-11 19:54:55: App name:main id:0 exited with code 255
+2015-11-11 19:54:55: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:54:55: App name:main id:0 online
+2015-11-11 19:54:56: App name:main id:0 exited with code 255
+2015-11-11 19:54:56: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:54:56: App name:main id:0 online
+2015-11-11 19:54:57: App name:main id:0 exited with code 255
+2015-11-11 19:54:57: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:54:57: App name:main id:0 online
+2015-11-11 19:54:58: App name:main id:0 exited with code 255
+2015-11-11 19:54:58: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:54:58: App name:main id:0 online
+2015-11-11 19:54:59: App name:main id:0 exited with code 255
+2015-11-11 19:54:59: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:54:59: App name:main id:0 online
+2015-11-11 19:55:00: App name:main id:0 exited with code 255
+2015-11-11 19:55:00: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:55:00: App name:main id:0 online
+2015-11-11 19:55:01: App name:main id:0 exited with code 255
+2015-11-11 19:55:01: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:55:01: App name:main id:0 online
+2015-11-11 19:55:02: App name:main id:0 exited with code 255
+2015-11-11 19:55:02: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:55:02: App name:main id:0 online
+2015-11-11 19:55:03: App name:main id:0 exited with code 255
+2015-11-11 19:55:03: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:55:03: App name:main id:0 online
+2015-11-11 19:55:04: App name:main id:0 exited with code 255
+2015-11-11 19:55:04: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:55:04: App name:main id:0 online
+2015-11-11 19:55:06: App name:main id:0 exited with code 255
+2015-11-11 19:55:06: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:55:06: App name:main id:0 online
+2015-11-11 19:55:07: App name:main id:0 exited with code 255
+2015-11-11 19:55:07: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:55:07: App name:main id:0 online
+2015-11-11 19:55:08: App name:main id:0 exited with code 255
+2015-11-11 19:55:08: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:55:08: App name:main id:0 online
+2015-11-11 19:55:09: App name:main id:0 exited with code 255
+2015-11-11 19:55:09: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:55:09: App name:main id:0 online
+2015-11-11 19:55:10: App name:main id:0 exited with code 255
+2015-11-11 19:55:10: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:55:10: App name:main id:0 online
+2015-11-11 19:55:11: App name:main id:0 exited with code 255
+2015-11-11 19:55:11: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:55:11: App name:main id:0 online
+2015-11-11 19:55:12: App name:main id:0 exited with code 255
+2015-11-11 19:55:12: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:55:12: App name:main id:0 online
+2015-11-11 19:55:13: App name:main id:0 exited with code 255
+2015-11-11 19:55:13: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:55:13: App name:main id:0 online
+2015-11-11 19:55:14: App name:main id:0 exited with code 255
+2015-11-11 19:55:14: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:55:14: App name:main id:0 online
+2015-11-11 19:55:15: App name:main id:0 exited with code 255
+2015-11-11 19:55:15: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:55:15: App name:main id:0 online
+2015-11-11 19:55:16: App name:main id:0 exited with code 255
+2015-11-11 19:55:16: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:55:16: App name:main id:0 online
+2015-11-11 19:55:18: App name:main id:0 exited with code 255
+2015-11-11 19:55:18: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:55:18: App name:main id:0 online
+2015-11-11 19:55:19: App name:main id:0 exited with code 255
+2015-11-11 19:55:19: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:55:19: App name:main id:0 online
+2015-11-11 19:55:20: App name:main id:0 exited with code 255
+2015-11-11 19:55:20: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:55:20: App name:main id:0 online
+2015-11-11 19:55:21: App name:main id:0 exited with code 255
+2015-11-11 19:55:21: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:55:21: App name:main id:0 online
+2015-11-11 19:55:22: App name:main id:0 exited with code 255
+2015-11-11 19:55:22: Starting execution sequence in -fork mode- for app name:main id:0
+2015-11-11 19:55:22: App name:main id:0 online
+2015-11-11 19:55:23: Stopping app:main id:0
+2015-11-11 19:55:23: Process with pid 17783 still not killed, retrying...
+2015-11-11 19:55:23: Process with pid 17783 still not killed, retrying...
+2015-11-11 19:55:23: App name:main id:0 exited with code 255
+2015-11-11 19:55:23: Process with pid 17783 killed
+2015-11-11 19:55:23: Stopping app:logger id:1
+2015-11-11 19:55:23: App name:logger id:1 exited with code 0
+2015-11-11 19:55:23: Process with pid 17187 killed
+2015-11-11 19:55:23: Stopping app:translator id:2
+2015-11-11 19:55:23: App name:translator id:2 exited with code 0
+2015-11-11 19:55:23: Process with pid 17194 killed

@@ -6,4 +6,4 @@ seneca
 .use('logger')
 .listen({
 	type:'tcp',
-	port:10203});
+	port:10002});
