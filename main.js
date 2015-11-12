@@ -127,7 +127,7 @@ net.createServer(function(sock) {
       }, write);
 
     function write(err, what) {
-      if (mode == production) {
+      if (mode == 'production') {
         var client = new net.Socket();
         client.connect(PORT, RESPHOST, function() {
           seneca
