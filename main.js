@@ -138,7 +138,7 @@ net.createServer(function(sock) {
             .act({
               role: 'main',
               cmd: 'log',
-              msg: 'CONNECTED TO: ' + RESPHOST + ':' + PORT
+              msg: 'CONNECTED TO: ' + RESPHOST + ':' + PORT + ' now sending: ' + what.answer
             }, console.log);
           client.write(what.answer);
           sock.end();
