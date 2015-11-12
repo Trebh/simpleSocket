@@ -3,3 +3,4 @@ config
 senecatest
 node_modules
 log
+spec
