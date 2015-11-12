@@ -6,6 +6,7 @@ var utilities = require('./utilities');
 var service = require('./MSSQLservice');
 var net = require('net');
 var seneca = require('seneca')();
+var utility = require('./utilities');
 
 var mode = process.env.NODE_ENV;
 
@@ -16,156 +17,112 @@ var PORT = 10001;
 
 net.createServer(function(sock) {
 
-  console.log('CONNECTED: ' + sock.remoteAddress + ':' + sock.remotePort);
+	utility.log('loginfo', 'CONNECTED: ' + sock.remoteAddress + ':' + sock.remotePort);
 
-  sock.on('data', function(msg) {
+	sock.on('data', function(msg) {
 
-    console.log('got a request: ', msg);
-    console.log('answering...');
+		utility.log('loginfo', 'got a request: ' + msg)
 
-    seneca
-      .client({
-        type: 'tcp',
-        port: 10003
-      })
-      .act({
-        role: 'main',
-        cmd: 'translateRead',
-        msg: msg.toString()
-      }, sendToRFID);
-
+		seneca
+			.client({
+				type: 'tcp',
+				port: 10003
+			})
+			.act({
+				role: 'main',
+				cmd: 'translateRead',
+				msg: msg.toString()
+			}, sendToRFID);
 
 
-    /*	service.testDB().then(function(result){
-    		console.log('DB OK ', result);
-    		sock.write(result);
-    	}, function(err){
-    		console.log('DB KO ', err);
-    	});*/
 
-    seneca
-      .client({
-        type: 'tcp',
-        port: 10002
-      })
-      .act({
-        role: 'main',
-        cmd: 'log',
-        msg: 'received: ' + msg
-      }, console.log);
+		/*	service.testDB().then(function(result){
+				console.log('DB OK ', result);
+				sock.write(result);
+			}, function(err){
+				console.log('DB KO ', err);
+			});*/
 
-    // seneca
-    // 	.client({
-    // 		type: 'tcp',
-    // 		port: 10201
-    // 	})
-    // 	.act({
-    // 		role: 'main',
-    // 		cmd: 'search',
-    // 		rfid: converted
-    // 	}, foundId);
+		// seneca
+		// 	.client({
+		// 		type: 'tcp',
+		// 		port: 10201
+		// 	})
+		// 	.act({
+		// 		role: 'main',
+		// 		cmd: 'search',
+		// 		rfid: converted
+		// 	}, foundId);
 
 
-  });
+	});
 
-  function foundId(err, result) {
-    if (err) {
-      console.log(err);
-      sock.end();
-    }
-    seneca
-      .client({
-        type: 'tcp',
-        port: 10002
-      })
-      .act({
-        role: 'main',
-        cmd: 'log',
-        msg: 'found id: ' + result.idgiocatore
-      }, console.log);
+	function foundId(err, result) {
+		if (err) {
+			utility.log('logerror', err);
+			sock.end();
+		}
 
-    seneca
-      .client({
-        type: 'tcp',
-        port: 10202
-      })
-      .act({
-        role: 'main',
-        cmd: 'search',
-        foundid: true,
-        rfid: result.idgiocatore
-      }, sendToRFID);
+		seneca
+			.client({
+				type: 'tcp',
+				port: 10202
+			})
+			.act({
+				role: 'main',
+				cmd: 'search',
+				foundid: true,
+				rfid: result.idgiocatore
+			}, sendToRFID);
 
-  }
+	}
 
-  function sendToRFID(err, result) {
-    if (err) {
-      console.log(err);
-      sock.end();
-    }
+	function sendToRFID(err, result) {
+		if (err) {
+			utility.log('logerror', err);
+			sock.end();
+		}
+		utility.log('loginfo', 'translated code' + result.answer.code);
 
-    seneca
-      .client({
-        type: 'tcp',
-        port: 10002
-      })
-      .act({
-        role: 'main',
-        cmd: 'log',
-        msg: 'translated ' + result.answer.code
-      }, console.log);
+		seneca
+			.client({
+				type: 'tcp',
+				port: 10003
+			})
+			.act({
+				role: 'main',
+				cmd: 'translateWrite',
+				msg: 'green'
+			}, write);
+	}
 
-    seneca
-      .client({
-        type: 'tcp',
-        port: 10003
-      })
-      .act({
-        role: 'main',
-        cmd: 'translateWrite',
-        msg: 'green'
-      }, write);
+	function write(err, what) {
+		if (err) {
+			utility.log('logerror', err);
+			sock.end();
+		}
 
-    function write(err, what) {
-    	if (err){
-    		console.log(err);
-    		sock.end();
-    	}
-    	
-      if (mode == 'production') {
-        var client = new net.Socket();
-        client.connect(PORT, RESPHOST, function() {
-          seneca
-            .client({
-              type: 'tcp',
-              port: 10002
-            })
-            .act({
-              role: 'main',
-              cmd: 'log',
-              msg: 'CONNECTED TO: ' + RESPHOST + ':' + PORT + ' now sending: ' + what.answer
-            }, console.log);
-          client.write(new Buffer(what.answer, 'utf8'));
-          sock.end();
-        });
-      } else {
-        sock.write(new Buffer(what.answer, 'utf8'));
-        sock.end();
-      }
-    }
+		if (mode == 'production') {
+			var client = new net.Socket();
+			client.connect(PORT, RESPHOST, function() {
+				utility.log('CONNECTED TO: ' + RESPHOST + ':' + PORT + ' now sending: ' + what.answer);
+				client.write(new Buffer(what.answer, 'utf8'));
+				sock.end();
+			});
+		} else {
+			sock.write(new Buffer(what.answer, 'utf8'));
+			sock.end();
+		}
+	}
 
-  }
+	sock.on('close', function(data) {
+		utility.log('loginfo', 'CLOSED: ' + sock.remoteAddress + ' ' + sock.remotePort);
+	});
 
-  sock.on('close', function(data) {
-    console.log('CLOSED: ' + sock.remoteAddress + ' ' + sock.remotePort);
-  });
-
-  sock.on('error', function(err) {
-    console.log(err);
-    sock.end();
-  });
-
-
+	sock.on('error', function(err) {
+		utility.log('logerror', err);
+		sock.end();
+	});
 
 }).listen(PORT, HOST);
 

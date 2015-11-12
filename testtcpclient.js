@@ -8,7 +8,7 @@ var client = new net.Socket();
 client.connect(PORT, HOST, function() {
 
     console.log('CONNECTED TO: ' + HOST + ':' + PORT);
-    client.write('022M|A|L|720088393603');
+    client.write('\u00022M|A|L|7900739622\u0003');
 
 });
 

@@ -14,18 +14,14 @@ function translator() {
   var senecaThis = this;
 
   senecaThis.add('role:main,cmd:translateRead', translateRead);
-
   senecaThis.add('role:main,cmd:translateWrite', translateWrite);
+
 };
 
 function translateRead(data, respond) {
 
-  console.log('prima: ' + data.msg);
-
   var toBeTranslated = Maybe.of(data.msg);
   var translated = toBeTranslated.map(iterateMaybe);
-
-  console.log('traduzione.. ' + JSON.stringify(translated.get()));
 
   respond(null, {
     answer: translated.getOrElse('?')
@@ -46,13 +42,12 @@ function translateWrite(data, respond) {
     R.reduce(R.add(), ''),
     R.prepend(utility.STX));
 
-  var stringToSend = fn([utility.select, utility.setOutputs, 
-    utility.separator, RGB, 
-    utility.separator, '010', 
-    utility.separator, 
-    utility.confirm, utility.separator, '0002', utility.ETX]);
-
-  console.log(stringToSend.toString());
+  var stringToSend = fn([utility.select, utility.setOutputs,
+    utility.separator, RGB,
+    utility.separator, '010',
+    utility.separator,
+    utility.confirm, utility.separator, '0002', utility.ETX
+  ]);
 
   respond(null, {
     answer: stringToSend
@@ -61,9 +56,9 @@ function translateWrite(data, respond) {
   return stringToSend;
 }
 
-function iterateMaybe(hexValue) {
-  var fn = R.compose(toObject, R.map(hexDecode), R.match(/.{2}/g));
-  return fn(hexValue);
+function iterateMaybe(data) {
+  var fn = R.compose(toObject, R.replace(utility.STX, ''), R.replace(utility.STX, ''));
+  return fn(data);
 }
 
 function hexDecode(hexChar) {
@@ -74,22 +69,32 @@ function isNotSeparator(el) {
   return !R.equals(el, '|');
 }
 
-function toObject(charArray) {
+function isNotStartEnd(el) {
+  return !(R.equals(el, utility.STX) || R.equals(el, utility.STX));
+}
+
+
+function toObject(goodParts) {
   var tplObj = {
     event: null,
     action: null,
     code: null
   };
 
-  var goodParts = R.filter(isNotSeparator, charArray);
-  var codeRegex = /\w*\|\w\|\w\|(\w{10})/;
-  var getCode = R.compose(R.last(), R.match(codeRegex), R.reduce(R.add(), ''));
+  var codeRegex = /\w{2}\|\w\|\w\|(\w{10})/;
+  var actionRegex = /\w{2}\|(\w)\|\w\|\w{10}/;
+  var eventRegex = /(\w)\w\|\w\|\w\|\w{10}/;
+  var eventTypeRegex = /\w(\w)\|\w\|\w\|\w{10}/;
+  var getEvent = R.compose(R.last(), R.match(eventRegex));
+  var getAction = R.compose(R.last(), R.match(actionRegex));
+  var getCode = R.compose(R.last(), R.match(codeRegex));
+  var getEventType = R.compose(R.last(), R.match(eventTypeRegex));
 
-  var code = getCode(charArray);
 
-  tplObj.event = goodParts[2];
-  tplObj.action = goodParts[3];
-  tplObj.code = code;
+  tplObj.event = getEvent(goodParts);
+  tplObj.action = getAction(goodParts);
+  tplObj.code = getCode(goodParts);
+  tplObj.eventType = getEventType(goodParts);
 
   return tplObj;
 }
