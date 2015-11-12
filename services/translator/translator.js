@@ -44,6 +44,9 @@ function translator() {
 };
 
 function translateRead(data, respond) {
+
+  console.log('prima: ' + data.msg);
+
   var toBeTranslated = Maybe.of(data.msg);
   var translated = toBeTranslated.map(iterateMaybe);
 
