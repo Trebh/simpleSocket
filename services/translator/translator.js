@@ -33,7 +33,7 @@ function translator() {
       R.reduce(R.add(), ''),
       R.prepend(STX));
 
-    var stringToSend = fn([select, setOutputs, separator, RGB, separator, confirm, separator, '0002', ETX]);
+    var stringToSend = fn([select, setOutputs, separator, RGB, separator, '010' , separator, confirm, separator, '0002', ETX]);
 
     console.log(stringToSend);
 
