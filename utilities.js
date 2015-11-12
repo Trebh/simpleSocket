@@ -1,8 +1,10 @@
 'use strict';
 
-function hexToDecimal(myHexNumberValue){
-	return parseInt(myHexNumberValue, 16);
+module.exports = {
+	STX: '02',
+	ETX: '03',
+	select: '0',
+	setOutputs: '6',
+	separator: '|',
+	confirm: '5'
 }
-
-
-exports.hexToDecimal = hexToDecimal;

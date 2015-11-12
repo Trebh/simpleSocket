@@ -127,6 +127,14 @@ net.createServer(function(sock) {
       }, write);
 
     function write(err, what) {
+    	if (err){
+    		console.log(err);
+    		sock.end();
+    	}
+
+    	console.log(new Buffer(what.answer));
+    	console.log(mode);
+
       if (mode == 'production') {
         var client = new net.Socket();
         client.connect(PORT, RESPHOST, function() {
@@ -140,11 +148,11 @@ net.createServer(function(sock) {
               cmd: 'log',
               msg: 'CONNECTED TO: ' + RESPHOST + ':' + PORT + ' now sending: ' + what.answer
             }, console.log);
-          client.write(what.answer);
+          client.write(new Buffer(what.answer));
           sock.end();
         });
       } else {
-        sock.write(what.answer);
+        sock.write(new Buffer(what.answer));
         sock.end();
       }
     }

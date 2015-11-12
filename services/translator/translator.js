@@ -2,6 +2,7 @@
 
 var Maybe = require('data.maybe');
 var R = require('ramda');
+var utility = require('../../utilities');
 
 module.exports = {
   translator: translator,
@@ -11,13 +12,6 @@ module.exports = {
 
 function translator() {
   var senecaThis = this;
-
-  var STX = '\x02';
-  var ETX = '\x02';
-  var select = '0';
-  var setOutputs = '6';
-  var separator = '|';
-  var confirm = '5';
 
   senecaThis.add('role:main,cmd:translateRead', translateRead);
 
@@ -49,11 +43,14 @@ function translateWrite(data, respond) {
   }
 
   var fn = R.compose(R.reduce(R.add(), ''),
-    R.map(strToHex),
     R.reduce(R.add(), ''),
-    R.prepend(STX));
+    R.prepend(utility.STX));
 
-  var stringToSend = fn([select, setOutputs, separator, RGB, separator, '010', separator, confirm, separator, '0002', ETX]);
+  var stringToSend = fn([utility.select, utility.setOutputs, 
+    utility.separator, RGB, 
+    utility.separator, '010', 
+    utility.separator, 
+    utility.confirm, utility.separator, '0002', utility.ETX]);
 
   console.log(stringToSend);
 

@@ -4,6 +4,9 @@
     "name"        : "main",
     "script"      : "main.js",
     "watch"       : true,
+    "env": {
+      "NODE_ENV": "development"
+    }
   },
   // {
   //   // Application #2
