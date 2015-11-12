@@ -62,7 +62,7 @@ function translateWrite(data, respond) {
   });
 
   return stringToSend;
-});
+}
 
 function iterateMaybe(hexValue) {
   var fn = R.compose(toObject, R.map(hexDecode), R.match(/.{2}/g));
