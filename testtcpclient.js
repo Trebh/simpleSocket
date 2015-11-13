@@ -1,5 +1,6 @@
 var net = require('net');
 
+var mode = process.env.NODE_ENV;
 //var HOST = '192.168.1.9';
 var HOST = (mode == 'production') ? '192.168.1.10' : '127.0.0.1';
 var PORT = 10001;
