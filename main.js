@@ -3,7 +3,7 @@
 var server = require('http').createServer();
 var io = require('socket.io')(server);
 var utilities = require('./utilities');
-var service = require('./MSSQLservice');
+var dbService = require('./MSSQLservice');
 var net = require('net');
 var seneca = require('seneca')();
 var utility = require('./utilities');
@@ -34,14 +34,12 @@ net.createServer(function(sock) {
 				msg: msg.toString()
 			}, sendToRFID);
 
-
-
-		/*	service.testDB().then(function(result){
-				console.log('DB OK ', result);
-				sock.write(result);
-			}, function(err){
-				console.log('DB KO ', err);
-			});*/
+		dbService.testDB().then(function(result){
+			console.log('DB OK ', result);
+			sock.write(result);
+		}, function(err){
+			console.log('DB KO ', err);
+		});
 
 		// seneca
 		// 	.client({
