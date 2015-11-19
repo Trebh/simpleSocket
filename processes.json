@@ -8,12 +8,12 @@
       "NODE_ENV": "development"
     }
   },
-  // {
-  //   // Application #2
-  //   "name"        : "userSearch",
-  //   "script"      : "services/dbSearch/userSearch-service.js",
-  //   "watch"       : true,
-  // },
+  {
+    // Application #2
+    "name"        : "userSearch",
+    "script"      : "services/dbSearch/userSearch-service.js",
+    "watch"       : false,
+  },
   // {
   //   // Application #3
   //   "name"        : "main",

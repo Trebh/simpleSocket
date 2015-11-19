@@ -1,14 +1,14 @@
 'use strict';
 
-var Maybe = require('data.maybe');
 var R = require('ramda');
 var utility = require('../../utilities');
+var Validation = require('data.validation');
 
 module.exports = {
   translator: translator,
   translateRead: translateRead,
   translateWrite: translateWrite
-}
+};
 
 function translator() {
   var senecaThis = this;
@@ -16,15 +16,15 @@ function translator() {
   senecaThis.add('role:main,cmd:translateRead', translateRead);
   senecaThis.add('role:main,cmd:translateWrite', translateWrite);
 
-};
+}
 
 function translateRead(data, respond) {
 
-  var toBeTranslated = Maybe.of(data.msg);
+  var toBeTranslated = data.msg;
   var translated = toBeTranslated.map(iterateMaybe);
 
   respond(null, {
-    answer: translated.getOrElse('?')
+    answer: translated
   });
 
   return translated.getOrElse('?');
@@ -32,36 +32,46 @@ function translateRead(data, respond) {
 
 function translateWrite(data, respond) {
 
-  var RGB;
+  var validationObj = data.msg;
 
-  if (data.msg == 'green') {
-    RGB = '000255000';
-  }
+  var RGBgreen = '000255000';
+  var RGBred = '255000000';
 
-  var fn = R.compose(R.reduce(R.add(), ''),
-    R.reduce(R.add(), ''),
-    R.prepend(utility.STX));
+  var RGB = validationObj.isFailure() ? RGBred : RGBgreen;
 
-  var stringToSend = fn([utility.select, utility.setOutputs,
+  var okString = prepareString([utility.select, utility.setOutputs,
     utility.separator, RGB,
     utility.separator, '010',
     utility.separator,
     utility.confirm, utility.separator, '0002', utility.ETX
   ]);
 
+  var answer = okString;
+
   respond(null, {
-    answer: stringToSend
+    answer: answer
   });
 
-  return stringToSend;
+  return answer;
+}
+
+function getRespString() {
+
 }
 
 function iterateMaybe(data) {
-  var fn = R.compose(toObject, R.replace(utility.STX, ''), R.replace(utility.STX, ''));
+  var fn = R.compose(toObject, R.replace(utility.STX, ''), R.replace(utility.STX,
+    ''));
   return fn(data);
 }
 
-function hexDecode(hexChar) {
+function prepareString() {
+  return R.compose(R.reduce(R.add(), ''),
+    R.reduce(R.add(), ''),
+    R.prepend(utility.STX));
+}
+
+/*function hexDecode(hexChar) {
   return String.fromCharCode(parseInt(hexChar, 16));
 }
 
@@ -71,8 +81,7 @@ function isNotSeparator(el) {
 
 function isNotStartEnd(el) {
   return !(R.equals(el, utility.STX) || R.equals(el, utility.STX));
-}
-
+}*/
 
 function toObject(goodParts) {
   var tplObj = {
@@ -90,7 +99,6 @@ function toObject(goodParts) {
   var getCode = R.compose(R.last(), R.match(codeRegex));
   var getEventType = R.compose(R.last(), R.match(eventTypeRegex));
 
-
   tplObj.event = getEvent(goodParts);
   tplObj.action = getAction(goodParts);
   tplObj.code = getCode(goodParts);
@@ -99,6 +107,6 @@ function toObject(goodParts) {
   return tplObj;
 }
 
-function strToHex(str) {
+/*function strToHex(str) {
   return str.charCodeAt(0).toString(16);
-}
+}*/
