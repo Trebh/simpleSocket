@@ -1,0 +1,23 @@
+{
+  "name": "simpleSocket",
+  "version": "0.0.1",
+  "homepage": "https://github.com/Trebh/simpleSocket",
+  "authors": [
+    "Riccardo Agnoletto <agnolettoriccardo@gmail.com>"
+  ],
+  "description": "client for simpleSocket",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "services/client/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.4.8",
+    "angular-ui-router": "0.2.15"
+  }
+}
