@@ -2,7 +2,7 @@ config
 .jshintrc
 services/client/bower_components/
 senecatest
-node_modules
+node_modules/*
 !node_modules/simpleSocketUtils/
 log
 spec
