@@ -83,11 +83,11 @@ function prepareString(string) {
     R.prepend(utility.STX))(string);
 }
 
-/*function hexDecode(hexChar) {
-  return String.fromCharCode(parseInt(hexChar, 16));
+function hexDecode(hexString) {
+  return parseInt(hexString, 16).toString();
 }
 
-function isNotSeparator(el) {
+/*function isNotSeparator(el) {
   return !R.equals(el, '|');
 }
 
@@ -113,7 +113,7 @@ function toObject(goodParts) {
   var eventTypeRegex = /\w(\w)\|\w\|\w\|\w+/;
   var getEvent = R.compose(R.last(), R.match(eventRegex));
   var getAction = R.compose(R.last(), R.match(actionRegex));
-  var getCode = R.compose(R.last(), R.match(codeRegex));
+  var getCode = R.compose(hexDecode, R.last(), R.match(codeRegex));
   var getEventType = R.compose(R.last(), R.match(eventTypeRegex));
 
   tplObj.event = getEvent(goodParts);
