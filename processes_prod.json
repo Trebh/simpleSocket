@@ -10,7 +10,8 @@
       "error_file": "err.log",
       "out_file": "out.log",
       "merge_logs": true,
-      "log_date_format": "YYYY-MM-DD HH:mm Z"
+      "log_date_format": "YYYY-MM-DD HH:mm Z",
+      "max_memory_restart" : "120M"
     }, {
       // Application #2
       "name": "userSearch",
@@ -19,7 +20,8 @@
       "error_file": "err.log",
       "out_file": "out.log",
       "merge_logs": true,
-      "log_date_format": "YYYY-MM-DD HH:mm Z"
+      "log_date_format": "YYYY-MM-DD HH:mm Z",
+      "max_memory_restart" : "120M"
     },
     // {
     //   // Application #3
@@ -41,6 +43,7 @@
       "merge_logs": true,
       "script": "services/translator/translator-service.js",
       "watch": false,
+      "max_memory_restart" : "120M"
     }
   ]
 

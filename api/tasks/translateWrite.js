@@ -41,13 +41,13 @@
     return new Task(function(reject, resolve) {
       serviceCall.fork(function(err) {
         infoObj.fatalErr.push(err);
-        reject(infoObj);
+        return reject(infoObj);
       }, function(res) {
         infoObj.data.response.sent = res.answer;
         if (res.failure){
           infoObj.errors.push(res.failure);
         }
-        resolve(infoObj);
+        return resolve(infoObj);
       });
     });
 
