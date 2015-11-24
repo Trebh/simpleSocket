@@ -3,18 +3,18 @@
 var bunyan = require('bunyan');
 
 var log = bunyan.createLogger({
-  name: "SimpleSocketLogger", // logger name
+  name: 'SimpleSocketLogger', // logger name
   streams: [{
     level: 'info', // loging level
-    stream: process.stdout // log INFO and above to stdout
+    path: 'services/log/bunyan-info.log' 
   }, {
     level: 'error',
-    path: 'bunyan-error.log' // log ERROR and above to a file
+    path: 'services/log/bunyan-error.log' // log ERROR and above to a file
   }]
 });
 
 
-module.exports = function logger(options) {
+module.exports = function logger() {
 
   var seneca = this;
 
@@ -40,6 +40,6 @@ module.exports = function logger(options) {
       answer: 'logger-error-ok'
     });
 
-  })
+  });
 
-}
+};

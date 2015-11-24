@@ -1,7 +1,7 @@
 'use strict';
 
 var R = require('ramda');
-var utility = require('../../utilities');
+var utility = require('simpleSocketUtils');
 var Validation = require('data.validation');
 
 module.exports = {
@@ -20,11 +20,11 @@ function translator() {
 
 function translateRead(data, respond) {
 
-  var toBeTranslated = data.msg;
+  var toBeTranslated = Validation.fromNullable(data.msg);
   var translated = toBeTranslated.map(iterateMaybe);
 
   respond(null, {
-    answer: translated
+    answer: translated.getOrElse('?')
   });
 
   return translated.getOrElse('?');
@@ -32,18 +32,35 @@ function translateRead(data, respond) {
 
 function translateWrite(data, respond) {
 
-  var validationObj = data.msg;
+  var command = data.msg;
 
-  var RGBgreen = '000255000';
-  var RGBred = '255000000';
+  var RGB, rele, sound;
 
-  var RGB = validationObj.isFailure() ? RGBred : RGBgreen;
+  if (command === 'red') {
+    RGB = '255000000';
+    rele = '0000';
+    sound = utility.errorSnd;
+  } else if (command === 'yellow') {
+    RGB = '255255000';
+    rele = '0002';
+    sound = utility.confirmSnd;
+  } else if (command === 'green') {
+    RGB = '000255000';
+    rele = '0002';
+    sound = utility.confirmSnd;
+  }
 
-  var okString = prepareString([utility.select, utility.setOutputs,
-    utility.separator, RGB,
-    utility.separator, '010',
+  var okString = prepareString([utility.select,
+    utility.setOutputs,
     utility.separator,
-    utility.confirm, utility.separator, '0002', utility.ETX
+    RGB,
+    utility.separator,
+    '010',
+    utility.separator,
+    sound,
+    utility.separator,
+    rele,
+    utility.ETX
   ]);
 
   var answer = okString;
@@ -55,20 +72,15 @@ function translateWrite(data, respond) {
   return answer;
 }
 
-function getRespString() {
-
-}
-
 function iterateMaybe(data) {
   var fn = R.compose(toObject, R.replace(utility.STX, ''), R.replace(utility.STX,
     ''));
   return fn(data);
 }
 
-function prepareString() {
+function prepareString(string) {
   return R.compose(R.reduce(R.add(), ''),
-    R.reduce(R.add(), ''),
-    R.prepend(utility.STX));
+    R.prepend(utility.STX))(string);
 }
 
 /*function hexDecode(hexChar) {
@@ -90,10 +102,15 @@ function toObject(goodParts) {
     code: null
   };
 
-  var codeRegex = /\w{2}\|\w\|\w\|(\w{10})/;
-  var actionRegex = /\w{2}\|(\w)\|\w\|\w{10}/;
-  var eventRegex = /(\w)\w\|\w\|\w\|\w{10}/;
-  var eventTypeRegex = /\w(\w)\|\w\|\w\|\w{10}/;
+  if (R.test(/OK/, goodParts)){
+    tplObj.code = 'OK';
+    return tplObj;
+  }
+
+  var codeRegex = /\w{2}\|\w\|\w\|(\w+)/;
+  var actionRegex = /\w{2}\|(\w)\|\w\|\w+/;
+  var eventRegex = /(\w)\w\|\w\|\w\|\w+/;
+  var eventTypeRegex = /\w(\w)\|\w\|\w\|\w+/;
   var getEvent = R.compose(R.last(), R.match(eventRegex));
   var getAction = R.compose(R.last(), R.match(actionRegex));
   var getCode = R.compose(R.last(), R.match(codeRegex));

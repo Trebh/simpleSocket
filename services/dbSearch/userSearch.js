@@ -28,20 +28,40 @@
 
   function validateId(data, respond) {
 
-    var validationObj = data.msg;
+    findId(data.msg).fork(execError, validateAndRespond);
 
-    var answer = validationObj.isFailure() ? validationObj: isIdValid(validationObj.get());
+    function validateAndRespond(results) {
+      return new Success(R.curryN(2, function() {
+          return results;
+        }))
+        .ap(isNotEmpty(results))
+        .ap(noMoreThanOne(results))
+      .cata({
+        Failure: function(err) {
+          respond(null, {
+            failure: err.message
+          });
+          return err;
+        },
+        Success: function(res) {
+          respond(null, {
+            answer: res[0].id
+          });
+          return res;
+        }
+      });
+    }
 
-    respond(null, {
-      idgiocatore: answer
-    });
-    return answer.getOrElse('?');
+    function execError() {
+      respond(new Error('ERRORE ESRECUZIONE QUERY'), null);
+    }
+
   }
 
   function checkDb() {
     return Async.fromPromise(
       sql.execute({
-        query: 'SELECT * FROM INFORMATION_SCHEMA.TABLES'
+        query: 'SELECT Distinct TABLE_NAME FROM information_schema.TABLES'
       })
     );
   }
@@ -51,34 +71,36 @@
 
     var code = addZerosLeft(id);
 
-    sql.execute({
+    return Async.fromPromise(sql.execute({
       preparedSql: 'SELECT a.id from iscritti a inner join tessererf b on a.tessera = b.idtessera where b.codicerf = @codicerf',
       params: {
-        id: {
+        codicerf: {
           val: code,
-          type: sql.VARCHAR
+          type: sql.NVARCHAR
         }
       }
-    }).then(function(res) {
-      return new Success(res);
-    }).catch(function(err) {
-      return new Failure(['errore nel recupero id da codice rfid: ' + err]);
-    });
+    }));
 
   }
 
-  function addZerosLeft() {
-    return R.compose(R.takeLast(20), R.concat('000000000000000'));
+  function addZerosLeft(num) {
+
+    return R.compose(R.takeLast(20), R.concat('000000000000000'))(num);
   }
 
-  function isIdValid(input) {
-    return new Success(R.curryN(1, function() {
-        return input;
-      }))
-      .ap(findId(input));
+  function isNotEmpty(arr) {
+    return (arr.length === 0) ? new Failure(new Error([
+      'rfid non associato ad alcun id'
+    ])) : new Success(arr);
   }
 
-  function handleError(err){
+  function noMoreThanOne(arr) {
+    return (arr.length > 0 && arr.length !== 1) ? new Failure(new Error([
+      'Piu` di un id associato alla tessera'
+    ])) : new Success(arr);
+  }
+
+  function handleError(err) {
     console.log(err);
     process.exit(1);
   }
