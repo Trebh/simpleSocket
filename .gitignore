@@ -1,9 +1,11 @@
 config
 .jshintrc
-services/client/bower_components
+services/client/bower_components/
 senecatest
 node_modules
-!node_modules/simpleSocketUtils
+!node_modules/simpleSocketUtils/
 log
 spec
 *.log
+.pm3/
+.pm4/
