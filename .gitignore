@@ -7,5 +7,5 @@ node_modules
 log
 spec
 *.log
-.pm3/
-.pm4/
+.*
+!/.gitignore
