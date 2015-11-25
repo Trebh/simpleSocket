@@ -1,6 +1,5 @@
 {
   "apps": [{
-      // Application #1
       "name": "main",
       "script": "main.js",
       "watch": false,
@@ -11,9 +10,8 @@
       "out_file": "out.log",
       "merge_logs": true,
       "log_date_format": "YYYY-MM-DD HH:mm Z",
-      "max_memory_restart" : "120M"
+      "max_memory_restart": "120M"
     }, {
-      // Application #2
       "name": "userSearch",
       "script": "services/dbSearch/userSearch-service.js",
       "watch": false,
@@ -21,29 +19,37 @@
       "out_file": "out.log",
       "merge_logs": true,
       "log_date_format": "YYYY-MM-DD HH:mm Z",
-      "max_memory_restart" : "120M"
+      "max_memory_restart": "120M"
     },
-    // {
-    //   // Application #3
-    //   "name"        : "main",
-    //   "script"      : "services/dbSearch/searchDetails-service.js",
-    //   "watch"       : true,
-    // },
+
     {
-      // Application #4
+
       "name": "logger",
       "script": "services/logger/logger-service.js",
       "watch": false,
       "out_file": "./services/log/info.log",
+      "max_memory_restart": "120M"
     }, {
-      // Application #5
+
       "name": "translator",
       "error_file": "err.log",
       "out_file": "out.log",
       "merge_logs": true,
       "script": "services/translator/translator-service.js",
       "watch": false,
-      "max_memory_restart" : "120M"
+      "max_memory_restart": "120M"
+    }, {
+
+      "name": "client",
+      "error_file": "err.log",
+      "out_file": "out.log",
+      "merge_logs": true,
+      "script": "services/client/client-service.js",
+      "watch": false,
+      "max_memory_restart": "120M",
+      "env": {
+        "NODE_ENV": "production"
+      }
     }
   ]
 
