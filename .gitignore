@@ -1,6 +1,7 @@
 config
 .jshintrc
 services/client/bower_components/
+services/client/dist/
 senecatest
 node_modules/*
 !node_modules/simpleSocketUtils/
