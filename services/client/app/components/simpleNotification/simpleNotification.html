@@ -1,0 +1,15 @@
+<div class="notification__container">
+  <div class="notification__common notification__placeholder" ng-show="errors.length === 0 && warn.length === 0">
+
+  </div>
+  <div class="notification__common notification__errors" ng-show="errors.length > 0">
+    <div ng-repeat="error in errors">
+      {{error}}
+    </div>
+  </div>
+  <div class="notification__common notification__warn" ng-show="warn.length > 0">
+    <div ng-repeat="wrn in warn">
+      {{wrn}}
+    </div>
+  </div>
+</div>

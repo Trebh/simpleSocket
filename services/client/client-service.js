@@ -4,7 +4,7 @@ var seneca = require('seneca')();
 var client = require('./client');
 
 seneca
-  .use(client.client)
+  .use(client.sendToClient)
   .listen({
     type: 'tcp',
     port: 10005

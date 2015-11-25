@@ -1,0 +1,33 @@
+.notification__container{
+  flex-basis: 100%;
+  flex-shrink: 0;
+  flex-grow:1;
+  width: 100%;
+  min-height: 50px;
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: 700;
+  display: flex;
+
+  .notification__common{
+  	width: 100%;
+  	display: flex;
+  	align-items: center;
+
+  	div{
+  		margin:auto;
+  	}
+  }
+
+	.notification__errors{
+		
+    background-color: red;
+    color: #fff;
+    
+	}
+
+	.notification__warn{
+		background-color: rgb(255,255,0);
+		color: #fff;
+	}
+}

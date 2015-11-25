@@ -16,13 +16,15 @@
   });
 
   app.get('/', function(req, res) {
-    res.sendfile('./index.html');
+    res.sendFile('index.html', { root: config.expressConfig.dir});
   });
 
+  app.use(express.static('services/client'));
+
+  var thisSocket;
+
   io.on('connection', function(socket) {
-    socket.emit('startup', {
-      hello: 'world'
-    });
+    thisSocket = socket;
   });
 
   module.exports = {
@@ -34,7 +36,14 @@
     senecaThis.add('role:main,cmd:sendToClient', send);
   }
 
-  function send() {
+  function send(infoObj, respond) {
+
+    if(!thisSocket){
+       respond(new Error('NESSUN CLIENT CONNESSO'), null);
+    } else {
+      thisSocket.emit('rfidReading', infoObj);
+      respond(null, {answer: 'sent to client'});
+    }
 
   }
 

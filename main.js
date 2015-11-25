@@ -102,6 +102,13 @@
 
     function write(infoObjRes) {
 
+      tasks.sendToClient(infoObjRes)
+      .fork(function(err){
+        utility.log('logerror', err);
+      }, function(data){
+        utility.log('loginfo', data);
+      });
+
       utility.log('loginfo', 'answering: ' + JSON.stringify(
         infoObjRes));
 
