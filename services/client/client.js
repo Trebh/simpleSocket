@@ -16,7 +16,13 @@
   });
 
   app.get('/', function(req, res) {
-    res.sendFile('index.html', { root: config.expressConfig.dir});
+    res.sendFile('index.html', {
+      root: config.expressConfig.dir
+    });
+  });
+
+  app.get('/whoami', function(req, res) {
+    res.send(config.expressConfig.ip + ':' + config.expressConfig.port);
   });
 
   app.use(express.static('services/client'));
@@ -38,11 +44,13 @@
 
   function send(infoObj, respond) {
 
-    if(!thisSocket){
-       respond(new Error('NESSUN CLIENT CONNESSO'), null);
+    if (!thisSocket) {
+      respond(new Error('NESSUN CLIENT CONNESSO'), null);
     } else {
       thisSocket.emit('rfidReading', infoObj);
-      respond(null, {answer: 'sent to client'});
+      respond(null, {
+        answer: 'sent to client'
+      });
     }
 
   }

@@ -15,8 +15,11 @@
     vm.warn = [];
     vm.isDataEmpty = isDataEmpty;
 
-    var io = socketFactory.get();
-    io.on('rfidReading', show);
+    socketFactory.get()
+      .then(function(socket){
+        var io = socket;
+         io.on('rfidReading', show);
+      });
 
     function show(data) {
 

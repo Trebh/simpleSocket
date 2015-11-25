@@ -4,18 +4,27 @@
   angular.module('simpleSocket')
     .factory('socketFactory', socketFactory);
 
-  function socketFactory() {
+  socketFactory.$inject = ['$http', '$q'];
 
-  	var socket = io.connect('http://localhost:3000');
+  function socketFactory($http, $q) {
 
-  	socket.on('connection', console.log('socket ok'));
+    var socket;
 
     var service = {
-    	get: get
+      get: get
     };
 
-    function get(){
-    	return socket;
+    function get() {
+      return $q(function(resolve, reject) {
+        $http.get('/whoami')
+          .success(function(res) {
+            socket = io.connect(res);
+            resolve(socket);
+          })
+          .error(function(err){
+            reject(err);
+          });
+      });
     }
 
     return service;

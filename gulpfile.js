@@ -5,7 +5,6 @@ var sequence = require('run-sequence');
 var jasmine = require('gulp-jasmine');
 var sass = require('gulp-ruby-sass');
 var rename = require('gulp-rename');
-var notify = require('gulp-notify');
 var minifycss = require('gulp-minify-css');
 var del = require('del');
 var concat = require('gulp-concat');
@@ -27,10 +26,7 @@ gulp.task('styles', function() {
       suffix: '.min'
     }))
     .pipe(minifycss())
-    .pipe(gulp.dest('services/client/dist/styles'))
-    .pipe(notify({
-      message: 'Styles task complete'
-    }));
+    .pipe(gulp.dest('services/client/dist/styles'));
 });
 
 gulp.task('clean', function() {
@@ -48,10 +44,7 @@ gulp.task('scripts', function() {
       suffix: '.min'
     }))
     .pipe(uglify())
-    .pipe(gulp.dest('services/client/dist/scripts'))
-    .pipe(notify({
-      message: 'Scripts task complete'
-    }));
+    .pipe(gulp.dest('services/client/dist/scripts'));
 });
 
 gulp.task('build-dev', function(callback) {
@@ -59,7 +52,7 @@ gulp.task('build-dev', function(callback) {
 });
 
 gulp.task('build', function(callback) {
-  sequence('clean', ['test', 'styles', 'scripts'], callback);
+  sequence('clean', ['styles', 'scripts'], callback);
 });
 
 gulp.task('watch', function() {
