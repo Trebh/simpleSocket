@@ -35,7 +35,7 @@
 
     var serviceCall = Async.fromPromise(act({
       role: 'main',
-      cmd: 'search',
+      cmd: 'findId',
       msg: infoObj.data.translatedString.code
     }));
 
@@ -44,7 +44,9 @@
         infoObj.fatalErr.push(err);
         reject(infoObj);
       }, function(res) {
-        infoObj.data.user.id = res.answer;
+        if (res.answer){
+          infoObj.data.user = res.answer;
+        }
         if (res.failure) {
           infoObj.errors.push(res.failure);
         }
