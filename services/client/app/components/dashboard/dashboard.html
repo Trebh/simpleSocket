@@ -18,10 +18,7 @@
     </div>
     <div class="dashboard__data-list">
       <ul>
-        <li><span class="bold">stringa ricevuta:</span> {{dashboard.data.receivedString}}</li>
-        <li><span class="bold">rfid:</span> {{dashboard.data.translatedString.code}}</li>
-        <li><span class="bold">id utente:</span> {{dashboard.data.user.id}}</li>
-        <li><span class="bold">stringa inviata:</span> {{dashboard.data.response.sent}}</li>
+        <li ng-repeat="(key, prop) in dashboard.data"><span class="bold">{{key}}:</span> {{prop}}</li>
       </ul>
     </div>
   </div>

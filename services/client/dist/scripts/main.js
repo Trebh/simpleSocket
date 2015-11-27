@@ -348,9 +348,11 @@ negSuf:"",posPre:"\u00a4",posSuf:""}]},id:"en-us",pluralCat:function(a,c){var e=
 
       vm.data = {};
 
-      vm.errors = data.msg.fatalErr;
-
       vm.errors = data.msg.errors;
+      if (data.msg.fatalErr){
+        vm.errors = data.msg.fatalErr;
+      }
+      vm.warn = data.msg.data.user.warn;
 
       vm.data = data.msg.data;
       $scope.$apply();

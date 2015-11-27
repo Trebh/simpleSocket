@@ -10,7 +10,6 @@
   var Success = Validation.Success;
   var Failure = Validation.Failure;
   var R = require('ramda');
-  var Monads = require('control.monads');
   var moment = require('moment');
 
   var dbConfig = config.dbConfigConn;
@@ -36,10 +35,13 @@
     var parallelAfterId;
     var toDos = findAndValidateId(user)
       .chain(function(id) {
-        parallelAfterId = Monads.sequence(Task, [findAndValidateName(id),
-          getAndValidateQuotaAssociativa(id)]);
-        parallelAfterId.map(function(validationArr){
-          return  R.reduce(mergeOrFailure, new Success({}), validationArr);
+        parallelAfterId = Async.parallel([findAndValidateName(id),
+          getAndValidateQuotaAssociativa(id),
+          getAndValidateScadenzaAbbonamento(id)
+        ]);
+        return parallelAfterId.map(function(validationArr) {
+          return R.reduce(mergeOrFailure, new Success({}),
+            validationArr);
         });
       });
 
@@ -81,46 +83,43 @@
     if (validation.isFailure) {
       return new Task.of(validation);
     }
-    var user = validation.get();
-    return new Task(function(reject, resolve) {
-      findName(user.id)
-        .fork(function(err) {
-          reject(err);
-        }, function(results) {
-          resolve(validateFindName(results)
-            .failureMap(function(err) {
-              if (err.message === 'empty') {
-                err.message = 'nessun rfid associato all\' id';
-                return err;
-              }
-              if (err.message === 'toomany') {
-                err.message =
-                  'piu` di un id associato alla tessera';
-                return err;
-              }
-            })
-            .map(function(okNames) {
-              user.nome = okNames[0].Nome;
-              user.cognome = okNames[0].Cognome;
-              user.sesso = okNames[0].Sesso;
-              return user;
-            }));
-        });
-    });
+    var thisUser = R.clone(validation.get());
+
+    return findName(thisUser.id)
+      .map(function(results) {
+        return validateFindName(results)
+          .failureMap(function(err) {
+            if (err.message === 'empty') {
+              err.message = 'nessun rfid associato all\' id';
+              return err;
+            }
+            if (err.message === 'toomany') {
+              err.message =
+                'piu` di un id associato alla tessera';
+              return err;
+            }
+          })
+          .map(function(okNames) {
+            thisUser.nome = okNames[0].Nome;
+            thisUser.cognome = okNames[0].Cognome;
+            thisUser.sesso = okNames[0].Sesso;
+            return thisUser;
+          });
+      });
 
   }
 
-  function findAndValidateId(user) {
+  function findAndValidateId(thisUser) {
     return new Task(function(reject, resolve) {
-      findId(user.rfid)
+      findId(thisUser.rfid)
         .fork(function(err) {
             reject(err);
           },
           function(results) {
             resolve(validateFindId(results)
               .map(function(okIds) {
-                user.id = okIds[0].id;
-                return user;
+                thisUser.id = okIds[0].id;
+                return thisUser;
               }));
           });
     });
@@ -132,21 +131,22 @@
     if (validation.isFailure) {
       return new Task.of(validation);
     }
-    var user = validation.get();
+    var thisUser = R.clone(validation.get());
 
-    return new Task(function(reject, resolve) {
-      getStatoQuotaAssociativa(user.id)
-        .fork(function(err) {
-            reject(err);
-          },
-          function(results) {
-            resolve(validateQuotaAssociativa(results)
-              .map(function(scadenzaRes) {
-                user.scadenzaQuotaAss = scadenzaRes[0].scadenza;
-                return user;
-              }));
+    return getScadenzaQuotaAssociativa(thisUser.id)
+      .map(function(results) {
+        return validateQuotaAssociativa(results)
+          .failureMap(function(err){
+            if (err.message === 'timeOutofBounds'){
+              err.message = 'quota associativa scaduta';
+              return err;
+            }
+          })
+          .map(function(scadenzaRes) {
+            thisUser.scadenzaQuotaAss = scadenzaRes[0].scadenza;
+            return thisUser;
           });
-    });
+      });
   }
 
   function validateFindId(results) {
@@ -162,7 +162,7 @@
   }
 
   function validateQuotaAssociativa(results) {
-    return new Success(R.curryN(3, function() {
+    return new Success(R.curryN(2, function() {
         return results;
       }))
       .ap(isNotEmpty(results))
@@ -227,12 +227,22 @@
     var ora = moment();
 
     return (scadenza.isBefore(ora)) ? new Failure(new Error([
-      'quota associativa scaduta'
+      'timeOutofBounds'
     ])) : new Success(results);
 
   }
 
-  function getStatoQuotaAssociativa(idutente) {
+  function warnScadenza(scadenza, numGiorni){
+    var ora = moment();
+    var scadenza = moment(scadenza);
+    if(ora.isAfter(scadenza.subtract(numGiorni, 'days'))){
+      return scadenza.diff(ora, 'days');
+    } else {
+      return false;
+    }
+  }
+
+  function getScadenzaQuotaAssociativa(idutente) {
 
     return Async.fromPromise(sql.execute({
       preparedSql: 'select top 1 scadenza ' +
@@ -247,14 +257,62 @@
 
   }
 
-  function mergeOrFailure(a,b){
-    if (a.isFailure){
+  function mergeOrFailure(a, b) {
+    if (a.isFailure) {
       return a;
     }
-    if (b.isFailure){
+    if (b.isFailure) {
       return b;
     }
-    return Monads.liftM2(R.merge, a, b);
+    // return Monads.liftM2(R.merge, a, b); dovrebbe funzionare, possibile bug?
+    return Validation.of(R.merge(a.value, b.value)); //bleah
+  }
+
+  function getScadenzaAbbonamento(idutente) {
+    return Async.fromPromise(sql.execute({
+      preparedSql: 'select top 1 scadenza ' +
+        'from iscrittisituazione where (tipo=\'C\'  or tipo=\'R\') and idiscritto = @idiscritto order by scadenza desc',
+      params: {
+        idiscritto: {
+          val: idutente,
+          type: sql.NVARCHAR
+        }
+      }
+    }));
+  }
+
+  function validateScadenzaAbbonamento(results) {
+    return new Success(R.curryN(2, function() {
+        return results;
+      }))
+      .ap(isNotEmpty(results))
+      .ap(checkScadenza(results));
+  }
+
+  function getAndValidateScadenzaAbbonamento(validation){
+    if (validation.isFailure) {
+      return new Task.of(validation);
+    }
+    var thisUser = R.clone(validation.get());
+
+    return getScadenzaAbbonamento(thisUser.id)
+      .map(function(results) {
+        return validateScadenzaAbbonamento(results)
+          .failureMap(function(err){
+            if (err.message === 'timeOutofBounds'){
+              err.message = 'abbonamento scaduto';
+              return err;
+            }
+          })
+          .map(function(scadenzaRes) {
+            var giorniWarn = warnScadenza(scadenzaRes[0].scadenza);
+            if (giorniWarn){
+              thisUser.warn.push('attenzione: abbonamento in scadenza tra ' + giorniWarn);
+            }
+            thisUser.scadenzaAbb = scadenzaRes[0].scadenza;
+            return thisUser;
+          });
+      });
   }
 
 })();

@@ -21,10 +21,9 @@
       var infoObj = {
         fatalErr: [],
         errors: [],
-        warn: [],
         data: {
           receivedString: msg.toString(),
-          user: {},
+          user: {warn: []},
           translatedString: {},
           response: {}
         }
@@ -63,7 +62,7 @@
           return handleError(infoObjRes.fatalErr(0));
         } else if (infoObjRes.errors.length > 0) {
           infoObjRes.data.response.code = 'red';
-        } else if (infoObjRes.warn.length > 0) {
+        } else if (infoObjRes.data.user.warn.length > 0) {
           infoObjRes.data.response.code = 'yellow';
         } else {
           infoObjRes.data.response.code = 'green';
