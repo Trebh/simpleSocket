@@ -37,7 +37,8 @@
       .chain(function(id) {
         parallelAfterId = Async.parallel([findAndValidateName(id),
           getAndValidateQuotaAssociativa(id),
-          getAndValidateScadenzaAbbonamento(id)
+          getAndValidateScadenzaAbbonamento(id),
+          getAndValidateScadenzaCM(id)
         ]);
         return parallelAfterId.map(function(validationArr) {
           return R.reduce(mergeOrFailure, new Success({}),
@@ -305,7 +306,7 @@
             }
           })
           .map(function(scadenzaRes) {
-            var giorniWarn = warnScadenza(scadenzaRes[0].scadenza);
+            var giorniWarn = warnScadenza(scadenzaRes[0].scadenza, config.misc.ggAbb);
             if (giorniWarn){
               thisUser.warn.push('attenzione: abbonamento in scadenza tra ' + giorniWarn);
             }
@@ -314,5 +315,53 @@
           });
       });
   }
+
+  function getScadenzaCM(idutente) {
+    return Async.fromPromise(sql.execute({
+      preparedSql: 'select top 1 scadenza ' +
+        'from iscrittisituazione where tipo=\'M\' and idiscritto = @idiscritto order by scadenza desc',
+      params: {
+        idiscritto: {
+          val: idutente,
+          type: sql.NVARCHAR
+        }
+      }
+    }));
+  }
+
+  function validateScadenzaCM(results) {
+    return new Success(R.curryN(2, function() {
+        return results;
+      }))
+      .ap(isNotEmpty(results))
+      .ap(checkScadenza(results));
+  }
+
+  function getAndValidateScadenzaCM(validation){
+    if (validation.isFailure) {
+      return new Task.of(validation);
+    }
+    var thisUser = R.clone(validation.get());
+
+    return getScadenzaCM(thisUser.id)
+      .map(function(results) {
+        return validateScadenzaCM(results)
+          .failureMap(function(err){
+            if (err.message === 'timeOutofBounds'){
+              err.message = 'CM scaduto';
+              return err;
+            }
+          })
+          .map(function(scadenzaRes) {
+            var giorniWarn = warnScadenza(scadenzaRes[0].scadenza, config.misc.ggCM);
+            if (giorniWarn){
+              thisUser.warn.push('attenzione: abbonamento in scadenza tra ' + giorniWarn);
+            }
+            thisUser.scadenzaCm = scadenzaRes[0].scadenza;
+            return thisUser;
+          });
+      });
+  }
+
 
 })();
