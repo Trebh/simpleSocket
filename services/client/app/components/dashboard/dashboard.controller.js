@@ -26,7 +26,7 @@
       vm.data = {};
 
       vm.errors = data.msg.errors;
-      if (data.msg.fatalErr){
+      if (data.msg.fatalErr.length > 0){
         vm.errors = data.msg.fatalErr;
       }
       vm.warn = data.msg.data.user.warn;

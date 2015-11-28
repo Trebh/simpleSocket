@@ -58,6 +58,9 @@
 
       function handleResult(infoObjRes) {
 
+        utility.log('loginfo', 'handleResult: ' + JSON.stringify(
+          infoObj));
+
         if (infoObjRes.fatalErr.length > 0) {
           return handleError(infoObjRes.fatalErr(0));
         } else if (infoObjRes.errors.length > 0) {

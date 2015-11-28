@@ -15,6 +15,9 @@ gulp.task('test', function() {
   return gulp.src('spec/*.js')
     // gulp-jasmine works on filepaths so you can't have any plugins before it 
     .pipe(jasmine());
+}).on('error', function(err){
+  console.log(err);
+  this.emit('end');
 });
 
 gulp.task('styles', function() {
@@ -57,6 +60,7 @@ gulp.task('build', function(callback) {
 
 gulp.task('watch', function() {
   gulp.watch('services/client/app/**/*.js', ['scripts']);
+  gulp.watch('spec/**/*.js', ['test']);
   gulp.watch('services/client/**/*.scss', ['styles']);
 
    // Create LiveReload server
