@@ -45,10 +45,8 @@
         infoObj.fatalErr.push(err);
         reject(infoObj);
       }, function(res) {
-        infoObj.data.translatedString = res.answer;
-        if (res.failure) {
-          infoObj.errors.push(res.failure);
-        }
+        infoObj.errors = R.concat(infoObj.errors,res.answer.errors);
+        infoObj.data.translatedString = R.merge(infoObj.data.translatedString, res.answer);
         resolve(infoObj);
       });
     });

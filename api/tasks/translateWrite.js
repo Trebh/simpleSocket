@@ -44,9 +44,6 @@
         return reject(infoObj);
       }, function(res) {
         infoObj.data.response.sent = res.answer;
-        if (res.failure){
-          infoObj.errors.push(res.failure);
-        }
         return resolve(infoObj);
       });
     });

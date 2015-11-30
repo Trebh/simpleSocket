@@ -98,6 +98,12 @@
 
     function handleError(err) {
       utility.log('logerror', err);
+      tasks.sendToClient(err, 'force')
+      .fork(function(err){
+        console.log('ERROR', err);
+      }, function(data){
+        console.log(data);
+      });
       sock.end();
       return;
     }

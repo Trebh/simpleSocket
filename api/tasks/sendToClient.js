@@ -1,4 +1,3 @@
-
 (function() {
 
   'use strict';
@@ -15,13 +14,17 @@
     sendToClient: sendToClient
   };
 
-  function sendToClient(data) {
+  function sendToClient(data, option) {
+    var infoObj;
+    if (option !== 'force') {
+      infoObj = R.compose(validation.check,
+        utilities.flattenAnswer)(data);
 
-    var infoObj = R.compose(validation.check,
-      utilities.flattenAnswer)(data);
-
-    if (infoObj.fatalErr.length > 0) {
-      return Task.rejected(infoObj);
+      if (infoObj.fatalErr.length > 0) {
+        return Task.rejected(infoObj);
+      }
+    } else {
+      infoObj = utilities.flattenAnswer(data);
     }
 
     var senecaThis = seneca

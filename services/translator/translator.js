@@ -3,6 +3,8 @@
 var R = require('ramda');
 var utility = require('simpleSocketUtils');
 var Validation = require('data.validation');
+var Success = Validation.Success;
+var Failure = Validation.Failure;
 
 module.exports = {
   translator: translator,
@@ -20,14 +22,26 @@ function translator() {
 
 function translateRead(data, respond) {
 
-  var toBeTranslated = Validation.fromNullable(data.msg);
-  var translated = toBeTranslated.map(iterateMaybe);
+  var translatedString = {
+    errors: []
+  };
+  var toDos = R.compose(validateRead, iterateMaybe);
+  var translated = toDos(data.msg)
+    .cata({
+      Failure: function(err) {
+        translatedString.errors.push(err.message);
+        return translatedString;
+      },
+      Success: function(res) {
+        return res;
+      }
+    });
 
   respond(null, {
-    answer: translated.getOrElse('?')
+    answer: translated
   });
 
-  return translated.getOrElse('?');
+  return translated;
 }
 
 function translateWrite(data, respond) {
@@ -102,7 +116,7 @@ function toObject(goodParts) {
     code: null
   };
 
-  if (R.test(/OK/, goodParts)){
+  if (R.test(/OK/, goodParts)) {
     tplObj.code = 'OK';
     return tplObj;
   }
@@ -124,6 +138,23 @@ function toObject(goodParts) {
   return tplObj;
 }
 
-/*function strToHex(str) {
-  return str.charCodeAt(0).toString(16);
-}*/
+function validateRead(obj) {
+  return new Success(R.curryN(2, function() {
+      return obj;
+    }))
+    .ap(isNotEmpty(obj))
+    .ap(okCode(obj));
+}
+
+function isNotEmpty(obj) {
+  return Object.getOwnPropertyNames(obj).length === 0 ?
+    new Failure(new Error([
+      'errore lettura card'
+    ])) : new Success(obj);
+}
+
+function okCode(obj){
+  return !obj.code ? new Failure(new Error([
+      'errore lettura card'
+    ])) : new Success(obj);
+}

@@ -34,11 +34,10 @@
 
   function isValid(infoObj) {
 
-    return new Success(R.curryN(2, function() {
+    return new Success(R.curryN(1, function() {
         return infoObj;
       }))
-      .ap(Check.Object(infoObj))
-      .ap(Check.Object(infoObj.data));
+      .ap(Check.Object(infoObj));
   }
 
 })();

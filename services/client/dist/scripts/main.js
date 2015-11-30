@@ -348,7 +348,7 @@ negSuf:"",posPre:"\u00a4",posSuf:""}]},id:"en-us",pluralCat:function(a,c){var e=
 
       vm.data = {};
 
-      vm.errors = data.msg.errors;
+      vm.errors = data.msg.errors.filter(messageOnly);
       if (data.msg.fatalErr.length > 0){
         vm.errors = data.msg.fatalErr;
       }
@@ -360,6 +360,12 @@ negSuf:"",posPre:"\u00a4",posSuf:""}]},id:"en-us",pluralCat:function(a,c){var e=
 
     function isDataEmpty() {
       return (Object.getOwnPropertyNames(vm.data).length === 0);
+    }
+
+    function messageOnly(err){
+      if (err){
+        return err;
+      }
     }
 
   }
