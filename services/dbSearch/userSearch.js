@@ -29,7 +29,10 @@
 
   function processId(data, respond) {
 
-    var user = {warn:[]};
+    var user = {
+      warn: [],
+      errors: []
+    };
     user.rfid = data.msg;
 
     var parallelAfterId;
@@ -40,30 +43,22 @@
           getAndValidateScadenzaAbbonamento(id),
           getAndValidateScadenzaCM(id)
         ]);
-        return parallelAfterId.map(function(validationArr) {
-          return R.reduce(mergeOrFailure, new Success({}),
-            validationArr);
+        return parallelAfterId.map(function(arrayRes) {
+          return R.reduce(R.merge, {},
+            arrayRes);
         });
       });
 
     toDos.fork(execError, resp);
 
     function resp(results) {
-      results.cata({
-        Failure: function(err) {
-          respond(null, {
-            failure: err.message
-          });
-          return err;
-        },
-        Success: function(res) {
-          console.log(JSON.stringify(res));
-          respond(null, {
-            answer: res
-          });
-          return res;
-        }
+
+      console.log(JSON.stringify(results));
+      respond(null, {
+        answer: results
       });
+      return results;
+
     }
 
     function execError() {
@@ -80,12 +75,9 @@
     );
   }
 
-  function findAndValidateName(validation) {
+  function findAndValidateName(user) {
 
-    if (validation.isFailure) {
-      return new Task.of(validation);
-    }
-    var thisUser = R.clone(validation.get());
+    var thisUser = R.clone(user);
 
     return findName(thisUser.id)
       .map(function(results) {
@@ -106,40 +98,58 @@
             thisUser.cognome = okNames[0].Cognome;
             thisUser.sesso = okNames[0].Sesso;
             return thisUser;
+          })
+          .cata({
+            Failure: function(err) {
+              thisUser.errors.push(err.message);
+              return thisUser;
+            },
+            Success: function(res) {
+              return res;
+            }
           });
       });
 
   }
 
-  function findAndValidateId(thisUser) {
+  function findAndValidateId(user) {
+
+    var thisUser = R.clone(user);
     return new Task(function(reject, resolve) {
       findId(thisUser.rfid)
         .fork(function(err) {
             reject(err);
           },
           function(results) {
-            resolve(validateFindId(results)
+            validateFindId(results)
               .map(function(okIds) {
                 thisUser.id = okIds[0].id;
                 return thisUser;
-              }));
+              })
+              .cata({
+                Failure: function(err) {
+                  thisUser.errors.push(err.message);
+                  resolve(thisUser);
+                },
+                Success: function(res) {
+                  resolve(res);
+                }
+              });
+
           });
     });
 
   }
 
-  function getAndValidateQuotaAssociativa(validation) {
+  function getAndValidateQuotaAssociativa(user) {
 
-    if (validation.isFailure) {
-      return new Task.of(validation);
-    }
-    var thisUser = R.clone(validation.get());
+    var thisUser = R.clone(user);
 
     return getScadenzaQuotaAssociativa(thisUser.id)
       .map(function(results) {
         return validateQuotaAssociativa(results)
-          .failureMap(function(err){
-            if (err.message === 'timeOutofBounds'){
+          .failureMap(function(err) {
+            if (err.message === 'timeOutofBounds') {
               err.message = 'quota associativa scaduta';
               return err;
             }
@@ -147,6 +157,15 @@
           .map(function(scadenzaRes) {
             thisUser.scadenzaQuotaAss = scadenzaRes[0].scadenza;
             return thisUser;
+          })
+          .cata({
+            Failure: function(err) {
+              thisUser.errors.push(err.message);
+              return thisUser;
+            },
+            Success: function(res) {
+              return res;
+            }
           });
       });
   }
@@ -234,11 +253,11 @@
 
   }
 
-  function warnScadenza(scadenza, numGiorni){
+  function warnScadenza(scadenza, numGiorni) {
     var ora = moment();
     var momentScadenza = moment(scadenza);
     var limiteWarn = moment(scadenza).subtract(numGiorni, 'days');
-    if(ora.isAfter(limiteWarn)){
+    if (ora.isAfter(limiteWarn)) {
       return momentScadenza.diff(ora, 'days');
     } else {
       return false;
@@ -258,17 +277,6 @@
       }
     }));
 
-  }
-
-  function mergeOrFailure(a, b) {
-    if (a.isFailure) {
-      return a;
-    }
-    if (b.isFailure) {
-      return b;
-    }
-    // return Monads.liftM2(R.merge, a, b); dovrebbe funzionare, possibile bug?
-    return Validation.of(R.merge(a.value, b.value)); //bleah
   }
 
   function getScadenzaAbbonamento(idutente) {
@@ -292,34 +300,43 @@
       .ap(checkScadenza(results));
   }
 
-  function getAndValidateScadenzaAbbonamento(validation){
-    if (validation.isFailure) {
-      return new Task.of(validation);
-    }
-    var thisUser = R.clone(validation.get());
+  function getAndValidateScadenzaAbbonamento(user) {
+
+    var thisUser = R.clone(user);
 
     return getScadenzaAbbonamento(thisUser.id)
       .map(function(results) {
         return validateScadenzaAbbonamento(results)
-          .failureMap(function(err){
-            if (err.message === 'timeOutofBounds'){
+          .failureMap(function(err) {
+            if (err.message === 'timeOutofBounds') {
               err.message = 'abbonamento scaduto';
               return err;
             }
           })
           .map(function(scadenzaRes) {
-            var giorniWarn = warnScadenza(scadenzaRes[0].scadenza, config.misc.ggAbb);
-            if (giorniWarn){
-              var warnStr = 'attenzione: abbonamento in scadenza tra ' + giorniWarn;
-              if(giorniWarn > 1) {
+            var giorniWarn = warnScadenza(scadenzaRes[0].scadenza, config
+              .misc.ggAbb);
+            if (giorniWarn) {
+              var warnStr = 'attenzione: abbonamento in scadenza tra ' +
+                giorniWarn;
+              if (giorniWarn > 1) {
                 warnStr = warnStr.concat(' giorni');
               } else {
                 warnStr = warnStr.concat(' giorno');
-              } 
+              }
               thisUser.warn.push(warnStr);
             }
             thisUser.scadenzaAbb = scadenzaRes[0].scadenza;
             return thisUser;
+          })
+          .cata({
+            Failure: function(err) {
+              thisUser.errors.push(err.message);
+              return thisUser;
+            },
+            Success: function(res) {
+              return res;
+            }
           });
       });
   }
@@ -345,37 +362,46 @@
       .ap(checkScadenza(results));
   }
 
-  function getAndValidateScadenzaCM(validation){
-    if (validation.isFailure) {
-      return new Task.of(validation);
-    }
-    var thisUser = R.clone(validation.get());
+  function getAndValidateScadenzaCM(user) {
+
+    var thisUser = R.clone(user);
 
     return getScadenzaCM(thisUser.id)
       .map(function(results) {
         return validateScadenzaCM(results)
-          .failureMap(function(err){
-            if (err.message === 'timeOutofBounds'){
+          .failureMap(function(err) {
+            if (err.message === 'timeOutofBounds') {
               err.message = 'CM scaduto';
               return err;
             }
           })
           .map(function(scadenzaRes) {
-            var giorniWarn = warnScadenza(scadenzaRes[0].scadenza, config.misc.ggCm);
-            if (giorniWarn){
-              var warnStr = 'attenzione: certificato medico in scadenza tra ' + giorniWarn;
-              if(giorniWarn > 1) {
+            var giorniWarn = warnScadenza(scadenzaRes[0].scadenza, config
+              .misc.ggCm);
+            if (giorniWarn) {
+              var warnStr =
+                'attenzione: certificato medico in scadenza tra ' +
+                giorniWarn;
+              if (giorniWarn > 1) {
                 warnStr = warnStr.concat(' giorni');
               } else {
                 warnStr = warnStr.concat(' giorno');
-              } 
+              }
               thisUser.warn.push(warnStr);
             }
             thisUser.scadenzaCm = scadenzaRes[0].scadenza;
             return thisUser;
+          })
+          .cata({
+            Failure: function(err) {
+              thisUser.errors.push(err.message);
+              return thisUser;
+            },
+            Success: function(res) {
+              return res;
+            }
           });
       });
   }
-
 
 })();
