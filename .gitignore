@@ -6,7 +6,6 @@ senecatest
 node_modules/*
 !node_modules/simpleSocketUtils/
 log
-spec
 *.log
 .*
 !/.gitignore
