@@ -106,7 +106,7 @@
 
       tasks.sendToClient(infoObjRes)
       .fork(function(err){
-        utility.log('logerror', err);
+        handleError(err);
       }, function(data){
         utility.log('loginfo', data);
       });

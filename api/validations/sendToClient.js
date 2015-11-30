@@ -13,7 +13,7 @@
 
   function check(infoObj) {
 
-    if (infoObj.fatalErr.length > 0) {
+    if (infoObj.fatalErr && infoObj.fatalErr.length > 0) {
       return infoObj;
     }
 

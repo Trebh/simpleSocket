@@ -45,7 +45,7 @@
         reject(infoObj);
       }, function(res) {
         if (res.answer){
-          infoObj.data.user = R.merge(res.answer, infoObj.data.user);
+          infoObj.data.user = R.merge(infoObj.data.user,res.answer);
         }
         if (res.failure) {
           infoObj.errors.push(res.failure);

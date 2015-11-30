@@ -29,7 +29,7 @@
 
   function processId(data, respond) {
 
-    var user = {};
+    var user = {warn:[]};
     user.rfid = data.msg;
 
     var parallelAfterId;
@@ -57,6 +57,7 @@
           return err;
         },
         Success: function(res) {
+          console.log(JSON.stringify(res));
           respond(null, {
             answer: res
           });
@@ -235,9 +236,10 @@
 
   function warnScadenza(scadenza, numGiorni){
     var ora = moment();
-    var scadenza = moment(scadenza);
-    if(ora.isAfter(scadenza.subtract(numGiorni, 'days'))){
-      return scadenza.diff(ora, 'days');
+    var momentScadenza = moment(scadenza);
+    var limiteWarn = moment(scadenza).subtract(numGiorni, 'days');
+    if(ora.isAfter(limiteWarn)){
+      return momentScadenza.diff(ora, 'days');
     } else {
       return false;
     }
@@ -308,7 +310,13 @@
           .map(function(scadenzaRes) {
             var giorniWarn = warnScadenza(scadenzaRes[0].scadenza, config.misc.ggAbb);
             if (giorniWarn){
-              thisUser.warn.push('attenzione: abbonamento in scadenza tra ' + giorniWarn);
+              var warnStr = 'attenzione: abbonamento in scadenza tra ' + giorniWarn;
+              if(giorniWarn > 1) {
+                warnStr = warnStr.concat(' giorni');
+              } else {
+                warnStr = warnStr.concat(' giorno');
+              } 
+              thisUser.warn.push(warnStr);
             }
             thisUser.scadenzaAbb = scadenzaRes[0].scadenza;
             return thisUser;
@@ -353,9 +361,15 @@
             }
           })
           .map(function(scadenzaRes) {
-            var giorniWarn = warnScadenza(scadenzaRes[0].scadenza, config.misc.ggCM);
+            var giorniWarn = warnScadenza(scadenzaRes[0].scadenza, config.misc.ggCm);
             if (giorniWarn){
-              thisUser.warn.push('attenzione: abbonamento in scadenza tra ' + giorniWarn);
+              var warnStr = 'attenzione: certificato medico in scadenza tra ' + giorniWarn;
+              if(giorniWarn > 1) {
+                warnStr = warnStr.concat(' giorni');
+              } else {
+                warnStr = warnStr.concat(' giorno');
+              } 
+              thisUser.warn.push(warnStr);
             }
             thisUser.scadenzaCm = scadenzaRes[0].scadenza;
             return thisUser;
