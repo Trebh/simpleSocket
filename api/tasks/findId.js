@@ -45,7 +45,9 @@
         reject(infoObj);
       }, function(res) {
         if (res.answer){
-          infoObj.errors = R.concat(infoObj.errors,res.answer.errors);
+          if (res.answer.errors){
+            infoObj.errors = R.compose(R.concat(infoObj.errors), R.filter(R.isArrayLike))(res.answer.errors);
+          }
           infoObj.data.user = R.merge(infoObj.data.user,res.answer);
         }
         resolve(infoObj);

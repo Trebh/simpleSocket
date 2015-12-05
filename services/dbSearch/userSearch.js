@@ -105,7 +105,6 @@
               return checkAllEntries(calEntries)
                 .map(function(checks) {
                   thisUser.calEntries = calEntries;
-                  var ko = (x) => x.response !== 'ok';
                   if (R.all(ko, checks)) {
                     thisUser.checkEntrateCorsi = 'ko';
                   } else {
@@ -119,6 +118,10 @@
         }
       });
 
+  }
+
+  function ko(x){
+    return x.response !== 'ok';
   }
 
   function checkEntrateIngressi(user) {
