@@ -13,7 +13,8 @@ client.connect(PORT, HOST, function() {
   console.log('CONNECTED TO: ' + HOST + ':' + PORT);
   //client.write('\u00022M|A|L|5B00CF0127\u0003');
   // client.write(' \u00022M|A|L|7900739622\u0003'); //abbonamento scaduto
-  client.write('\u00022M|A|L|0A003DE42F\u0003'); //test warn
+  //client.write('\u00022M|A|L|0A003DE42F\u0003'); //test warn
+  client.write('\u00022M|A|L|A8007269C1\u0003');
 
 });
 

@@ -31,39 +31,121 @@
 
     var user = {
       warn: [],
-      errors: []
+      errors: [],
     };
     user.rfid = data.msg;
 
     var parallelAfterId;
     var toDos = findAndValidateId(user)
-      .chain(function(id) {
-        parallelAfterId = Async.parallel([findAndValidateName(id),
-          getAndValidateQuotaAssociativa(id),
-          getAndValidateScadenzaAbbonamento(id),
-          getAndValidateScadenzaCM(id)
+      .chain(function(userFirstStep) {
+        if (!userFirstStep.id){
+          return new Task.of(userFirstStep);
+        }
+        if (userFirstStep.isIstruttore) {
+          return findAndValidateName(userFirstStep);
+        }
+        parallelAfterId = Async.parallel([findAndValidateName(userFirstStep),
+          getAndValidateQuotaAssociativa(userFirstStep),
+          getAndValidateScadenzaAbbonamento(userFirstStep),
+          getAndValidateScadenzaCM(userFirstStep)
         ]);
         return parallelAfterId.map(function(arrayRes) {
-          return R.reduce(R.merge, {},
+          return R.reduce(deepMergeUser, user,
             arrayRes);
         });
+      })
+      .chain(function(resultScadenze) {
+        if (resultScadenze.isIstruttore) {
+          return new Task.of(resultScadenze);
+        }
+        if (!resultScadenze.id){
+          return new Task.of(resultScadenze);
+        }
+        var parallelChecks = Async.parallel([checkEntrateCorsi(
+          resultScadenze), checkEntrateIngressi(resultScadenze)]);
+        return parallelChecks.map(function(arrayRes) {
+          var mergedUser = R.reduce(deepMergeUser, resultScadenze,
+            arrayRes);
+          if (!((mergedUser.checkEntrateCorsi === 'ok') || 
+            (mergedUser.checkPalestra === 'ok') || 
+            (mergedUser.checkIngressi === 'ok'))) {
+            mergedUser.errors.push('ingresso non valido');
+          }
+          return mergedUser;
+        });
+
       });
 
     toDos.fork(execError, resp);
 
-    function resp(results) {
+    function resp(finalRes) {
 
-      console.log(JSON.stringify(results));
+      console.log(JSON.stringify(finalRes));
       respond(null, {
-        answer: results
+        answer: finalRes
       });
-      return results;
+      return finalRes;
 
     }
 
     function execError() {
       respond(new Error('ERRORE ESRECUZIONE QUERY'), null);
     }
+
+  }
+
+  function checkEntrateCorsi(user) {
+    var thisUser = R.clone(user);
+    return getAbbonamentoCorso(thisUser.id)
+      .chain(function(res) {
+        if (res) {
+          thisUser.abbonamentiCorsi = res;
+          return getCalendarEntries(thisUser.id)
+            .chain(function(calEntries) {
+              return checkAllEntries(calEntries)
+                .map(function(checks) {
+                  thisUser.calEntries = calEntries;
+                  var ko = (x) => x.response !== 'ok';
+                  if (R.all(ko, checks)) {
+                    thisUser.checkEntrateCorsi = 'ko';
+                  } else {
+                    thisUser.checkEntrateCorsi = 'ok';
+                  }
+                  return thisUser;
+                });
+            });
+        } else {
+          return thisUser;
+        }
+      });
+
+  }
+
+  function checkEntrateIngressi(user) {
+    var thisUser = R.clone(user);
+    thisUser.abbonamentiIngressi = [];
+    return getAbbonamentoTempoIngressi(thisUser.id)
+      .map(function(res) {
+        if (res && res.length > 0) {
+          thisUser.abbonamentiIngressi = res;
+          var abbonamento = thisUser.abbonamentiIngressi[0];
+          if (abbonamento.TempoIngressi === 'I' && Number(abbonamento.Ingressi) >
+            0) {
+            thisUser.ingressi = abbonamento.Ingressi;
+            thisUser.checkIngressi = 'ok';
+          } else if (abbonamento.TempoIngressi === 'I' && Number(
+              abbonamento.Ingressi) ===
+            0) {
+            thisUser.ingressi = abbonamento.ingressi;
+            thisUser.checkIngressi = 'ko';
+          } else if(abbonamento.TempoIngressi === 'T'){
+            thisUser.checkPalestra = 'ok';
+          }
+          return thisUser;
+        } else {
+          return thisUser;
+        }
+      });
 
   }
 
@@ -115,29 +197,45 @@
   function findAndValidateId(user) {
 
     var thisUser = R.clone(user);
-    return new Task(function(reject, resolve) {
+    var parallelFind = Async.parallel([findIdIstruttore(thisUser.rfid),
       findId(thisUser.rfid)
-        .fork(function(err) {
-            reject(err);
-          },
-          function(results) {
-            validateFindId(results)
-              .map(function(okIds) {
-                thisUser.id = okIds[0].id;
-                return thisUser;
-              })
-              .cata({
-                Failure: function(err) {
-                  thisUser.errors.push(err.message);
-                  resolve(thisUser);
-                },
-                Success: function(res) {
-                  resolve(res);
-                }
-              });
-
+    ]);
+    return parallelFind
+      .map(function(results) {
+        var queryRes;
+        if (results[0].length > 0) {
+          queryRes = results[0];
+          thisUser.isIstruttore = true;
+        } else {
+          queryRes = results[1];
+          thisUser.isIstruttore = false;
+        }
+        return validateFindId(queryRes)
+          .map(function(okIds) {
+            thisUser.id = okIds[0].id;
+            return thisUser;
+          })
+          .failureMap(function(err) {
+            if (err.message === 'empty') {
+              err.message = 'nessun id associato alla tessera';
+              return err;
+            }
+            if (err.message === 'toomany') {
+              err.message = 'piu di un id associato alla tessera';
+              return err;
+            }
+          })
+          .cata({
+            Failure: function(err) {
+              thisUser.errors.push(err.message);
+              return thisUser;
+            },
+            Success: function(res) {
+              return thisUser;
+            }
           });
-    });
+
+      });
 
   }
 
@@ -155,6 +253,21 @@
             }
           })
           .map(function(scadenzaRes) {
+
+            var giorniWarn = warnScadenza(scadenzaRes[0].scadenza, config
+              .misc.ggIs);
+            if (giorniWarn) {
+              var warnStr =
+                'attenzione: iscrizione in scadenza tra ' +
+                giorniWarn;
+              if (giorniWarn > 1) {
+                warnStr = warnStr.concat(' giorni');
+              } else {
+                warnStr = warnStr.concat(' giorno');
+              }
+              thisUser.warn.push(warnStr);
+            }
+
             thisUser.scadenzaQuotaAss = scadenzaRes[0].scadenza;
             return thisUser;
           })
@@ -197,6 +310,22 @@
 
     return Async.fromPromise(sql.execute({
       preparedSql: 'SELECT a.id from iscritti a inner join tessererf b on a.tessera = b.idtessera where b.codicerf = @codicerf',
+      params: {
+        codicerf: {
+          val: code,
+          type: sql.NVARCHAR
+        }
+      }
+    }));
+
+  }
+
+  function findIdIstruttore(id) {
+
+    var code = addZerosLeft(id);
+
+    return Async.fromPromise(sql.execute({
+      preparedSql: 'SELECT a.idistruttore from istruttori a inner join tessererf b on a.badge = b.idtessera where b.codicerf = @codicerf',
       params: {
         codicerf: {
           val: code,
@@ -402,6 +531,78 @@
             }
           });
       });
+  }
+
+  function getAbbonamentoCorso(idUtente) {
+    return Async.fromPromise(sql.execute({
+      preparedSql: 'select top 1 * ' +
+        'from iscrittisituazione where tipo=\'C\' and idiscritto = @idiscritto order by scadenza desc',
+      params: {
+        idiscritto: {
+          val: idUtente,
+          type: sql.NVARCHAR
+        }
+      }
+    }));
+  }
+
+  function getAbbonamentoTempoIngressi(idUtente) {
+    return Async.fromPromise(sql.execute({
+      preparedSql: 'select top 1 * ' +
+        'from iscrittisituazione where tipo=\'R\' and idiscritto = @idiscritto order by scadenza desc',
+      params: {
+        idiscritto: {
+          val: idUtente,
+          type: sql.NVARCHAR
+        }
+      }
+    }));
+  }
+
+  function getCalendarEntries(idUtente) {
+    return Async.fromPromise(sql.execute({
+      preparedSql: 'SELECT TOP 1000 [IdIscritto],[ID_Calendario]' +
+        'FROM [keepergym].[dbo].[CalendariIscrizioni] ' +
+        'where idiscritto = @idiscritto and giorno=datepart(dw,getdate())',
+      params: {
+        idiscritto: {
+          val: idUtente,
+          type: sql.NVARCHAR
+        }
+      }
+    }));
+  }
+
+  function checkAllEntries(calEntries) {
+
+    return Async.parallel(R.map(checkTolleranzaEntrata, calEntries));
+
+  }
+
+  function checkTolleranzaEntrata(idCalendario) {
+
+    return Async.fromPromise(sql.execute({
+      preparedSql: 'SELECT \'ok\' as response FROM [keepergym].[dbo].[CalendariOrari]' +
+        'as a inner join [keepergym].[dbo].[Calendari] as b on a.IdCalendario=b.IdCalendario ' +
+        'where a.IdCalendario= @idCalendario and GiornoNum=datepart(dw,getdate()) ' +
+        'and (DATEDIFF(MINUTE, CAST(GETDATE() AS DATE), GETDATE()) between (a.[OraInizio] - b.tolleranza)' +
+        'and (a.[OraFine]+b.tolleranzauscita))',
+      params: {
+        idCalendario: {
+          val: idCalendario,
+          type: sql.NVARCHAR
+        }
+      }
+    }));
+  }
+
+  function deepMergeUser(a, b) {
+    var errors = R.concat(a.errors, b.errors);
+    var warn = R.concat(a.warn, b.warn);
+    var autoMerge = R.merge(a, b);
+    autoMerge.errors = R.uniq(errors);
+    autoMerge.warn = R.uniq(warn);
+    return autoMerge;
   }
 
 })();
