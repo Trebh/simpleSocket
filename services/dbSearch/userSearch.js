@@ -582,18 +582,18 @@
 
   }
 
-  function checkTolleranzaEntrata(idCalendario) {
+  function checkTolleranzaEntrata(calEntry) {
 
     return Async.fromPromise(sql.execute({
       preparedSql: 'SELECT \'ok\' as response FROM [keepergym].[dbo].[CalendariOrari]' +
         'as a inner join [keepergym].[dbo].[Calendari] as b on a.IdCalendario=b.IdCalendario ' +
         'where a.IdCalendario= @idCalendario and GiornoNum=datepart(dw,getdate()) ' +
-        'and (DATEDIFF(MINUTE, CAST(GETDATE() AS DATE), GETDATE()) between (a.[OraInizio] - b.tolleranza)' +
+        'and (DATEDIFF(MINUTE, CAST(GETDATE() AS DATETIME), GETDATE()) between (a.[OraInizio] - b.tolleranza)' +
         'and (a.[OraFine]+b.tolleranzauscita))',
       params: {
         idCalendario: {
-          val: idCalendario,
-          type: sql.NVARCHAR
+          val: calEntry.ID_Calendario,
+          type: sql.INT
         }
       }
     }));

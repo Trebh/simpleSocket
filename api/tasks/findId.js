@@ -44,11 +44,12 @@
         infoObj.fatalErr.push(err);
         reject(infoObj);
       }, function(res) {
-        if (res.answer){
-          if (res.answer.errors){
-            infoObj.errors = R.compose(R.concat(infoObj.errors), R.filter(R.isArrayLike))(res.answer.errors);
+        if (res.answer) {
+          if (res.answer.errors) {
+            infoObj.errors = R.compose(R.concat(infoObj.errors), R
+              .filter(R.is(String)))(res.answer.errors);
           }
-          infoObj.data.user = R.merge(infoObj.data.user,res.answer);
+          infoObj.data.user = R.merge(infoObj.data.user, res.answer);
         }
         resolve(infoObj);
         return infoObj;

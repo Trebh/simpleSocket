@@ -47,7 +47,7 @@
       }, function(res) {
         if (res.answer.errors) {
           infoObj.errors = R.compose(R.concat(infoObj.errors), R.filter(
-            R.isArrayLike))(res.answer.errors);
+            R.is(String)))(res.answer.errors);
         }
         infoObj.data.translatedString = R.merge(infoObj.data.translatedString,
           res.answer);
