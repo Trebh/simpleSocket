@@ -1,5 +1,5 @@
 {
-  "apps": [/*{
+  "apps": [{
       "name": "main",
       "script": "main.js",
       "watch": false,
@@ -11,9 +11,19 @@
       "merge_logs": true,
       "log_date_format": "YYYY-MM-DD HH:mm Z",
       "max_memory_restart": "120M"
-    }, */{
+    }, {
       "name": "userSearch",
       "script": "services/dbSearch/userSearch-service.js",
+      "watch": false,
+      "error_file": "err.log",
+      "out_file": "out.log",
+      "merge_logs": true,
+      "log_date_format": "YYYY-MM-DD HH:mm Z",
+      "max_memory_restart": "120M"
+    },
+    {
+      "name": "accessWrite",
+      "script": "services/dbAccessWrite/dbAccessWrite-service.js",
       "watch": false,
       "error_file": "err.log",
       "out_file": "out.log",

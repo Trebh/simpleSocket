@@ -4,7 +4,7 @@
 
   var Task = require('data.task');
   var Async = require('control.async')(Task);
-  var seneca = require('seneca')();
+  var seneca = require('seneca')({timeout:30000});
   var utilities = require('simpleSocketUtils');
   var Promise = require('bluebird');
   var R = require('ramda');
@@ -48,6 +48,7 @@
         reject(err);
       }, function(res) {
         resolve(res.answer);
+        return res.answer;
       });
     });
 

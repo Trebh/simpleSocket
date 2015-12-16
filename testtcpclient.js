@@ -14,10 +14,12 @@ client.connect(PORT, HOST, function() {
   //client.write('\u00022M|A|L|5B00CF0127\u0003');
   // client.write(' \u00022M|A|L|7900739622\u0003'); //abbonamento scaduto
   //client.write('\u00022M|A|L|0A003DE42F\u0003'); //test warn
-  client.write('\u00022M|A|L|00005FF1FD\u0003');
+  //client.write('\u00022M|A|L|00005FF1FD\u0003');
   //client.write('\u00022M|A|L|8600564884\u0003');
 	//client.write('\u00022M|A|L|0A003DE42F\u0003');
 	//client.write('\u00022M|A|L|64026632E3\u0003');
+  //client.write('\u00022M|A|L|0A003DE42F\u0003');
+  client.write('\u00022M|A|L|0300211DD5\u0003'); //istruttore - david
 
 });
 

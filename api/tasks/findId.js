@@ -4,7 +4,7 @@
 
   var Task = require('data.task');
   var Async = require('control.async')(Task);
-  var seneca = require('seneca')();
+  var seneca = require('seneca')({timeout:30000});
   var utilities = require('simpleSocketUtils');
   var Promise = require('bluebird');
   var R = require('ramda');
@@ -14,10 +14,16 @@
     findId: findId
   };
 
-  function findId(data) {
+  function findId(data, config) {
 
     var infoObj = R.compose(validation.check,
       utilities.flattenAnswer)(data);
+
+    infoObj.config = config;
+
+    if (!infoObj.config) {
+      return Task.rejected('problema configurazioni');
+    }
 
     if (infoObj.fatalErr.length > 0) {
       return Task.rejected(infoObj);
@@ -36,12 +42,12 @@
     var serviceCall = Async.fromPromise(act({
       role: 'main',
       cmd: 'findId',
-      msg: infoObj.data.translatedString.code
+      msg: infoObj
     }));
 
     return new Task(function(reject, resolve) {
       serviceCall.fork(function(err) {
-        infoObj.fatalErr.push(err);
+        infoObj.fatalErr.push('FINDID' + err);
         reject(infoObj);
       }, function(res) {
         if (res.answer) {

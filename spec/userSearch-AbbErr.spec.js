@@ -41,7 +41,7 @@ describe('process Abb Err', function() {
       expect(infoObjRes.data.user.sesso).toBe('M');
  			expect(infoObjRes.errors).toContain('abbonamento scaduto');
       done();
-    }, 20000);
+    }, 30000);
 });
 
 function handleError(err) {

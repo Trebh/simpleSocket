@@ -44,7 +44,7 @@ describe('processOkId', function() {
       expect(infoObjRes.data.user.checkEntrateCorsi).toBe('ko');
       expect(infoObjRes.data.user.checkIngressi).toBe('ok');
       done();
-    }, 20000);
+    }, 30000);
 });
 
 function handleError(err) {
